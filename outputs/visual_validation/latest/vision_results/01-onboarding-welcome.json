@@ -1,0 +1,13 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\01-onboarding-welcome.png",
+  "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+  "observed": "Valid non-empty SolidWorks AI Studio onboarding welcome desktop UI, fully populated with real status text, branding, and interactive controls.",
+  "pass": true,
+  "confidence": 0.99,
+  "issues": [],
+  "evidence": [
+    "Main branding title 'SolidWorks AI Studio' and descriptive subtitle text are clearly rendered",
+    "Five status cards contain real populated status data: Local API (pass, Backend 0.1.0), LLM profile (active profile ccagent), Preflight (pass, SolidWorks mode SW 33.5.0), Skills (23 docs, 133 functions), Real validation (30 core passed, 0 failed)",
+    "Interactive action buttons 'Enter Workspace' and 'Refresh checks' are present on the UI"
+  ]
+}

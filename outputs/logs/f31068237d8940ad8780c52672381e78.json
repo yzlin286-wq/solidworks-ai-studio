@@ -1,0 +1,20 @@
+{
+  "run_id": "f31068237d8940ad8780c52672381e78",
+  "capability_id": "mcp.solidworks_add_coincident_mate",
+  "started_at": "2026-06-22T19:11:17.822381Z",
+  "finished_at": "2026-06-22T19:11:19.655295Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"mate_created\\\": true,\\n  \\\"mate_name\\\": \\\"重合1\\\",\\n  \\\"component_a\\\": \\\"acceptance_mounting_plate-1\\\",\\n  \\\"component_b\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n  \\\"mate_features\\\": [\\n    {\\n      \\\"name\\\": \\\"配合\\\",\\n      \\\"type\\\": \\\"MateGroup\\\",\\n      \\\"depth\\\": 0\\n    },\\n    {\\n      \\\"name\\\": \\\"同心1\\\",\\n      \\\"type\\\": \\\"MateConcentric\\\",\\n      \\\"depth\\\": 1\\n    },\\n    {\\n      \\\"name\\\": \\\"重合1\\\",\\n      \\\"type\\\": \\\"MateCoincident\\\",\\n      \\\"depth\\\": 1\\n    }\\n  ],\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-031049\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"mate_created\\\": true,\\n  \\\"mate_name\\\": \\\"重合1\\\",\\n  \\\"component_a\\\": \\\"acceptance_mounting_plate-1\\\",\\n  \\\"component_b\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n  \\\"mate_features\\\": [\\n    {\\n      \\\"name\\\": \\\"配合\\\",\\n      \\\"type\\\": \\\"MateGroup\\\",\\n      \\\"depth\\\": 0\\n    },\\n    {\\n      \\\"name\\\": \\\"同心1\\\",\\n      \\\"type\\\": \\\"MateConcentric\\\",\\n      \\\"depth\\\": 1\\n    },\\n    {\\n      \\\"name\\\": \\\"重合1\\\",\\n      \\\"type\\\": \\\"MateCoincident\\\",\\n      \\\"depth\\\": 1\\n    }\\n  ],\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-031049\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_coincident_mate\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\f31068237d8940ad8780c52672381e78.json",
+  "parameters": {
+    "component_a_keyword": "plate",
+    "component_b_keyword": "shaft",
+    "feature_a_name": "Front Plane",
+    "feature_b_name": "Front Plane"
+  }
+}

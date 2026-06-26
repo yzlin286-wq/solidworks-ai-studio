@@ -1,0 +1,26 @@
+appId: com.solidworks-ai-studio.desktop
+productName: SolidWorks AI Studio
+directories:
+  output: ../../dist
+files:
+  - dist/**/*
+  - package.json
+extraResources:
+  - from: resources/backend
+    to: backend
+    filter:
+      - sw-ai-backend.exe
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  artifactName: SolidWorks AI Studio Setup.${ext}
+portable:
+  artifactName: SolidWorks AI Studio Portable.${ext}

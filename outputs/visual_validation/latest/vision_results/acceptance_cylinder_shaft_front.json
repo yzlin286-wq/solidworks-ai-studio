@@ -1,0 +1,9 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_front.bmp",
+  "expected": "A long cylindrical shaft preview.",
+  "observed": "This is the axial front view of a cylindrical shaft, rendered as a solid smooth circular end face, with the SolidWorks view axis triad marker centered on the face.",
+  "pass": true,
+  "confidence": 0.98,
+  "issues": [],
+  "evidence": "A perfectly uniform circular solid face (the end face of a cylinder viewed directly along its central length axis) is displayed in the SolidWorks viewport, exactly matching the expected front view of a cylindrical shaft oriented along the view direction."
+}

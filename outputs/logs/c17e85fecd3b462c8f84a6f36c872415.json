@@ -1,0 +1,21 @@
+{
+  "run_id": "c17e85fecd3b462c8f84a6f36c872415",
+  "capability_id": "mcp.solidworks_add_distance_mate",
+  "started_at": "2026-06-22T17:38:04.985438Z",
+  "finished_at": "2026-06-22T17:38:07.066160Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"组件 acceptance_mounting_plate-1 缺少特征: ['Top Plane']\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"组件 acceptance_mounting_plate-1 缺少特征: ['Top Plane']\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_add_distance_mate\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\c17e85fecd3b462c8f84a6f36c872415.json",
+  "parameters": {
+    "component_a_keyword": "plate",
+    "component_b_keyword": "shaft",
+    "feature_a_name": "Top Plane",
+    "feature_b_name": "Top Plane",
+    "distance_mm": 20
+  }
+}

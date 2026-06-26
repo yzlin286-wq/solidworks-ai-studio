@@ -1,0 +1,17 @@
+{
+  "run_id": "69dc6e3227254c00bacbba7fb7ef2006",
+  "capability_id": "mcp.solidworks_health_check",
+  "started_at": "2026-06-23T04:11:32.009216Z",
+  "finished_at": "2026-06-23T04:14:32.021278Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "Timed out after 180 seconds.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\69dc6e3227254c00bacbba7fb7ef2006.json",
+  "parameters": {
+    "start_solidworks": true
+  }
+}

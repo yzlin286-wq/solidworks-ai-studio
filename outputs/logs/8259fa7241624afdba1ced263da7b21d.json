@@ -1,0 +1,17 @@
+{
+  "run_id": "8259fa7241624afdba1ced263da7b21d",
+  "capability_id": "mcp.solidworks_open_document",
+  "started_at": "2026-06-26T01:49:17.171466Z",
+  "finished_at": "2026-06-26T01:49:21.102712Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_open_a109019f.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_open_a109019f.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_open_a109019f.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_open_a109019f.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_open_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件5 (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_open_a109019f.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_open_a109019f.SLDPRT (类型: 零件)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_open_a109019f.SLDPRT\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\8259fa7241624afdba1ced263da7b21d.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_open_a109019f.SLDPRT"
+  }
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "SolidWorks Automation"
+  short_description: "Automate SolidWorks CAD with Python COM"
+  default_prompt: "Use $solidworks-automation to create, edit, export, or troubleshoot SolidWorks CAD models with Python automation."
+
+policy:
+  allow_implicit_invocation: true
+

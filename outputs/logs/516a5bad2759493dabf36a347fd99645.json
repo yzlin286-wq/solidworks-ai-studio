@@ -1,0 +1,17 @@
+{
+  "run_id": "516a5bad2759493dabf36a347fd99645",
+  "capability_id": "mcp.solidworks_open_document",
+  "started_at": "2026-06-22T19:07:10.508352Z",
+  "finished_at": "2026-06-22T19:07:11.273874Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-025834\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-025834\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_open_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-030646\\acceptance_mounting_plate.SLDPRT\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\516a5bad2759493dabf36a347fd99645.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-030646\\acceptance_mounting_plate.SLDPRT"
+  }
+}

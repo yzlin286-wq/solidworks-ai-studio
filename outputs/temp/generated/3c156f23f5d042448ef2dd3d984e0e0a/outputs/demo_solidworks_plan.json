@@ -1,0 +1,11 @@
+{
+  "mode": "mock",
+  "prompt": "新建一个 120 x 80 x 10 mm 安装板，四角各打 M6 通孔，倒角 1 mm，保存为 SLDPRT 并导出 STEP。",
+  "message": "SolidWorks 未连接。本次 dry run 用于验证队列、日志和输出处理。",
+  "recommended_imports": [
+    "sw_session.SolidWorksSession",
+    "sw_part",
+    "sw_export",
+    "sw_review"
+  ]
+}

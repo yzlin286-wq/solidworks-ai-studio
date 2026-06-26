@@ -1,0 +1,20 @@
+{
+  "run_id": "91b1155e03a3408bb29f1f38610d923a",
+  "capability_id": "mcp.solidworks_export_active",
+  "started_at": "2026-06-23T03:52:37.701421Z",
+  "finished_at": "2026-06-23T03:52:41.659152Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_export_3151587a.STEP\\\",\\n  \\\"format\\\": \\\"step\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_3151587a.STEP\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_export_3151587a.STEP\\\",\\n  \\\"format\\\": \\\"step\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件12 (类型: 零件)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_shaft.SLDPRT (类型: 零件)\n.STEP 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_3151587a.STEP\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_3151587a.STEP"
+  ],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\91b1155e03a3408bb29f1f38610d923a.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_3151587a.STEP",
+    "export_format": "step"
+  }
+}

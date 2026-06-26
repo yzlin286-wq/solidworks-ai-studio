@@ -1,0 +1,15 @@
+{
+  "run_id": "94e87a4945a1421b90d787136112e92a",
+  "capability_id": "mcp.solidworks_health_check",
+  "started_at": "2026-06-23T03:11:05.350956Z",
+  "finished_at": "2026-06-23T03:11:05.501964Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\SolidWorks AI Studio\\\\\\\\resources\\\\\\\\backend\\\\\\\\sw-ai-backend.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\_MEI104522\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": \\\"C:\\\\\\\\Program Files\\\\\\\\SOLIDWORKS Corp25\\\\\\\\SOLIDWORKS\\\\\\\\swmotionstudy.tlb\\\",\\n    \\\"motion_type_library_ready\\\": true\\n  },\\n  \\\"issues\\\": []\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\SolidWorks AI Studio\\\\\\\\resources\\\\\\\\backend\\\\\\\\sw-ai-backend.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\_MEI104522\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": \\\"C:\\\\\\\\Program Files\\\\\\\\SOLIDWORKS Corp25\\\\\\\\SOLIDWORKS\\\\\\\\swmotionstudy.tlb\\\",\\n    \\\"motion_type_library_ready\\\": true\\n  },\\n  \\\"issues\\\": []\\n}\",\n    \"tool\": \"solidworks_health_check\"\n  }\n}",
+  "stderr": "",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\94e87a4945a1421b90d787136112e92a.json",
+  "parameters": {}
+}

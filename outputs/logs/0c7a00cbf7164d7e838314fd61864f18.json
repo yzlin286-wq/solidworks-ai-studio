@@ -1,0 +1,25 @@
+{
+  "run_id": "0c7a00cbf7164d7e838314fd61864f18",
+  "capability_id": "mcp.solidworks_add_rotary_motor",
+  "started_at": "2026-06-26T03:45:29.140005Z",
+  "finished_at": "2026-06-26T03:46:02.128191Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_57fe32ac_add_concentric_mate.SLDASM (类型: 装配体)\n已创建新零件文档\n\nTraceback (most recent call last):\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 67, in _run\n  File \"asyncio\\tasks.py\", line 479, in wait_for\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 65, in invoke\n  File \"asyncio\\threads.py\", line 25, in to_thread\n  File \"concurrent\\futures\\thread.py\", line 58, in run\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 63, in work\n  File \"sw_ai_backend\\api\\routes.py\", line 731, in <lambda>\n  File \"sw_ai_backend\\api\\routes.py\", line 691, in _run_mcp_tool_with_context\n  File \"sw_ai_backend\\api\\routes.py\", line 667, in _prepare_mcp_context\n  File \"sw_ai_backend\\api\\routes.py\", line 631, in _ensure_sample_assembly\n  File \"sw_ai_backend\\api\\routes.py\", line 619, in _ensure_sample_part\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 39, in run\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 52, in _raise_if_error_status\nRuntimeError: solidworks_create_basic_part 返回 error：(-2147023170, '远程过程调用失败。', None, None)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "SolidWorks COM 会话未连接：当前没有可用的 SolidWorks COM 会话。",
+  "error_summary": "solidworks_create_basic_part 返回 error：(-2147023170, '远程过程调用失败。', None, None)",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\0c7a00cbf7164d7e838314fd61864f18.json",
+  "parameters": {
+    "shaft_component_keyword": "shaft",
+    "rotor_component_keyword": "rotor",
+    "shaft_radius_min_mm": 9,
+    "shaft_radius_max_mm": 11,
+    "rotor_radius_min_mm": 9,
+    "rotor_radius_max_mm": 11,
+    "rpm": 30,
+    "calculate": false,
+    "play": false
+  }
+}

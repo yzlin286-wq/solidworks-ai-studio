@@ -1,0 +1,24 @@
+{
+  "run_id": "36b78cf11af849428b94a46e4ee51c28",
+  "capability_id": "mcp.solidworks_create_basic_part",
+  "started_at": "2026-06-22T17:53:44.205275Z",
+  "finished_at": "2026-06-22T17:53:48.287049Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-015342\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_basic_box.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-015342\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-015342\\\\acceptance_basic_box.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-015342\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_basic_box.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-015342\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_create_basic_part\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft7 (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-015342\\acceptance_basic_box.SLDPRT\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-015342\\acceptance_basic_box.SLDPRT"
+  ],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\36b78cf11af849428b94a46e4ee51c28.json",
+  "parameters": {
+    "shape": "box",
+    "width_mm": 120,
+    "height_mm": 80,
+    "depth_mm": 10,
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-015342\\acceptance_basic_box.SLDPRT",
+    "color": "#AEB7BC"
+  }
+}

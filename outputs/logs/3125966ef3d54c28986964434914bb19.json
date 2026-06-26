@@ -1,0 +1,17 @@
+{
+  "run_id": "3125966ef3d54c28986964434914bb19",
+  "capability_id": "mcp.solidworks_open_document",
+  "started_at": "2026-06-23T15:36:47.569523Z",
+  "finished_at": "2026-06-23T15:36:48.697220Z",
+  "status": "failed",
+  "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n\nTraceback (most recent call last):\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 82, in _run\n  File \"asyncio\\tasks.py\", line 479, in wait_for\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 80, in invoke\n  File \"asyncio\\threads.py\", line 25, in to_thread\n  File \"concurrent\\futures\\thread.py\", line 58, in run\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 72, in work\n  File \"sw_ai_backend\\api\\routes.py\", line 666, in <lambda>\n  File \"sw_ai_backend\\api\\routes.py\", line 629, in _run_mcp_tool_with_context\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 37, in run\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 50, in _raise_if_error_status\nRuntimeError: solidworks_open_document 返回 error：打开失败, 错误码: 65536, 警告码: 0\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "solidworks_open_document 返回 error：打开失败, 错误码: 65536, 警告码: 0",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\3125966ef3d54c28986964434914bb19.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\300459a31f804c45a4885f7bdfeddaf5\\outputs\\ui_mounting_plate_120x80x10.SLDPRT"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "b6c644f7786a422685acb5863c5066e3",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-23T03:52:26.415937Z",
+  "finished_at": "2026-06-23T03:52:26.881033Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"装配体11\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"装配体11\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体11 (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\b6c644f7786a422685acb5863c5066e3.json",
+  "parameters": {
+    "visible": true,
+    "wait_seconds": 1
+  }
+}

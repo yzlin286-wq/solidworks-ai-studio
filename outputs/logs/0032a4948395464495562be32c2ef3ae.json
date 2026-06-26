@@ -1,0 +1,18 @@
+{
+  "run_id": "0032a4948395464495562be32c2ef3ae",
+  "capability_id": "mcp.solidworks_export_active",
+  "started_at": "2026-06-23T03:10:22.495805Z",
+  "finished_at": "2026-06-23T03:10:22.787569Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: ui_mounting_plate_120x80x10.SLDPRT (类型: 零件)\n\nTraceback (most recent call last):\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 82, in _run\n  File \"asyncio\\tasks.py\", line 479, in wait_for\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 80, in invoke\n  File \"asyncio\\threads.py\", line 25, in to_thread\n  File \"concurrent\\futures\\thread.py\", line 58, in run\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 72, in work\n  File \"sw_ai_backend\\api\\routes.py\", line 404, in <lambda>\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 37, in run\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 50, in _raise_if_error_status\nRuntimeError: solidworks_export_active returned error: <unknown>.GetSheetNames\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "solidworks_export_active returned error: <unknown>.GetSheetNames",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\0032a4948395464495562be32c2ef3ae.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI104522\\outputs\\active.pdf",
+    "export_format": "pdf"
+  }
+}

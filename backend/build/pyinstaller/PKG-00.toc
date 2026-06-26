@@ -1,0 +1,1257 @@
+('C:\\Users\\Vision\\Documents\\sw skill '
+ '应用化\\backend\\build\\pyinstaller\\sw-ai-backend.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\sw_ai_backend\\main.py',
+   'PYSOURCE'),
+  ('python311.dll',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes311.dll',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pywin32_system32\\pywintypes311.dll',
+   'BINARY'),
+  ('pywin32_system32\\pythoncom311.dll',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pywin32_system32\\pythoncom311.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('websockets\\speedups.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets\\speedups.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\url_parser.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\httptools\\parser\\url_parser.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\parser.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\httptools\\parser\\parser.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('yaml\\_yaml.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\yaml\\_yaml.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32evtlog.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\win32\\win32evtlog.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('pythonwin\\win32ui.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\win32event.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\win32\\win32event.pyd',
+   'EXTENSION'),
+  ('win32\\win32trace.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('_zoneinfo.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_zoneinfo.pyd',
+   'EXTENSION'),
+  ('pydantic_core\\_pydantic_core.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_webp.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_avif.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_avif.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_imagingmath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\PIL\\_imagingft.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('watchfiles\\_rust_notify.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\watchfiles\\_rust_notify.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('rpds\\rpds.cp311-win_amd64.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\rpds\\rpds.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32job.pyd',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\win32\\win32job.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('vendor\\skills\\solidworks-automation\\.git\\FETCH_HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\FETCH_HEAD',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\ORIG_HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\ORIG_HEAD',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\config',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\config',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\description',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\description',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\applypatch-msg.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\applypatch-msg.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\commit-msg.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\commit-msg.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\fsmonitor-watchman.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\fsmonitor-watchman.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\post-update.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\post-update.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-applypatch.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-applypatch.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-commit.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-commit.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-merge-commit.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-merge-commit.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-push.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-push.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-rebase.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-rebase.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-receive.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\pre-receive.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\prepare-commit-msg.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\prepare-commit-msg.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\push-to-checkout.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\push-to-checkout.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\sendemail-validate.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\sendemail-validate.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\hooks\\update.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\hooks\\update.sample',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\index',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\index',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\info\\exclude',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\info\\exclude',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\logs\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\logs\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\logs\\refs\\heads\\main',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\logs\\refs\\heads\\main',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\logs\\refs\\remotes\\origin\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\logs\\refs\\remotes\\origin\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\objects\\pack\\pack-0bb2460bba8fa45ae0de4c1af16a5cb3efe00adc.idx',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\objects\\pack\\pack-0bb2460bba8fa45ae0de4c1af16a5cb3efe00adc.idx',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\objects\\pack\\pack-0bb2460bba8fa45ae0de4c1af16a5cb3efe00adc.pack',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\objects\\pack\\pack-0bb2460bba8fa45ae0de4c1af16a5cb3efe00adc.pack',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\objects\\pack\\pack-0bb2460bba8fa45ae0de4c1af16a5cb3efe00adc.rev',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\objects\\pack\\pack-0bb2460bba8fa45ae0de4c1af16a5cb3efe00adc.rev',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\packed-refs',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\packed-refs',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\refs\\heads\\main',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\refs\\heads\\main',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.git\\refs\\remotes\\origin\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.git\\refs\\remotes\\origin\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\.gitignore',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\.gitignore',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\CONTRIBUTING.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\CONTRIBUTING.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\LICENSE',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\LICENSE',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\README.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\README.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\agents\\openai.yaml',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\agents\\openai.yaml',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\assets\\douyin-balance.jpg',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\assets\\douyin-balance.jpg',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\01_basic_part.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\01_basic_part.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\02_complex_part.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\02_complex_part.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\03_assembly.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\03_assembly.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\04_batch_export.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\04_batch_export.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\05_drawing.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\05_drawing.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\06_friendly_api.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\06_friendly_api.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\07_motion_study_rotary_motor.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\07_motion_study_rotary_motor.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\08_mini_fan_motion_assembly.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\08_mini_fan_motion_assembly.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\examples\\README.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\examples\\README.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\install.js',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\install.js',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\README.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\README.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\__pycache__\\server.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\__pycache__\\server.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\register_all_ai_mcp.js',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\register_all_ai_mcp.js',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\register_all_ai_mcp.ps1',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\register_all_ai_mcp.ps1',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\register_codex_mcp.ps1',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\register_codex_mcp.ps1',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\requirements.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\requirements.txt',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\mcp-server\\server.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\package.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\package.json',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\project.yaml',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\project.yaml',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\advanced.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\advanced.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\api-lookup.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\api-lookup.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\appearance.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\appearance.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\assembly.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\assembly.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\drawing.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\drawing.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\export.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\export.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\mcp-server.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\mcp-server.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\motion-study.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\motion-study.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\openclaw.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\openclaw.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\part-modeling.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\part-modeling.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\review.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\review.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\references\\troubleshooting.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\references\\troubleshooting.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\requirements.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\requirements.txt',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__init__.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__init__.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\__init__.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_appearance.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_appearance.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_assembly.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_assembly.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_connect.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_connect.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_drawing.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_drawing.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_export.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_export.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_macro_guard.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_macro_guard.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_motion.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_motion.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_part.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_part.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_preflight.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_preflight.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_review.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_review.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_session.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\sw_session.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\validate_mcp.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\validate_mcp.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\validate_skill.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\__pycache__\\validate_skill.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_appearance.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_appearance.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_assembly.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_assembly.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_connect.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_connect.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_drawing.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_drawing.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_export.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_export.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_macro_guard.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_macro_guard.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_motion.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_motion.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_part.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_part.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_preflight.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_preflight.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_review.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_review.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\sw_session.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_session.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\validate_mcp.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\validate_mcp.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\scripts\\validate_skill.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\scripts\\validate_skill.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\setup.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\setup.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\agents\\openai.yaml',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\agents\\openai.yaml',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\references\\cnc-fillet-chamfer-lessons.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\references\\cnc-fillet-chamfer-lessons.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\scripts\\__pycache__\\create_cnc_mount_template.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\scripts\\__pycache__\\create_cnc_mount_template.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\scripts\\create_cnc_mount_template.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-fillet-chamfer-cnc\\scripts\\create_cnc_mount_template.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\agents\\openai.yaml',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\agents\\openai.yaml',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\references\\threaded-hole-lessons.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\references\\threaded-hole-lessons.md',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\__pycache__\\create_threaded_hole_template.cpython-311.pyc',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\__pycache__\\create_threaded_hole_template.cpython-311.pyc',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\tests\\solidworks_add_component_regression.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\tests\\solidworks_add_component_regression.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\tests\\solidworks_sketch_selection_regression.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\tests\\solidworks_sketch_selection_regression.py',
+   'DATA'),
+  ('vendor\\skills\\solidworks-automation\\tests\\test_sw_part_sketch_selection.py',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\solidworks-automation\\tests\\test_sw_part_sketch_selection.py',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.claude-plugin\\marketplace.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.claude-plugin\\marketplace.json',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.claude-plugin\\plugin.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.claude-plugin\\plugin.json',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\FETCH_HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\FETCH_HEAD',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\ORIG_HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\ORIG_HEAD',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\config',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\config',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\description',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\description',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\applypatch-msg.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\applypatch-msg.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\commit-msg.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\commit-msg.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\fsmonitor-watchman.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\fsmonitor-watchman.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\post-update.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\post-update.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\pre-applypatch.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\pre-applypatch.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\pre-commit.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\pre-commit.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\pre-merge-commit.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\pre-merge-commit.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\pre-push.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\pre-push.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\pre-rebase.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\pre-rebase.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\pre-receive.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\pre-receive.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\prepare-commit-msg.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\prepare-commit-msg.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\push-to-checkout.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\push-to-checkout.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\sendemail-validate.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\sendemail-validate.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\hooks\\update.sample',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\hooks\\update.sample',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\index',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\index',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\info\\exclude',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\info\\exclude',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\logs\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\logs\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\logs\\refs\\heads\\main',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\logs\\refs\\heads\\main',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\logs\\refs\\remotes\\origin\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\logs\\refs\\remotes\\origin\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\objects\\pack\\pack-a8ebadedd2de411fb08d8381b830166bc52f7c4f.idx',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\objects\\pack\\pack-a8ebadedd2de411fb08d8381b830166bc52f7c4f.idx',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\objects\\pack\\pack-a8ebadedd2de411fb08d8381b830166bc52f7c4f.pack',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\objects\\pack\\pack-a8ebadedd2de411fb08d8381b830166bc52f7c4f.pack',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\objects\\pack\\pack-a8ebadedd2de411fb08d8381b830166bc52f7c4f.rev',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\objects\\pack\\pack-a8ebadedd2de411fb08d8381b830166bc52f7c4f.rev',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\packed-refs',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\packed-refs',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\refs\\heads\\main',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\refs\\heads\\main',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.git\\refs\\remotes\\origin\\HEAD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.git\\refs\\remotes\\origin\\HEAD',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.github\\FUNDING.yml',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.github\\FUNDING.yml',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\.github\\copilot-instructions.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\.github\\copilot-instructions.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\CHANGELOG.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\CHANGELOG.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\LICENSE',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\LICENSE',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\README.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\README.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\.gitkeep',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\.gitkeep',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-banner.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-banner.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-agent-skills.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-agent-skills.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-changelog.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-changelog.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-mit.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-mit.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-site.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-site.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-tools.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-buttons\\btn-tools.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\readme-cta-tasteskill.svg',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\readme-cta-tasteskill.svg',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\sponsors\\animations-dev.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\sponsors\\animations-dev.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\sponsors\\emil-animations-dev.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\sponsors\\emil-animations-dev.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\taste-skill-logo.png',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\taste-skill-logo.png',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\taste-skill-logo.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\taste-skill-logo.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\assets\\vercel-oss-program-badge.svg',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\assets\\vercel-oss-program-badge.svg',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\examples\\floria-bottom.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\examples\\floria-bottom.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\examples\\floria-full.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\examples\\floria-full.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\examples\\floria-top.webp',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\examples\\floria-top.webp',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\README.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\README.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\README.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\README.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\findings\\empirical-results.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\findings\\empirical-results.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\findings\\references.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\findings\\references.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\remediation\\architectural-patterns.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\remediation\\architectural-patterns.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\remediation\\parameter-tuning.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\remediation\\parameter-tuning.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\remediation\\prompt-engineering.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\remediation\\prompt-engineering.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\remediation\\reference-prompts.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\remediation\\reference-prompts.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\cognitive-shortcuts.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\cognitive-shortcuts.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\output-limits.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\output-limits.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\rlhf-and-compute.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\rlhf-and-compute.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\training-data-bias.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\research\\laziness\\root-causes\\training-data-bias.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\scripts\\build-emil-sponsor-row.mjs',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\scripts\\build-emil-sponsor-row.mjs',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\scripts\\convert-readme-assets-webp.mjs',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\scripts\\convert-readme-assets-webp.mjs',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\scripts\\process-readme-buttons.mjs',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\scripts\\process-readme-buttons.mjs',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\scripts\\process-sponsor-badge.mjs',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\scripts\\process-sponsor-badge.mjs',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skill.sh',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skill.sh',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\brandkit\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\brandkit\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\brutalist-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\brutalist-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\gpt-tasteskill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\gpt-tasteskill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\image-to-code-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\image-to-code-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\imagegen-frontend-mobile\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\imagegen-frontend-mobile\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\imagegen-frontend-web\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\imagegen-frontend-web\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\llms.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\llms.txt',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\minimalist-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\minimalist-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\output-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\output-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\redesign-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\redesign-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\soft-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\soft-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\stitch-skill\\DESIGN.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\stitch-skill\\DESIGN.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\stitch-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\stitch-skill\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\taste-skill-v1\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\taste-skill-v1\\SKILL.md',
+   'DATA'),
+  ('vendor\\skills\\taste-skill\\skills\\taste-skill\\SKILL.md',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\vendor\\skills\\taste-skill\\skills\\taste-skill\\SKILL.md',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('jsonschema-4.26.0.dist-info\\METADATA',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema-4.26.0.dist-info\\METADATA',
+   'DATA'),
+  ('jsonschema-4.26.0.dist-info\\licenses\\COPYING',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema-4.26.0.dist-info\\licenses\\COPYING',
+   'DATA'),
+  ('jsonschema-4.26.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema-4.26.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('jsonschema\\benchmarks\\issue232\\issue.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema\\benchmarks\\issue232\\issue.json',
+   'DATA'),
+  ('jsonschema-4.26.0.dist-info\\INSTALLER',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema-4.26.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('jsonschema-4.26.0.dist-info\\WHEEL',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema-4.26.0.dist-info\\WHEEL',
+   'DATA'),
+  ('jsonschema-4.26.0.dist-info\\RECORD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema-4.26.0.dist-info\\RECORD',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\core',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\core',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-assertion',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-assertion',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft4\\metaschema.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft4\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\validation',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\validation',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft6\\metaschema.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft6\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\core',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\core',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\metaschema.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\meta-data',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\meta-data',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-annotation',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\format-annotation',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\format',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\format',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\content',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\content',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\applicator',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\applicator',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\content',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\content',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\metaschema.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft201909\\vocabularies\\validation',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft201909\\vocabularies\\validation',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\applicator',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\applicator',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft7\\metaschema.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft7\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\meta-data',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\meta-data',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft3\\metaschema.json',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft3\\metaschema.json',
+   'DATA'),
+  ('jsonschema_specifications\\schemas\\draft202012\\vocabularies\\unevaluated',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\jsonschema_specifications\\schemas\\draft202012\\vocabularies\\unevaluated',
+   'DATA'),
+  ('click-8.4.1.dist-info\\RECORD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\click-8.4.1.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-16.0.dist-info\\WHEEL',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\WHEEL',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('pydantic-2.13.4.dist-info\\METADATA',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic-2.13.4.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.13.4.dist-info\\REQUESTED',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic-2.13.4.dist-info\\REQUESTED',
+   'DATA'),
+  ('websockets-16.0.dist-info\\INSTALLER',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-16.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('click-8.4.1.dist-info\\INSTALLER',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\click-8.4.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('click-8.4.1.dist-info\\METADATA',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\click-8.4.1.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.4.1.dist-info\\WHEEL',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\click-8.4.1.dist-info\\WHEEL',
+   'DATA'),
+  ('pydantic-2.13.4.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic-2.13.4.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\REQUESTED',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('click-8.4.1.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\click-8.4.1.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('pydantic-2.13.4.dist-info\\INSTALLER',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic-2.13.4.dist-info\\INSTALLER',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\METADATA',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-16.0.dist-info\\RECORD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\WHEEL',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-16.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\RECORD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-16.0.dist-info\\METADATA',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.13.4.dist-info\\WHEEL',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic-2.13.4.dist-info\\WHEEL',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\INSTALLER',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('mcp-1.28.0.dist-info\\RECORD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\mcp-1.28.0.dist-info\\RECORD',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\INSTALLER',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\METADATA',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-16.0.dist-info\\top_level.txt',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('pydantic-2.13.4.dist-info\\RECORD',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\.venv\\Lib\\site-packages\\pydantic-2.13.4.dist-info\\RECORD',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Vision\\Documents\\sw skill '
+   '应用化\\backend\\build\\pyinstaller\\base_library.zip',
+   'DATA')],
+ 'python311.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

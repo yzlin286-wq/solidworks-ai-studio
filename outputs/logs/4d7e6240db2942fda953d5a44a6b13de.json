@@ -1,0 +1,24 @@
+{
+  "run_id": "4d7e6240db2942fda953d5a44a6b13de",
+  "capability_id": "mcp.solidworks_create_basic_part",
+  "started_at": "2026-06-22T15:37:14.070339Z",
+  "finished_at": "2026-06-22T15:37:18.821395Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-233711\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-233711\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260622-233711\\\\acceptance_mounting_plate.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-233711\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-233711\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_create_basic_part\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件8 (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-233711\\acceptance_mounting_plate.SLDPRT\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-233711\\acceptance_mounting_plate.SLDPRT"
+  ],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\4d7e6240db2942fda953d5a44a6b13de.json",
+  "parameters": {
+    "shape": "box",
+    "width_mm": 120,
+    "height_mm": 80,
+    "depth_mm": 10,
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-233711\\acceptance_mounting_plate.SLDPRT",
+    "color": "#AEB7BC"
+  }
+}

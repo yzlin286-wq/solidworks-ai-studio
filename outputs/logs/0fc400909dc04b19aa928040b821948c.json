@@ -1,0 +1,18 @@
+{
+  "run_id": "0fc400909dc04b19aa928040b821948c",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-24T01:42:51.581893Z",
+  "finished_at": "2026-06-24T01:43:56.591837Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "",
+  "created_files": [],
+  "active_document_before": "",
+  "active_document_after": "",
+  "error_summary": "Timed out after 60 seconds.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\0fc400909dc04b19aa928040b821948c.json",
+  "parameters": {
+    "visible": true,
+    "wait_seconds": 1
+  }
+}

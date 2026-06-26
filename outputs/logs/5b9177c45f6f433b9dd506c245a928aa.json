@@ -1,0 +1,22 @@
+{
+  "run_id": "5b9177c45f6f433b9dd506c245a928aa",
+  "capability_id": "example.04_batch_export",
+  "started_at": "2026-06-22T17:38:46.059641Z",
+  "finished_at": "2026-06-22T17:38:47.171507Z",
+  "status": "passed",
+  "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n批量导出完成: 0/2 成功\n\n{\n  \"status\": \"failed\",\n  \"results\": [\n    {\n      \"file\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-013654\\\\acceptance_mounting_plate.SLDPRT\",\n      \"success\": false,\n      \"error\": \"无法打开，错误码: 65536, 警告码: 0\"\n    },\n    {\n      \"file\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-013654\\\\acceptance_cylinder_shaft.SLDPRT\",\n      \"success\": false,\n      \"error\": \"无法打开，错误码: 65536, 警告码: 0\"\n    }\n  ],\n  \"created_files\": []\n}",
+  "stderr": "",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\5b9177c45f6f433b9dd506c245a928aa.json",
+  "parameters": {
+    "file_paths": [
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.SLDPRT",
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_cylinder_shaft.SLDPRT"
+    ],
+    "output_dir": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\batch_export",
+    "format_ext": ".step"
+  }
+}

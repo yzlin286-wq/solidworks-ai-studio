@@ -1,0 +1,22 @@
+{
+  "run_id": "d506ff6e51044dcc92d2df0002cb7d69",
+  "capability_id": "example.04_batch_export",
+  "started_at": "2026-06-22T17:44:10.656808Z",
+  "finished_at": "2026-06-22T17:44:30.157859Z",
+  "status": "failed",
+  "stdout": "已连接到运行中的 SolidWorks 实例\n",
+  "stderr": "\nTraceback (most recent call last):\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\solidworks\\execution_queue.py\", line 65, in _run\n    result = await asyncio.wait_for(invoke(), timeout=timeout_seconds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\tasks.py\", line 479, in wait_for\n    return fut.result()\n           ^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\solidworks\\execution_queue.py\", line 63, in invoke\n    return await asyncio.to_thread(work)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\solidworks\\execution_queue.py\", line 61, in work\n    return operation(record.parameters)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\validation\\real_acceptance.py\", line 289, in <lambda>\n    operation=lambda params: self._batch_export(params),\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\validation\\real_acceptance.py\", line 303, in _batch_export\n    sw, _ = connect_solidworks(wait_seconds=1)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\scripts\\sw_connect.py\", line 135, in connect_solidworks\n    model = sw.ActiveDoc\n            ^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\.venv\\Lib\\site-packages\\win32com\\client\\dynamic.py\", line 620, in __getattr__\n    ret = self._oleobj_.Invoke(retEntry.dispid, 0, invoke_type, 1)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147023170, '远程过程调用失败。', None, None)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "",
+  "error_summary": "(-2147023170, '远程过程调用失败。', None, None)",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\d506ff6e51044dcc92d2df0002cb7d69.json",
+  "parameters": {
+    "file_paths": [
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\acceptance_mounting_plate.SLDPRT",
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\acceptance_cylinder_shaft.SLDPRT"
+    ],
+    "output_dir": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\batch_export",
+    "format_ext": ".step"
+  }
+}

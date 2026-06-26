@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.pyc
+*.pyo
+*.pyd
+
+node_modules/
+dist/
+out/
+coverage/
+.vite/
+*.tsbuildinfo
+
+apps/desktop/dist/
+apps/desktop/out/
+apps/desktop/resources/backend/sw-ai-backend.exe
+backend/build/
+backend/dist/
+
+*.log
+logs/
+outputs/
+tmp/
+
+.env
+.env.local
+.env.*.local
+
+SolidWorks AI Studio Setup.exe
+SolidWorks AI Studio Portable.exe

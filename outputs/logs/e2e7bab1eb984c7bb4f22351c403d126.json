@@ -1,0 +1,20 @@
+{
+  "run_id": "e2e7bab1eb984c7bb4f22351c403d126",
+  "capability_id": "mcp.solidworks_export_active",
+  "started_at": "2026-06-22T15:50:16.909751Z",
+  "finished_at": "2026-06-22T15:50:17.843951Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-235001\\\\\\\\acceptance_mounting_plate.STEP\\\",\\n  \\\"format\\\": \\\"step\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-235001\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260622-235001\\\\acceptance_mounting_plate.STEP\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-235001\\\\\\\\acceptance_mounting_plate.STEP\\\",\\n  \\\"format\\\": \\\"step\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260622-235001\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n.STEP 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-235001\\acceptance_mounting_plate.STEP\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-235001\\acceptance_mounting_plate.STEP"
+  ],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\e2e7bab1eb984c7bb4f22351c403d126.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-235001\\acceptance_mounting_plate.STEP",
+    "export_format": "step"
+  }
+}

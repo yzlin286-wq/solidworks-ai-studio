@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\scripts\\validate_skill.py"
+  ],
+  "returncode": 0,
+  "stdout": "验证通过: skill 文件完整，Python 语法正常。\n",
+  "stderr": ""
+}

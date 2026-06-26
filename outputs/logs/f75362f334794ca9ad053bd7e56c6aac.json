@@ -1,0 +1,17 @@
+{
+  "run_id": "f75362f334794ca9ad053bd7e56c6aac",
+  "capability_id": "mcp.solidworks_save_document",
+  "started_at": "2026-06-22T17:20:04.174417Z",
+  "finished_at": "2026-06-22T17:20:08.028873Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"failed\\\",\\n  \\\"success\\\": false,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\v5\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"failed\\\",\\n  \\\"success\\\": false,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\v5\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n    \"tool\": \"solidworks_save_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n保存失败, 错误码: 256, 警告码: 0\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\f75362f334794ca9ad053bd7e56c6aac.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011951\\acceptance_mounting_plate.SLDPRT"
+  }
+}

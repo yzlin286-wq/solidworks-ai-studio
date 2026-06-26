@@ -1,0 +1,21 @@
+{
+  "run_id": "133d56b5d21a46818a0435e89fc11c52",
+  "capability_id": "mcp.solidworks_add_component",
+  "started_at": "2026-06-23T04:07:10.029663Z",
+  "finished_at": "2026-06-23T04:07:19.769014Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_rotor-2\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 3,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体20\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_rotor-2\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 3,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体20\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_component\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体19 (类型: 装配体)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_shaft.SLDPRT (类型: 零件)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_rotor.SLDPRT (类型: 零件)\n已创建新装配体文档\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体20 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体20 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体20 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_rotor.SLDPRT\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\133d56b5d21a46818a0435e89fc11c52.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_rotor.SLDPRT",
+    "x_mm": 0,
+    "y_mm": 0,
+    "z_mm": 45,
+    "fix_component": false
+  }
+}

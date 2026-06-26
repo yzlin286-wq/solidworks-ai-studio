@@ -1,0 +1,17 @@
+{
+  "run_id": "40e0a1faef1641f8a4d08b826fdb0fec",
+  "capability_id": "mcp.solidworks_save_document",
+  "started_at": "2026-06-24T01:45:14.621514Z",
+  "finished_at": "2026-06-24T01:46:19.637978Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "",
+  "created_files": [],
+  "active_document_before": "",
+  "active_document_after": "",
+  "error_summary": "Timed out after 60 seconds.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\40e0a1faef1641f8a4d08b826fdb0fec.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_box.SLDPRT"
+  }
+}

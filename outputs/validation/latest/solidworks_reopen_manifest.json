@@ -1,0 +1,769 @@
+{
+  "ok": true,
+  "generated_at": "2026-06-27T01:29:58.061474",
+  "cad_file_count": 19,
+  "reopen_attempted_count": 16,
+  "reopen_passed_count": 16,
+  "entries": [
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_basic_box.SLDPRT",
+      "kind": "sldprt",
+      "size": 59027,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_basic_box.SLDPRT",
+      "document_type": "1",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_basic_box.SLDPRT\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_cylinder_shaft.SLDPRT",
+      "kind": "sldprt",
+      "size": 68246,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_cylinder_shaft.SLDPRT",
+      "document_type": "1",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_cylinder_shaft.SLDPRT\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_cylinder_shaft.STL",
+      "kind": "stl",
+      "size": 7484,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with VT_DISPATCH_None, option='r'.",
+      "document_title": "acceptance_cylinder_shaft",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.DWG",
+      "kind": "dwg",
+      "size": 44522,
+      "reopen_attempted": false,
+      "reopen_passed": false,
+      "reason": "File type is export evidence but not part of the automated reopen probe set.",
+      "document_title": "",
+      "document_type": ""
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.DXF",
+      "kind": "dxf",
+      "size": 78361,
+      "reopen_attempted": false,
+      "reopen_passed": false,
+      "reason": "File type is export evidence but not part of the automated reopen probe set.",
+      "document_title": "",
+      "document_type": ""
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.PDF",
+      "kind": "pdf",
+      "size": 52457,
+      "reopen_attempted": false,
+      "reopen_passed": false,
+      "reason": "File type is export evidence but not part of the automated reopen probe set.",
+      "document_title": "",
+      "document_type": ""
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.SLDDRW",
+      "kind": "slddrw",
+      "size": 91462,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_export - ͼֽ1",
+      "document_type": "3",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.SLDDRW\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_motion_assembly.SLDASM",
+      "kind": "sldasm",
+      "size": 66225,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_motion_assembly.SLDASM",
+      "document_type": "2",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_motion_assembly.SLDASM\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_mounting_plate.SLDPRT",
+      "kind": "sldprt",
+      "size": 77725,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_mounting_plate.SLDPRT",
+      "document_type": "1",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_mounting_plate.SLDPRT\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_mounting_plate.STEP",
+      "kind": "step",
+      "size": 37058,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with GetImportFileData, option='r'.",
+      "document_title": "acceptance_mounting_plate.SLDPRT",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_two_part_assembly.SLDASM",
+      "kind": "sldasm",
+      "size": 65634,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_two_part_assembly.SLDASM",
+      "document_type": "2",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_two_part_assembly.SLDASM\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\batch_export\\acceptance_cylinder_shaft.step",
+      "kind": "step",
+      "size": 11840,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with GetImportFileData, option='r'.",
+      "document_title": "acceptance_cylinder_shaft.SLDPRT",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\batch_export\\acceptance_mounting_plate.step",
+      "kind": "step",
+      "size": 37056,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with GetImportFileData, option='r'.",
+      "document_title": "acceptance_mounting_plate.SLDPRT",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\subskill_cnc_mount\\CNC_Mount_Template.SLDPRT",
+      "kind": "sldprt",
+      "size": 212704,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "CNC_Mount_Template.SLDPRT",
+      "document_type": "1",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\subskill_cnc_mount\\CNC_Mount_Template.SLDPRT\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\subskill_cnc_mount\\CNC_Mount_Template.step",
+      "kind": "step",
+      "size": 211584,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with GetImportFileData, option='r'.",
+      "document_title": "CNC_Mount_Template.SLDPRT",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\subskill_threaded_hole\\acceptance_threaded_hole.SLDPRT",
+      "kind": "sldprt",
+      "size": 133062,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "acceptance_threaded_hole.SLDPRT",
+      "document_type": "1",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\subskill_threaded_hole\\acceptance_threaded_hole.SLDPRT\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\subskill_threaded_hole\\acceptance_threaded_hole.step",
+      "kind": "step",
+      "size": 25279,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with GetImportFileData, option='r'.",
+      "document_title": "acceptance_threaded_hole.SLDPRT",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\nl_acceptance_mounting_plate.SLDPRT",
+      "kind": "sldprt",
+      "size": 76977,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "OpenDoc6 opened native SolidWorks document.",
+      "document_title": "nl_acceptance_mounting_plate.SLDPRT",
+      "document_type": "1",
+      "log": "�Ѵ�: C:\\Users\\Vision\\Documents\\sw skill Ӧ�û�\\outputs\\validation\\latest\\cad_samples\\nl_acceptance_mounting_plate.SLDPRT\n",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\nl_acceptance_mounting_plate.STEP",
+      "kind": "step",
+      "size": 37060,
+      "reopen_attempted": true,
+      "reopen_passed": true,
+      "reason": "LoadFile4 imported file with GetImportFileData, option='r'.",
+      "document_title": "nl_acceptance_mounting_plate.SLDPRT",
+      "document_type": "1",
+      "template_preferences": [
+        {
+          "name": "part",
+          "preference": 8,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "new_exists": true
+        },
+        {
+          "name": "assembly",
+          "preference": 9,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "new_exists": true
+        },
+        {
+          "name": "drawing",
+          "preference": 10,
+          "old": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "old_exists": true,
+          "fallback": "",
+          "fallback_exists": false,
+          "changed": false,
+          "new": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2025\\templates\\gb_a4.drwdot",
+          "new_exists": true
+        }
+      ]
+    }
+  ],
+  "conclusion": "Dedicated SolidWorks reopen checks passed."
+}

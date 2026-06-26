@@ -1,0 +1,18 @@
+{
+  "run_id": "bd8c42089657441ea9a3618beac1e5e0",
+  "capability_id": "mcp.solidworks_set_appearance",
+  "started_at": "2026-06-22T14:24:25.712455Z",
+  "finished_at": "2026-06-22T14:24:26.081833Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"target\\\": \\\"document\\\",\\n  \\\"color\\\": \\\"#9DA7AA\\\",\\n  \\\"component\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"target\\\": \\\"document\\\",\\n  \\\"color\\\": \\\"#9DA7AA\\\",\\n  \\\"component\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_set_appearance\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\bd8c42089657441ea9a3618beac1e5e0.json",
+  "parameters": {
+    "target": "document",
+    "color": "#9DA7AA"
+  }
+}

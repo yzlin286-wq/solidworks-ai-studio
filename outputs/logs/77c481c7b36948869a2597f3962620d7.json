@@ -1,0 +1,24 @@
+{
+  "run_id": "77c481c7b36948869a2597f3962620d7",
+  "capability_id": "mcp.solidworks_create_basic_part",
+  "started_at": "2026-06-23T17:06:20.395137Z",
+  "finished_at": "2026-06-23T17:06:26.903784Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": false,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_box.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"零件33\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_box.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": false,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_box.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"零件33\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_create_basic_part\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_context_4cc9450a.SLDPRT (类型: 零件)\n已创建新零件文档\n保存失败, 错误码: 1, 警告码: 0\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_box.SLDPRT"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\77c481c7b36948869a2597f3962620d7.json",
+  "parameters": {
+    "shape": "box",
+    "width_mm": 80,
+    "height_mm": 60,
+    "depth_mm": 12,
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_box.SLDPRT",
+    "color": "#9DA7AA"
+  }
+}

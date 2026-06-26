@@ -1,0 +1,23 @@
+{
+  "run_id": "0264b1cc33f34ce7b07cc5494bcaaf32",
+  "capability_id": "wrapper.export_dxf",
+  "started_at": "2026-06-23T16:33:47.950805Z",
+  "finished_at": "2026-06-23T16:33:51.963601Z",
+  "status": "passed",
+  "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_export_ebf53b98 - 图纸1 (类型: 工程图)\n已创建新工程图文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_b91ebd6e.SLDDRW\n.DXF 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_b91ebd6e.DXF\n\n{\n  \"status\": \"ok\",\n  \"format\": \"dxf\",\n  \"part_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_context_04f8f2b9.SLDPRT\",\n  \"drawing_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_b91ebd6e.SLDDRW\",\n  \"output_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_b91ebd6e.DXF\",\n  \"views_created\": true,\n  \"dimensions_inserted\": false,\n  \"dimension_error\": \"<unknown>.InsertModelAnnotations3\",\n  \"saved_drawing\": true,\n  \"exported\": true,\n  \"document\": {\n    \"title\": \"installed_validation_export_b91ebd6e - 图纸1\",\n    \"path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_b91ebd6e.SLDDRW\",\n    \"type\": 3\n  }\n}",
+  "stderr": "",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_b91ebd6e.DXF",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_b91ebd6e.SLDDRW"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\0264b1cc33f34ce7b07cc5494bcaaf32.json",
+  "parameters": {
+    "part_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_context_04f8f2b9.SLDPRT",
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_b91ebd6e.DXF",
+    "drawing_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_b91ebd6e.SLDDRW",
+    "export_format": "dxf"
+  }
+}

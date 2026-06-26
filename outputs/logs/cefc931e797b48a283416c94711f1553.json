@@ -1,0 +1,17 @@
+{
+  "run_id": "cefc931e797b48a283416c94711f1553",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-22T17:59:49.905343Z",
+  "finished_at": "2026-06-22T17:59:50.189196Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft7\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft7\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft7 (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\cefc931e797b48a283416c94711f1553.json",
+  "parameters": {
+    "visible": true
+  }
+}

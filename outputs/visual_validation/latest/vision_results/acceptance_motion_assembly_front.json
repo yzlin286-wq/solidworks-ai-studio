@@ -1,0 +1,12 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_front.bmp",
+  "expected": "A SolidWorks assembly preview with at least two components.",
+  "observed": "This is a SolidWorks shaded front view assembly preview, containing at least two distinct components: a large rectangular base plate, and a separate circular component mounted to the lower left section of the base plate.",
+  "pass": true,
+  "confidence": 0.99,
+  "issues": [],
+  "evidence": [
+    "Render styling matches standard SolidWorks shaded assembly preview appearance",
+    "Two distinct assembly components are clearly visible: 1) the primary light green rectangular base plate, 2) the darker green circular component attached to the lower left of the base plate"
+  ]
+}

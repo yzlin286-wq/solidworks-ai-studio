@@ -1,0 +1,17 @@
+{
+  "run_id": "17c811c6d909450bb88d2cc51767eea8",
+  "capability_id": "mcp.solidworks_health_check",
+  "started_at": "2026-06-26T02:37:47.220014Z",
+  "finished_at": "2026-06-26T02:37:47.243638Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\SolidWorks AI Studio\\\\\\\\resources\\\\\\\\backend\\\\\\\\sw-ai-backend.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\_MEI206722\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": \\\"C:\\\\\\\\Program Files\\\\\\\\SOLIDWORKS Corp25\\\\\\\\SOLIDWORKS\\\\\\\\swmotionstudy.tlb\\\",\\n    \\\"motion_type_library_ready\\\": true,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"零件11\\\",\\n      \\\"path\\\": \\\"\\\",\\n      \\\"type\\\": 1\\n    }\\n  },\\n  \\\"issues\\\": []\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\SolidWorks AI Studio\\\\\\\\resources\\\\\\\\backend\\\\\\\\sw-ai-backend.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\_MEI206722\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": \\\"C:\\\\\\\\Program Files\\\\\\\\SOLIDWORKS Corp25\\\\\\\\SOLIDWORKS\\\\\\\\swmotionstudy.tlb\\\",\\n    \\\"motion_type_library_ready\\\": true,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"零件11\\\",\\n      \\\"path\\\": \\\"\\\",\\n      \\\"type\\\": 1\\n    }\\n  },\\n  \\\"issues\\\": []\\n}\",\n    \"tool\": \"solidworks_health_check\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件11 (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\17c811c6d909450bb88d2cc51767eea8.json",
+  "parameters": {
+    "start_solidworks": true
+  }
+}

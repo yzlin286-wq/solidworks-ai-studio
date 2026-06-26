@@ -1,0 +1,9 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_right.bmp",
+  "expected": "A long cylindrical shaft preview.",
+  "observed": "A valid right orthographic side preview of a long cylindrical shaft is present, appearing as a long solid filled rectangular profile which is the correct standard side view representation of a cylinder.",
+  "pass": true,
+  "confidence": 0.99,
+  "issues": [],
+  "evidence": "The centered long solid rectangular feature in the SolidWorks viewport correctly matches the expected right-side preview of a long cylindrical shaft. No extraneous elements or rendering errors are present."
+}

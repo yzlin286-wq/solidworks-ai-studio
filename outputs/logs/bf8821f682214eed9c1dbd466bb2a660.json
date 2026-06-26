@@ -1,0 +1,17 @@
+{
+  "run_id": "bf8821f682214eed9c1dbd466bb2a660",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-22T18:58:35.699597Z",
+  "finished_at": "2026-06-22T18:58:35.803174Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-021800\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-021800\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\bf8821f682214eed9c1dbd466bb2a660.json",
+  "parameters": {
+    "visible": true
+  }
+}

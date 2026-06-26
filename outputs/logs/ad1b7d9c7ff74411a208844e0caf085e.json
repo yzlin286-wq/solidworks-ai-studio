@@ -1,0 +1,18 @@
+{
+  "run_id": "ad1b7d9c7ff74411a208844e0caf085e",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-23T03:46:36.025559Z",
+  "finished_at": "2026-06-23T03:46:36.918468Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"ui_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\temp\\\\\\\\generated\\\\\\\\053a898c85f44991ae85377f1e2b0fc9\\\\\\\\outputs\\\\\\\\ui_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"ui_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\temp\\\\\\\\generated\\\\\\\\053a898c85f44991ae85377f1e2b0fc9\\\\\\\\outputs\\\\\\\\ui_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: ui_mounting_plate_120x80x10.SLDPRT (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\ad1b7d9c7ff74411a208844e0caf085e.json",
+  "parameters": {
+    "visible": true,
+    "wait_seconds": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "ea4212f0cbcf440c85b3c155ae8282e4",
+  "capability_id": "optional.export_pdf",
+  "started_at": "2026-06-22T20:33:12.663507Z",
+  "finished_at": "2026-06-22T20:33:13.689371Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-043226\\\\\\\\acceptance_export.PDF\\\",\\n  \\\"format\\\": \\\"pdf\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_export - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-043226\\\\\\\\acceptance_export.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-043226\\\\acceptance_export.PDF\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-043226\\\\\\\\acceptance_export.PDF\\\",\\n  \\\"format\\\": \\\"pdf\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_export - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-043226\\\\\\\\acceptance_export.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_export - 图纸1 (类型: 工程图)\nPDF 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.PDF\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.PDF"
+  ],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\ea4212f0cbcf440c85b3c155ae8282e4.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-043226\\acceptance_export.PDF",
+    "export_format": "pdf"
+  }
+}

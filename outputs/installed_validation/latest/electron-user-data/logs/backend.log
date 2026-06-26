@@ -1,0 +1,1135 @@
+INFO:     Started server process [1772]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:55720 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55725 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55725 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55729 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55726 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     Started server process [12948]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:64819 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64832 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Started server process [37020]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:51651 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51665 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Started server process [32472]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:62272 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62285 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Started server process [25984]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:61653 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63945 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     Started server process [18100]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:59556 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51359 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51362 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51363 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51358 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51360 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51359 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51371 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63213 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63214 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63215 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63216 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51361 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "GET /api/runs/af9991da0b2b4ed4a189831765abe0a4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65458 - "GET /api/runs/af9991da0b2b4ed4a189831765abe0a4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "GET /api/runs/af9991da0b2b4ed4a189831765abe0a4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63217 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     Started server process [8080]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:52561 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57467 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57459 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57462 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57463 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57458 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57461 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57459 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57468 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57164 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57165 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57166 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57167 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57164 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57168 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /api/runs/ff5ba3b7262047f086312babd04c76d5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61126 - "GET /api/runs/ff5ba3b7262047f086312babd04c76d5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /api/runs/ff5ba3b7262047f086312babd04c76d5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57460 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     Started server process [25864]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:51308 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51331 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51346 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51335 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51336 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51331 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51334 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51333 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51332 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51348 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51332 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51332 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61600 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/runs/e5b35f4538bd47f69b2b743759b05c8c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /api/runs/e5b35f4538bd47f69b2b743759b05c8c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/runs/e5b35f4538bd47f69b2b743759b05c8c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:61601 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [28728]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:57638 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62285 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62286 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62277 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62275 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62274 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62277 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62273 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62276 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62285 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62272 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62286 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62272 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57170 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57173 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62272 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "GET /api/runs/0343f7f2540842f0832e7d3bddb5fc18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49682 - "GET /api/runs/0343f7f2540842f0832e7d3bddb5fc18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "GET /api/runs/0343f7f2540842f0832e7d3bddb5fc18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57898 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     Started server process [32928]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:60582 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60588 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60588 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60599 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60590 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60589 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60592 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60598 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60591 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60599 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60591 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60592 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60589 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60590 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60588 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60591 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/runs/52a91fe2421349b88330a43f1b4e69bc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61289 - "GET /api/runs/52a91fe2421349b88330a43f1b4e69bc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/runs/52a91fe2421349b88330a43f1b4e69bc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:60593 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56803 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56804 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60593 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [24224]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:60938 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52830 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52831 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60945 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60949 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60944 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60946 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52830 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60945 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60948 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52831 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60948 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60945 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60946 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60944 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60949 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60948 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /api/runs/bdad3b240f5c4871861810a1158202a7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_close_documents/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60947 - "POST /api/skills/capabilities/mcp.solidworks_add_rotary_motor/run HTTP/1.1" 200 OK
+fatal: unable to access 'https://github.com/Leonxlnx/taste-skill/': schannel: failed to receive handshake, SSL/TLS connection failed
+INFO:     127.0.0.1:60947 - "POST /api/skills/sync HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+  File "uvicorn\middleware\proxy_headers.py", line 62, in __call__
+  File "fastapi\applications.py", line 1163, in __call__
+  File "starlette\applications.py", line 90, in __call__
+  File "starlette\middleware\errors.py", line 186, in __call__
+  File "starlette\middleware\errors.py", line 164, in __call__
+  File "starlette\middleware\cors.py", line 88, in __call__
+  File "starlette\middleware\exceptions.py", line 63, in __call__
+  File "starlette\_exception_handler.py", line 53, in wrapped_app
+  File "starlette\_exception_handler.py", line 42, in wrapped_app
+  File "fastapi\middleware\asyncexitstack.py", line 18, in __call__
+  File "starlette\routing.py", line 660, in __call__
+  File "fastapi\routing.py", line 2531, in app
+  File "fastapi\routing.py", line 1700, in handle
+  File "fastapi\routing.py", line 2586, in handle
+  File "fastapi\routing.py", line 1711, in _handle_selected
+  File "fastapi\routing.py", line 1700, in handle
+  File "fastapi\routing.py", line 2586, in handle
+  File "fastapi\routing.py", line 1720, in _handle_selected
+  File "fastapi\routing.py", line 1239, in handle
+  File "fastapi\routing.py", line 150, in app
+  File "starlette\_exception_handler.py", line 53, in wrapped_app
+  File "starlette\_exception_handler.py", line 42, in wrapped_app
+  File "fastapi\routing.py", line 136, in app
+  File "fastapi\routing.py", line 690, in app
+  File "fastapi\routing.py", line 344, in run_endpoint_function
+  File "sw_ai_backend\api\routes.py", line 117, in sync_skills
+  File "sw_ai_backend\api\routes.py", line 424, in _sync_repo
+  File "subprocess.py", line 413, in check_call
+subprocess.CalledProcessError: Command '['git', '-C', 'C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI142482\\vendor\\skills\\taste-skill', 'pull', '--ff-only']' returned non-zero exit status 1.
+INFO:     127.0.0.1:51092 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51092 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64414 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64415 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51092 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51092 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51092 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [24068]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:56253 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56261 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56268 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56269 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56268 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56258 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56269 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56258 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56261 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56259 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56258 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56257 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56260 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58661 - "GET /api/runs/0524b3aeb00246288d73afe6841f58ed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:50889 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63084 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63085 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50889 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [38396]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:61850 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52669 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52670 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52669 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61857 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61862 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61857 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52670 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61861 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61861 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61857 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61862 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61861 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/runs/4de81fa8eb62492086313df9542aefff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "POST /api/skills/capabilities/mcp.solidworks_close_documents/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57356 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58172 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58173 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     Started server process [34224]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:60514 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60529 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60530 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60522 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60523 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60525 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60521 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60529 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60522 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60520 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60530 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60520 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60522 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60521 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60525 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60523 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60520 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55525 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55525 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60524 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55525 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55525 - "GET /api/runs/91a8d56084384c65a2c734c8865e3713 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49902 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51796 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51796 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51796 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51796 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51796 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51796 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:53318 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58063 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58064 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [21996]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:63998 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64003 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64005 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64012 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64003 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64002 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64013 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64012 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64006 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64013 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64006 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64002 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64003 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64005 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64006 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63779 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63779 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63779 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63779 - "GET /api/runs/645f9046122440a995f3c571fa4289bd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/skills/capabilities/mcp.solidworks_close_documents/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:62836 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50629 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50630 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62836 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [32984]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:64124 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64142 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64143 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64132 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64134 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64130 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64132 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64142 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64131 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64143 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64131 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64132 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64130 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64134 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64131 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51808 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51808 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51808 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51808 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/runs/6020e53f38514532b4bf93c9d4c8efe4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64129 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/skills/capabilities/mcp.solidworks_close_documents/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:58771 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64893 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64894 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58771 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [35856]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:64635 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54124 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54134 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54124 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54126 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54125 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54127 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54134 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54122 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54127 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54125 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54126 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54124 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54122 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50732 - "GET /api/runs/84aee10dd3f14e048baccd43823f1e4c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54123 - "POST /api/skills/capabilities/mcp.solidworks_add_rotary_motor/run HTTP/1.1" 200 OK
+fatal: unable to access 'https://github.com/Leonxlnx/taste-skill/': schannel: failed to receive handshake, SSL/TLS connection failed
+INFO:     127.0.0.1:54123 - "POST /api/skills/sync HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+  File "uvicorn\middleware\proxy_headers.py", line 62, in __call__
+  File "fastapi\applications.py", line 1163, in __call__
+  File "starlette\applications.py", line 90, in __call__
+  File "starlette\middleware\errors.py", line 186, in __call__
+  File "starlette\middleware\errors.py", line 164, in __call__
+  File "starlette\middleware\cors.py", line 88, in __call__
+  File "starlette\middleware\exceptions.py", line 63, in __call__
+  File "starlette\_exception_handler.py", line 53, in wrapped_app
+  File "starlette\_exception_handler.py", line 42, in wrapped_app
+  File "fastapi\middleware\asyncexitstack.py", line 18, in __call__
+  File "starlette\routing.py", line 660, in __call__
+  File "fastapi\routing.py", line 2531, in app
+  File "fastapi\routing.py", line 1700, in handle
+  File "fastapi\routing.py", line 2586, in handle
+  File "fastapi\routing.py", line 1711, in _handle_selected
+  File "fastapi\routing.py", line 1700, in handle
+  File "fastapi\routing.py", line 2586, in handle
+  File "fastapi\routing.py", line 1720, in _handle_selected
+  File "fastapi\routing.py", line 1239, in handle
+  File "fastapi\routing.py", line 150, in app
+  File "starlette\_exception_handler.py", line 53, in wrapped_app
+  File "starlette\_exception_handler.py", line 42, in wrapped_app
+  File "fastapi\routing.py", line 136, in app
+  File "fastapi\routing.py", line 690, in app
+  File "fastapi\routing.py", line 344, in run_endpoint_function
+  File "sw_ai_backend\api\routes.py", line 118, in sync_skills
+  File "sw_ai_backend\api\routes.py", line 425, in _sync_repo
+  File "subprocess.py", line 413, in check_call
+subprocess.CalledProcessError: Command '['git', '-C', 'C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI10842\\vendor\\skills\\taste-skill', 'pull', '--ff-only']' returned non-zero exit status 1.
+INFO:     127.0.0.1:62050 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62055 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62056 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [37212]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:65395 (Press CTRL+C to quit)
+INFO:     127.0.0.1:65402 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65406 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65401 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65411 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65403 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65402 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65412 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65411 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65405 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65412 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65405 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65402 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65403 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65401 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65406 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65405 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53791 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/runs/5d77b4926b0243cface14e8e08815e7e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/skills/capabilities/mcp.solidworks_add_rotary_motor/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:65404 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58027 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58028 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [28464]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:51052 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51055 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51060 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51057 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51068 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51059 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51055 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51069 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51068 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51058 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51069 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51058 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51055 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51059 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51057 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51060 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51058 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61213 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61213 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61213 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61213 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61213 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61213 - "GET /api/runs/514b2b7b2dac429492364311d135c504 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/skills/capabilities/mcp.solidworks_add_rotary_motor/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:51056 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61136 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61137 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51056 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [1952]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:60362 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60368 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60372 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60373 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60379 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60371 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60369 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60380 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60379 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60370 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60380 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60370 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60369 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60371 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60373 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60372 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60370 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50137 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/runs/9dc9f89e6dc14c5bb4573de63347d099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/skills/capabilities/mcp.solidworks_add_rotary_motor/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:60368 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61259 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61260 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60368 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65236 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65236 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     Started server process [24384]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:60571 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60584 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60585 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60575 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60577 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60579 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60578 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60584 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60575 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60578 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60579 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60577 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60575 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60584 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60575 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60577 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60586 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60578 - "GET /api/mcp/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60579 - "GET /api/skills/capabilities HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60575 - "GET /api/solidworks/real-test/report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/ai/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/ai/generate-script HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/ai/approve-run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51283 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51283 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51283 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51283 - "GET /api/runs/5b96b06fdc8442acb478a75354f69c18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "GET /api/solidworks/preflight HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/connect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/open HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60576 - "POST /api/solidworks/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/solidworks/create-basic-part HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/mcp/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/skills/capabilities/mcp.solidworks_connect/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/skills/capabilities/mcp.solidworks_health_check/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58514 - "POST /api/skills/capabilities/mcp.solidworks_create_basic_part/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_new_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_open_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_save_document/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_export_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_review_active/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_set_appearance/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_add_component/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_set_component_fixed/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_add_coincident_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_add_distance_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_add_concentric_mate/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/skills/capabilities/mcp.solidworks_add_rotary_motor/run HTTP/1.1" 200 OK
+Already up to date.
+INFO:     127.0.0.1:51517 - "POST /api/skills/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "GET /api/skills/index HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "GET /api/mcp/config-snippets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61965 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61966 - "POST /api/llm/test HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/mcp/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51517 - "POST /api/mcp/stop HTTP/1.1" 200 OK

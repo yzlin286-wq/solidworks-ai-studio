@@ -1,0 +1,11 @@
+[
+  "tests/test_config.py::test_config_store_creates_default_without_deadlock",
+  "tests/test_config.py::test_config_store_roundtrip_and_redaction",
+  "tests/test_llm_client.py::test_llm_without_key_uses_demo_plan",
+  "tests/test_preflight_mcp.py::test_mcp_snippets_include_supported_clients",
+  "tests/test_preflight_mcp.py::test_preflight_returns_checks_without_solidworks",
+  "tests/test_runner.py::test_runner_allows_safe_os_environ_usage",
+  "tests/test_runner.py::test_runner_executes_safe_python",
+  "tests/test_runner.py::test_runner_rejects_shell_patterns",
+  "tests/test_skill_indexer.py::test_skill_indexer_reads_vendored_skills"
+]

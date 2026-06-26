@@ -1,0 +1,18 @@
+{
+  "run_id": "6082889da09646e48ffe3c0729fb0743",
+  "capability_id": "mcp.solidworks_set_component_fixed",
+  "started_at": "2026-06-22T19:07:14.212356Z",
+  "finished_at": "2026-06-22T19:07:14.655644Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"fixed\\\": false,\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-030646\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体2\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"fixed\\\": false,\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-030646\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体2\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_set_component_fixed\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体2 (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\6082889da09646e48ffe3c0729fb0743.json",
+  "parameters": {
+    "component_keyword": "shaft",
+    "fixed": false
+  }
+}

@@ -1,0 +1,804 @@
+{
+  "ok": false,
+  "generated_at": "2026-06-23T01:19:03.049514",
+  "preflight_report": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\sw2025_preflight.json",
+  "core_passed": 23,
+  "core_failed": 1,
+  "results": [
+    {
+      "capability_id": "mcp.solidworks_health_check",
+      "title": "Solidworks Health Check",
+      "status": "passed",
+      "input_parameters": {
+        "start_solidworks": true
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"warning\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": null,\\n    \\\"motion_type_library_ready\\\": false,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n      \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\runs\\\\\\\\210f888881e1\\\\\\\\drawing\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n      \\\"type\\\": 3\\n    }\\n  },\\n  \\\"issues\\\": [\\n    \\\"Motion Study type library was not found; rotary motor tools may fail.\\\"\\n  ]\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"warning\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": null,\\n    \\\"motion_type_library_ready\\\": false,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n      \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\runs\\\\\\\\210f888881e1\\\\\\\\drawing\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n      \\\"type\\\": 3\\n    }\\n  },\\n  \\\"issues\\\": [\\n    \\\"Motion Study type library was not found; rotary motor tools may fail.\\\"\\n  ]\\n}\",\n    \"tool\": \"solidworks_health_check\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\eb58fa9424fc48beb662a4ed052bbead.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_connect",
+      "title": "Solidworks Connect",
+      "status": "passed",
+      "input_parameters": {
+        "visible": true
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\runs\\\\\\\\210f888881e1\\\\\\\\drawing\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\runs\\\\\\\\210f888881e1\\\\\\\\drawing\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\d93b70606d684d22b3e787cfd717eadb.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_create_basic_part",
+      "title": "Solidworks Create Basic Part",
+      "status": "passed",
+      "input_parameters": {
+        "shape": "box",
+        "width_mm": 120,
+        "height_mm": 80,
+        "depth_mm": 10,
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_basic_box.SLDPRT",
+        "color": "#AEB7BC"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_basic_box.SLDPRT"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_basic_box.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_basic_box.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_basic_box.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_basic_box.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_create_basic_part\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_basic_box.SLDPRT\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\312f94a8aa87485f9c6baab71a2003c7.json"
+    },
+    {
+      "capability_id": "script.sw_part",
+      "title": "Sw Part",
+      "status": "passed",
+      "input_parameters": {
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT",
+        "width_mm": 120,
+        "height_mm": 80,
+        "depth_mm": 10,
+        "hole_diameter_mm": 6.5,
+        "chamfer_mm": 1
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件15 (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT\n\n{\n  \"status\": \"ok\",\n  \"output_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_mounting_plate.SLDPRT\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_mounting_plate.SLDPRT\"\n  ],\n  \"features\": {\n    \"width_mm\": 120.0,\n    \"height_mm\": 80.0,\n    \"depth_mm\": 10.0,\n    \"holes\": 4,\n    \"hole_diameter_mm\": 6.5,\n    \"chamfer_mm\": 1.0\n  }\n}",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\2473cd72debb4c4eaaa3b393133371fd.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_save_document",
+      "title": "Solidworks Save Document",
+      "status": "passed",
+      "input_parameters": {
+        "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_save_document\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\43cc1af55005437cb7db08bc47c1d96f.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_export_active",
+      "title": "Solidworks Export Active",
+      "status": "passed",
+      "input_parameters": {
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.STEP",
+        "export_format": "step"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.STEP"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.STEP\\\",\\n  \\\"format\\\": \\\"step\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_mounting_plate.STEP\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.STEP\\\",\\n  \\\"format\\\": \\\"step\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n.STEP 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.STEP\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\b3aa5d5635c348918bb750e194be9d4e.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_set_appearance",
+      "title": "Solidworks Set Appearance",
+      "status": "passed",
+      "input_parameters": {
+        "target": "document",
+        "color": "#9DA7AA"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"target\\\": \\\"document\\\",\\n  \\\"color\\\": \\\"#9DA7AA\\\",\\n  \\\"component\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"target\\\": \\\"document\\\",\\n  \\\"color\\\": \\\"#9DA7AA\\\",\\n  \\\"component\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_set_appearance\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\94d26b8539f041f6b4ef5092f19a7011.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_review_active",
+      "title": "Solidworks Review Active",
+      "status": "passed",
+      "input_parameters": {
+        "output_dir": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\review",
+        "basename": "acceptance_mounting_plate"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\review\\acceptance_mounting_plate_review_report.json"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"report_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\review\\\\\\\\acceptance_mounting_plate_review_report.json\\\",\\n  \\\"evaluation\\\": {\\n    \\\"status\\\": \\\"warn\\\",\\n    \\\"score\\\": 92,\\n    \\\"issues\\\": [\\n      {\\n        \\\"code\\\": \\\"expected_outputs_not_declared\\\",\\n        \\\"severity\\\": \\\"warn\\\",\\n        \\\"message\\\": \\\"未声明期望输出文件，无法验证交付物是否完整。\\\"\\n      }\\n    ],\\n    \\\"recommendations\\\": [\\n      \\\"调用 run_review() 时传入 expected_outputs。\\\"\\n    ],\\n    \\\"manual_review_required\\\": true,\\n    \\\"manual_review_reason\\\": \\\"规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。\\\"\\n  },\\n  \\\"checks\\\": {\\n    \\\"model_available\\\": true,\\n    \\\"previews_created\\\": true,\\n    \\\"previews_not_blank\\\": true,\\n    \\\"expected_outputs_exist\\\": null,\\n    \\\"feature_summary_available\\\": true\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\review\\\\acceptance_mounting_plate_review_report.json\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"report_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\review\\\\\\\\acceptance_mounting_plate_review_report.json\\\",\\n  \\\"evaluation\\\": {\\n    \\\"status\\\": \\\"warn\\\",\\n    \\\"score\\\": 92,\\n    \\\"issues\\\": [\\n      {\\n        \\\"code\\\": \\\"expected_outputs_not_declared\\\",\\n        \\\"severity\\\": \\\"warn\\\",\\n        \\\"message\\\": \\\"未声明期望输出文件，无法验证交付物是否完整。\\\"\\n      }\\n    ],\\n    \\\"recommendations\\\": [\\n      \\\"调用 run_review() 时传入 expected_outputs。\\\"\\n    ],\\n    \\\"manual_review_required\\\": true,\\n    \\\"manual_review_reason\\\": \\\"规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。\\\"\\n  },\\n  \\\"checks\\\": {\\n    \\\"model_available\\\": true,\\n    \\\"previews_created\\\": true,\\n    \\\"previews_not_blank\\\": true,\\n    \\\"expected_outputs_exist\\\": null,\\n    \\\"feature_summary_available\\\": true\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_review_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\891785cba7fc4667af7846755b6b6e94.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_create_basic_part",
+      "title": "Solidworks Create Basic Part",
+      "status": "passed",
+      "input_parameters": {
+        "shape": "cylinder",
+        "radius_mm": 10,
+        "depth_mm": 100,
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.SLDPRT",
+        "color": "#B9C2C7"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.SLDPRT"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"cylinder\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_cylinder_shaft.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"cylinder\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": true,\\n  \\\"saved\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_create_basic_part\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_mounting_plate.SLDPRT (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.SLDPRT\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\1c4e5e4399f041daaf9dc3478a5e6721.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_export_active",
+      "title": "Solidworks Export Active",
+      "status": "passed",
+      "input_parameters": {
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.STL",
+        "export_format": "stl"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.STL"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.STL\\\",\\n  \\\"format\\\": \\\"stl\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_cylinder_shaft.STL\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"output_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.STL\\\",\\n  \\\"format\\\": \\\"stl\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n.STL 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.STL\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\9f2ee9005c584a1a98f384ac5f456cb0.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_review_active",
+      "title": "Solidworks Review Active",
+      "status": "passed",
+      "input_parameters": {
+        "output_dir": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\shaft_review",
+        "basename": "acceptance_cylinder_shaft"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\shaft_review\\acceptance_cylinder_shaft_review_report.json"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"report_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\shaft_review\\\\\\\\acceptance_cylinder_shaft_review_report.json\\\",\\n  \\\"evaluation\\\": {\\n    \\\"status\\\": \\\"warn\\\",\\n    \\\"score\\\": 92,\\n    \\\"issues\\\": [\\n      {\\n        \\\"code\\\": \\\"expected_outputs_not_declared\\\",\\n        \\\"severity\\\": \\\"warn\\\",\\n        \\\"message\\\": \\\"未声明期望输出文件，无法验证交付物是否完整。\\\"\\n      }\\n    ],\\n    \\\"recommendations\\\": [\\n      \\\"调用 run_review() 时传入 expected_outputs。\\\"\\n    ],\\n    \\\"manual_review_required\\\": true,\\n    \\\"manual_review_reason\\\": \\\"规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。\\\"\\n  },\\n  \\\"checks\\\": {\\n    \\\"model_available\\\": true,\\n    \\\"previews_created\\\": true,\\n    \\\"previews_not_blank\\\": true,\\n    \\\"expected_outputs_exist\\\": null,\\n    \\\"feature_summary_available\\\": true\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\shaft_review\\\\acceptance_cylinder_shaft_review_report.json\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"report_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\shaft_review\\\\\\\\acceptance_cylinder_shaft_review_report.json\\\",\\n  \\\"evaluation\\\": {\\n    \\\"status\\\": \\\"warn\\\",\\n    \\\"score\\\": 92,\\n    \\\"issues\\\": [\\n      {\\n        \\\"code\\\": \\\"expected_outputs_not_declared\\\",\\n        \\\"severity\\\": \\\"warn\\\",\\n        \\\"message\\\": \\\"未声明期望输出文件，无法验证交付物是否完整。\\\"\\n      }\\n    ],\\n    \\\"recommendations\\\": [\\n      \\\"调用 run_review() 时传入 expected_outputs。\\\"\\n    ],\\n    \\\"manual_review_required\\\": true,\\n    \\\"manual_review_reason\\\": \\\"规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。\\\"\\n  },\\n  \\\"checks\\\": {\\n    \\\"model_available\\\": true,\\n    \\\"previews_created\\\": true,\\n    \\\"previews_not_blank\\\": true,\\n    \\\"expected_outputs_exist\\\": null,\\n    \\\"feature_summary_available\\\": true\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_review_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\0cf4b30d07f34ecbb9c9cea8f6c98c3f.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_open_document",
+      "title": "Solidworks Open Document",
+      "status": "passed",
+      "input_parameters": {
+        "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"打开失败, 错误码: 65536, 警告码: 0\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"打开失败, 错误码: 65536, 警告码: 0\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_open_document\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\2643637868d04936862fa1d89c058312.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_new_document",
+      "title": "Solidworks New Document",
+      "status": "passed",
+      "input_parameters": {
+        "doc_type": "assembly"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体6\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体6\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_new_document\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n已创建新装配体文档\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\fa45d3c9ee694d4a9bab564485a1c655.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_add_component",
+      "title": "Solidworks Add Component",
+      "status": "passed",
+      "input_parameters": {
+        "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT",
+        "x_mm": 0,
+        "y_mm": 0,
+        "z_mm": 0,
+        "fix_component": true
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_mounting_plate-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": true,\\n  \\\"component_count\\\": 1,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体6\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_mounting_plate-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": true,\\n  \\\"component_count\\\": 1,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体6\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_component\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体6 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\3e5d470a1dc8435bbd1121b0180e4e9a.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_add_component",
+      "title": "Solidworks Add Component",
+      "status": "passed",
+      "input_parameters": {
+        "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.SLDPRT",
+        "x_mm": 0,
+        "y_mm": 0,
+        "z_mm": 60,
+        "fix_component": false
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 2,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体6\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 2,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体6\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_component\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体6 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_cylinder_shaft.SLDPRT\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\71bafb7a24ff410bad8b814048867f07.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_save_document",
+      "title": "Solidworks Save Document",
+      "status": "passed",
+      "input_parameters": {
+        "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_two_part_assembly.SLDASM"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"success\\\": true,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_save_document\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体6 (类型: 装配体)\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_two_part_assembly.SLDASM\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\bc13d7fe8ab84d968106c4045feb1da4.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_add_coincident_mate",
+      "title": "Solidworks Add Coincident Mate",
+      "status": "passed",
+      "input_parameters": {
+        "component_a_keyword": "plate",
+        "component_b_keyword": "shaft",
+        "feature_a_name": "Front Plane",
+        "feature_b_name": "Front Plane"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"组件 acceptance_mounting_plate-1 缺少特征: ['Front Plane']\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"组件 acceptance_mounting_plate-1 缺少特征: ['Front Plane']\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_add_coincident_mate\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\2b73ed85b59148c2b69e7ee967b60a44.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_add_distance_mate",
+      "title": "Solidworks Add Distance Mate",
+      "status": "passed",
+      "input_parameters": {
+        "component_a_keyword": "plate",
+        "component_b_keyword": "shaft",
+        "feature_a_name": "Top Plane",
+        "feature_b_name": "Top Plane",
+        "distance_mm": 20
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"组件 acceptance_mounting_plate-1 缺少特征: ['Top Plane']\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"组件 acceptance_mounting_plate-1 缺少特征: ['Top Plane']\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_add_distance_mate\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\384465c82c744bc29f06607d63e5e62a.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_add_concentric_mate",
+      "title": "Solidworks Add Concentric Mate",
+      "status": "passed",
+      "input_parameters": {
+        "component_a_keyword": "plate",
+        "component_b_keyword": "shaft",
+        "radius_a_min_mm": 2,
+        "radius_b_min_mm": 9,
+        "radius_b_max_mm": 11,
+        "lock_rotation": false
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"mate_created\\\": true,\\n  \\\"mate_name\\\": \\\"同心1\\\",\\n  \\\"lock_rotation\\\": false,\\n  \\\"component_a\\\": \\\"acceptance_mounting_plate-1\\\",\\n  \\\"component_b\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n  \\\"mate_features\\\": [\\n    {\\n      \\\"name\\\": \\\"配合\\\",\\n      \\\"type\\\": \\\"MateGroup\\\",\\n      \\\"depth\\\": 0\\n    },\\n    {\\n      \\\"name\\\": \\\"同心1\\\",\\n      \\\"type\\\": \\\"MateConcentric\\\",\\n      \\\"depth\\\": 1\\n    }\\n  ],\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"mate_created\\\": true,\\n  \\\"mate_name\\\": \\\"同心1\\\",\\n  \\\"lock_rotation\\\": false,\\n  \\\"component_a\\\": \\\"acceptance_mounting_plate-1\\\",\\n  \\\"component_b\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n  \\\"mate_features\\\": [\\n    {\\n      \\\"name\\\": \\\"配合\\\",\\n      \\\"type\\\": \\\"MateGroup\\\",\\n      \\\"depth\\\": 0\\n    },\\n    {\\n      \\\"name\\\": \\\"同心1\\\",\\n      \\\"type\\\": \\\"MateConcentric\\\",\\n      \\\"depth\\\": 1\\n    }\\n  ],\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_concentric_mate\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\10270c111e4747b182cb5a935668849d.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_review_active",
+      "title": "Solidworks Review Active",
+      "status": "passed",
+      "input_parameters": {
+        "output_dir": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\assembly_review",
+        "basename": "acceptance_two_part_assembly"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\assembly_review\\acceptance_two_part_assembly_review_report.json"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"report_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\assembly_review\\\\\\\\acceptance_two_part_assembly_review_report.json\\\",\\n  \\\"evaluation\\\": {\\n    \\\"status\\\": \\\"warn\\\",\\n    \\\"score\\\": 92,\\n    \\\"issues\\\": [\\n      {\\n        \\\"code\\\": \\\"expected_outputs_not_declared\\\",\\n        \\\"severity\\\": \\\"warn\\\",\\n        \\\"message\\\": \\\"未声明期望输出文件，无法验证交付物是否完整。\\\"\\n      }\\n    ],\\n    \\\"recommendations\\\": [\\n      \\\"调用 run_review() 时传入 expected_outputs。\\\"\\n    ],\\n    \\\"manual_review_required\\\": true,\\n    \\\"manual_review_reason\\\": \\\"规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。\\\"\\n  },\\n  \\\"checks\\\": {\\n    \\\"model_available\\\": true,\\n    \\\"previews_created\\\": true,\\n    \\\"previews_not_blank\\\": true,\\n    \\\"expected_outputs_exist\\\": null,\\n    \\\"feature_summary_available\\\": true\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\assembly_review\\\\acceptance_two_part_assembly_review_report.json\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"report_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\assembly_review\\\\\\\\acceptance_two_part_assembly_review_report.json\\\",\\n  \\\"evaluation\\\": {\\n    \\\"status\\\": \\\"warn\\\",\\n    \\\"score\\\": 92,\\n    \\\"issues\\\": [\\n      {\\n        \\\"code\\\": \\\"expected_outputs_not_declared\\\",\\n        \\\"severity\\\": \\\"warn\\\",\\n        \\\"message\\\": \\\"未声明期望输出文件，无法验证交付物是否完整。\\\"\\n      }\\n    ],\\n    \\\"recommendations\\\": [\\n      \\\"调用 run_review() 时传入 expected_outputs。\\\"\\n    ],\\n    \\\"manual_review_required\\\": true,\\n    \\\"manual_review_reason\\\": \\\"规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。\\\"\\n  },\\n  \\\"checks\\\": {\\n    \\\"model_available\\\": true,\\n    \\\"previews_created\\\": true,\\n    \\\"previews_not_blank\\\": true,\\n    \\\"expected_outputs_exist\\\": null,\\n    \\\"feature_summary_available\\\": true\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-011659\\\\\\\\acceptance_two_part_assembly.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_review_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\f0674d03d3cb481fa76b69a5c038dab9.json"
+    },
+    {
+      "capability_id": "optional.export_pdf",
+      "title": "optional.export_pdf",
+      "status": "passed",
+      "input_parameters": {
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.PDF",
+        "export_format": "pdf"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.GetSldWorksObject\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.GetSldWorksObject\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\856b4236fdf343d2bc6eb755784d294f.json"
+    },
+    {
+      "capability_id": "optional.export_dxf",
+      "title": "optional.export_dxf",
+      "status": "passed",
+      "input_parameters": {
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.DXF",
+        "export_format": "dxf"
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.ExportToDWG2\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.ExportToDWG2\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\b01fe93b87c54b4c8a50ee5e30e86f04.json"
+    },
+    {
+      "capability_id": "wrapper.export_dwg",
+      "title": "Export DWG",
+      "status": "passed",
+      "input_parameters": {
+        "part_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_mounting_plate.SLDPRT",
+        "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.DWG",
+        "drawing_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.SLDDRW"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.DWG",
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.SLDDRW"
+      ],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n已创建新工程图文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.SLDDRW\n.DWG 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-011659\\acceptance_export.DWG\n\n{\n  \"status\": \"ok\",\n  \"part_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_mounting_plate.SLDPRT\",\n  \"drawing_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_export.SLDDRW\",\n  \"output_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_export.DWG\",\n  \"views_created\": true,\n  \"dimensions_inserted\": false,\n  \"dimension_error\": \"<unknown>.InsertModelAnnotations3\",\n  \"saved_drawing\": true,\n  \"exported\": true,\n  \"document\": {\n    \"title\": \"acceptance_export - 图纸1\",\n    \"path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-011659\\\\acceptance_export.SLDDRW\",\n    \"type\": 3\n  }\n}",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\bf17680699ba4685888fe07623035f6f.json"
+    },
+    {
+      "capability_id": "mcp.solidworks_add_rotary_motor",
+      "title": "Solidworks Add Rotary Motor",
+      "status": "passed",
+      "input_parameters": {
+        "shaft_component_keyword": "plate",
+        "rotor_component_keyword": "shaft",
+        "shaft_radius_min_mm": 2,
+        "rotor_radius_min_mm": 9,
+        "rotor_radius_max_mm": 11,
+        "rpm": 30,
+        "calculate": false,
+        "play": false
+      },
+      "created_files": [],
+      "active_document_before": "unknown:",
+      "active_document_after": "unknown:",
+      "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"Active document must be an assembly (.SLDASM) to add a Motion Study motor.\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"Active document must be an assembly (.SLDASM) to add a Motion Study motor.\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_add_rotary_motor\"\n  }\n}",
+      "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_export - 图纸1 (类型: 工程图)\n",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\cee530d819024c9ead1799574d5b3af1.json"
+    },
+    {
+      "capability_id": "mcp.status",
+      "title": "MCP Status",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "{\n  \"running\": false,\n  \"pid\": null,\n  \"command\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\.venv\\\\Scripts\\\\python.exe\",\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"\n  ],\n  \"tools\": [\n    \"solidworks_add_coincident_mate\",\n    \"solidworks_add_component\",\n    \"solidworks_add_concentric_mate\",\n    \"solidworks_add_distance_mate\",\n    \"solidworks_add_rotary_motor\",\n    \"solidworks_close_documents\",\n    \"solidworks_connect\",\n    \"solidworks_create_basic_part\",\n    \"solidworks_export_active\",\n    \"solidworks_health_check\",\n    \"solidworks_new_document\",\n    \"solidworks_open_document\",\n    \"solidworks_review_active\",\n    \"solidworks_save_document\",\n    \"solidworks_set_appearance\",\n    \"solidworks_set_component_fixed\"\n  ],\n  \"message\": \"MCP server is stopped.\"\n}",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": ""
+    },
+    {
+      "capability_id": "mcp.config_snippets",
+      "title": "MCP Config Snippets",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "{\n  \"snippets\": {\n    \"Codex\": \"codex mcp add solidworks -- python C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\",\n    \"Claude Code\": \"claude mcp add --scope user solidworks -- python C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\",\n    \"Claude Desktop\": \"{\\n  \\\"mcpServers\\\": {\\n    \\\"solidworks\\\": {\\n      \\\"command\\\": \\\"python\\\",\\n      \\\"args\\\": [\\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\"]\\n    }\\n  }\\n}\",\n    \"Cursor\": \"{\\n  \\\"mcpServers\\\": {\\n    \\\"solidworks\\\": {\\n      \\\"command\\\": \\\"python\\\",\\n      \\\"args\\\": [\\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\"]\\n    }\\n  }\\n}\",\n    \"Windsurf\": \"{\\n  \\\"mcpServers\\\": {\\n    \\\"solidworks\\\": {\\n      \\\"command\\\": \\\"python\\\",\\n      \\\"args\\\": [\\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\"]\\n    }\\n  }\\n}\"\n  },\n  \"server_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"\n}",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": ""
+    },
+    {
+      "capability_id": "mcp.tool_listing",
+      "title": "MCP Tool Listing",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "[\n  \"solidworks_add_coincident_mate\",\n  \"solidworks_add_component\",\n  \"solidworks_add_concentric_mate\",\n  \"solidworks_add_distance_mate\",\n  \"solidworks_add_rotary_motor\",\n  \"solidworks_close_documents\",\n  \"solidworks_connect\",\n  \"solidworks_create_basic_part\",\n  \"solidworks_export_active\",\n  \"solidworks_health_check\",\n  \"solidworks_new_document\",\n  \"solidworks_open_document\",\n  \"solidworks_review_active\",\n  \"solidworks_save_document\",\n  \"solidworks_set_appearance\",\n  \"solidworks_set_component_fixed\"\n]",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": ""
+    },
+    {
+      "capability_id": "mcp.start",
+      "title": "MCP Start",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "{\n  \"running\": true,\n  \"pid\": 25940,\n  \"command\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\.venv\\\\Scripts\\\\python.exe\",\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"\n  ],\n  \"tools\": [\n    \"solidworks_add_coincident_mate\",\n    \"solidworks_add_component\",\n    \"solidworks_add_concentric_mate\",\n    \"solidworks_add_distance_mate\",\n    \"solidworks_add_rotary_motor\",\n    \"solidworks_close_documents\",\n    \"solidworks_connect\",\n    \"solidworks_create_basic_part\",\n    \"solidworks_export_active\",\n    \"solidworks_health_check\",\n    \"solidworks_new_document\",\n    \"solidworks_open_document\",\n    \"solidworks_review_active\",\n    \"solidworks_save_document\",\n    \"solidworks_set_appearance\",\n    \"solidworks_set_component_fixed\"\n  ],\n  \"message\": \"MCP server started.\"\n}",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": ""
+    },
+    {
+      "capability_id": "mcp.stop",
+      "title": "MCP Stop",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "{\n  \"running\": false,\n  \"pid\": null,\n  \"command\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\.venv\\\\Scripts\\\\python.exe\",\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"\n  ],\n  \"tools\": [\n    \"solidworks_add_coincident_mate\",\n    \"solidworks_add_component\",\n    \"solidworks_add_concentric_mate\",\n    \"solidworks_add_distance_mate\",\n    \"solidworks_add_rotary_motor\",\n    \"solidworks_close_documents\",\n    \"solidworks_connect\",\n    \"solidworks_create_basic_part\",\n    \"solidworks_export_active\",\n    \"solidworks_health_check\",\n    \"solidworks_new_document\",\n    \"solidworks_open_document\",\n    \"solidworks_review_active\",\n    \"solidworks_save_document\",\n    \"solidworks_set_appearance\",\n    \"solidworks_set_component_fixed\"\n  ],\n  \"message\": \"MCP server stopped.\"\n}",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": ""
+    },
+    {
+      "capability_id": "ai.natural_language_generate_approve_run",
+      "title": "Natural Language Generate Script and Approve Run",
+      "status": "failed",
+      "input_parameters": {
+        "prompt": "Create a 120x80x10 mm mounting plate with four M6 through holes, add 1 mm chamfers, save it as SLDPRT, export STEP, and run review.",
+        "profile": "ccagent"
+      },
+      "created_files": [
+        "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\generated_natural_language_script_20260623-011659.py"
+      ],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "Script contains blocked shell or destructive command patterns.",
+      "traceback": "",
+      "skip_reason": "",
+      "log_path": ""
+    },
+    {
+      "capability_id": "example.07_motion_study_rotary_motor",
+      "title": "Motion Study Rotary Motor",
+      "status": "skipped_with_reason",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Optional add-in capability requires motion; see preflight add-in status.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "example.08_mini_fan_motion_assembly",
+      "title": "Mini Fan Motion Assembly",
+      "status": "skipped_with_reason",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Optional add-in capability requires motion; see preflight add-in status.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-advanced-md",
+      "title": "高级功能参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-api-lookup-md",
+      "title": "SolidWorks API 查证流程",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-appearance-md",
+      "title": "外观与材质参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-assembly-md",
+      "title": "装配体与运动配合参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-drawing-md",
+      "title": "工程图 API 参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-export-md",
+      "title": "文件导出参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-mcp-server-md",
+      "title": "SolidWorks MCP Server 设计说明",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-motion-study-md",
+      "title": "Motion Study 与旋转马达自动化",
+      "status": "skipped_with_reason",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Optional add-in capability requires motion; see preflight add-in status.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-openclaw-md",
+      "title": "OpenClaw 控制 SolidWorks",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-part-modeling-md",
+      "title": "零件建模 API 参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-review-md",
+      "title": "结果自审查参考",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "reference.references-troubleshooting-md",
+      "title": "常见问题排查",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "script.sw_motion",
+      "title": "Sw Motion",
+      "status": "skipped_with_reason",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Optional add-in capability requires motion; see preflight add-in status.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "skill.solidworks-automation",
+      "title": "SolidWorks automation skill instructions",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "subskill.subskills-solidworks-fillet-chamfer-cnc-references-cnc-fillet-chamfer-lessons-md",
+      "title": "CNC 多圆角/倒角建模经验",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    },
+    {
+      "capability_id": "subskill.subskills-solidworks-threaded-holes-references-threaded-hole-lessons-md",
+      "title": "SolidWorks 螺纹孔建模经验",
+      "status": "passed",
+      "input_parameters": {},
+      "created_files": [],
+      "active_document_before": "",
+      "active_document_after": "",
+      "stdout": "",
+      "stderr": "",
+      "traceback": "",
+      "skip_reason": "Documentation capability indexed for prompt context and Skill Browser.",
+      "log_path": ""
+    }
+  ]
+}

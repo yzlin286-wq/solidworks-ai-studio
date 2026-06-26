@@ -1,0 +1,36 @@
+{
+  "run_id": "eb62d0e6f75546ea85ed1b65df0dc8cf",
+  "capability_id": "wrapper.export_pdf",
+  "started_at": "2026-06-26T17:19:43.726922Z",
+  "finished_at": "2026-06-26T17:19:51.361861Z",
+  "status": "passed",
+  "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_context_25f4cc9c.SLDPRT (类型: 零件)\n已创建新工程图文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.SLDDRW\nPDF 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.PDF\n\n{\n  \"status\": \"ok\",\n  \"format\": \"pdf\",\n  \"part_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_context_25f4cc9c.SLDPRT\",\n  \"drawing_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_c454807d.SLDDRW\",\n  \"output_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_c454807d.PDF\",\n  \"views_created\": true,\n  \"dimensions_inserted\": false,\n  \"dimension_error\": \"<unknown>.InsertModelAnnotations3\",\n  \"saved_drawing\": true,\n  \"exported\": true,\n  \"document\": {\n    \"title\": \"installed_validation_export_c454807d - 图纸1\",\n    \"path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_export_c454807d.SLDDRW\",\n    \"type\": 3\n  }\n}",
+  "stderr": "",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.PDF",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.SLDDRW"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\eb62d0e6f75546ea85ed1b65df0dc8cf.json",
+  "parameters": {
+    "part_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_context_25f4cc9c.SLDPRT",
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.PDF",
+    "drawing_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.SLDDRW",
+    "export_format": "pdf"
+  },
+  "real_execution_verified": true,
+  "evidence": {
+    "active_document_before": "未知:",
+    "active_document_after": "未知:",
+    "created_files": [
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.PDF",
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_c454807d.SLDDRW"
+    ],
+    "created_files_exist": true,
+    "stdout_present": true,
+    "stderr_present": false
+  },
+  "created_files_exist": true
+}

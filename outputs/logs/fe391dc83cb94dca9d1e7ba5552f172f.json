@@ -1,0 +1,17 @@
+{
+  "run_id": "fe391dc83cb94dca9d1e7ba5552f172f",
+  "capability_id": "mcp.solidworks_new_document",
+  "started_at": "2026-06-22T17:43:33.935949Z",
+  "finished_at": "2026-06-22T17:43:37.652281Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体9\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体9\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_new_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n已创建新装配体文档\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\fe391dc83cb94dca9d1e7ba5552f172f.json",
+  "parameters": {
+    "doc_type": "assembly"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "run_id": "179d28ac7ffd4b9f8fb15a1817ecf1a0",
+  "capability_id": "mcp.solidworks_add_component",
+  "started_at": "2026-06-26T03:09:09.719646Z",
+  "finished_at": "2026-06-26T03:09:23.270269Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_assembly_86f46734_rotor-2\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 3,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_assembly_86f46734.SLDASM\",\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_assembly_86f46734_rotor.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_assembly_86f46734_rotor-2\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 3,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_component\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_box.SLDPRT (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734_shaft.SLDPRT (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734_rotor.SLDPRT (类型: 零件)\n已创建新装配体文档\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体6 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体6 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体6 (类型: 装配体)\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734.SLDASM\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734.SLDASM (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_rotor.SLDPRT\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734.SLDASM",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_rotor.SLDPRT"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\179d28ac7ffd4b9f8fb15a1817ecf1a0.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_rotor.SLDPRT",
+    "x_mm": 0,
+    "y_mm": 0,
+    "z_mm": 45,
+    "fix_component": false
+  }
+}

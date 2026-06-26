@@ -1,0 +1,17 @@
+{
+  "run_id": "ae26714dc38b428ab46c66bcbddfb082",
+  "capability_id": "mcp.solidworks_create_basic_part",
+  "started_at": "2026-06-23T03:10:36.636317Z",
+  "finished_at": "2026-06-23T03:10:39.998490Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": null,\\n  \\\"saved\\\": null,\\n  \\\"output_path\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"零件31\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"shape\\\": \\\"box\\\",\\n  \\\"feature_created\\\": true,\\n  \\\"feature_name\\\": \\\"凸台-拉伸1\\\",\\n  \\\"appearance_ok\\\": null,\\n  \\\"saved\\\": null,\\n  \\\"output_path\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"零件31\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_create_basic_part\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: active - 图纸1 (类型: 工程图)\n已创建新零件文档\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\ae26714dc38b428ab46c66bcbddfb082.json",
+  "parameters": {
+    "shape": "box"
+  }
+}

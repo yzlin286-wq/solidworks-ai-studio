@@ -1,0 +1,18 @@
+{
+  "run_id": "306a7ae8633c4b0e8e3a9f9790192f50",
+  "capability_id": "mcp.solidworks_close_documents",
+  "started_at": "2026-06-26T02:54:51.565150Z",
+  "finished_at": "2026-06-26T02:57:51.577279Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly.SLDASM (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "Timed out after 180 seconds.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\306a7ae8633c4b0e8e3a9f9790192f50.json",
+  "parameters": {
+    "close_all": false,
+    "save_changes": false
+  }
+}

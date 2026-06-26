@@ -1,0 +1,24 @@
+{
+  "run_id": "aa4530b06a024fc0a2f4d9253e94d5cb",
+  "capability_id": "script.sw_part",
+  "started_at": "2026-06-22T19:15:56.432121Z",
+  "finished_at": "2026-06-22T19:16:01.100350Z",
+  "status": "passed",
+  "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_basic_box.SLDPRT (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\acceptance_mounting_plate.SLDPRT\n\n{\n  \"status\": \"ok\",\n  \"output_path\": \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-031548\\\\acceptance_mounting_plate.SLDPRT\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\cad_samples\\\\20260623-031548\\\\acceptance_mounting_plate.SLDPRT\"\n  ],\n  \"features\": {\n    \"width_mm\": 120.0,\n    \"height_mm\": 80.0,\n    \"depth_mm\": 10.0,\n    \"holes\": 4,\n    \"hole_diameter_mm\": 6.5,\n    \"chamfer_mm\": 1.0\n  }\n}",
+  "stderr": "",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\acceptance_mounting_plate.SLDPRT"
+  ],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\aa4530b06a024fc0a2f4d9253e94d5cb.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\acceptance_mounting_plate.SLDPRT",
+    "width_mm": 120,
+    "height_mm": 80,
+    "depth_mm": 10,
+    "hole_diameter_mm": 6.5,
+    "chamfer_mm": 1
+  }
+}

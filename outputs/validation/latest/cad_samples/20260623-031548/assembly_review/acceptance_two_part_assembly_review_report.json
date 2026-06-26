@@ -1,0 +1,146 @@
+{
+  "model": {
+    "title": "acceptance_two_part_assembly.SLDASM",
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\acceptance_two_part_assembly.SLDASM",
+    "type": 2,
+    "feature_count": 17,
+    "features": [
+      {
+        "name": "收藏",
+        "type": "FavoriteFolder"
+      },
+      {
+        "name": "历史记录",
+        "type": "HistoryFolder"
+      },
+      {
+        "name": "选择集",
+        "type": "SelectionSetFolder"
+      },
+      {
+        "name": "传感器",
+        "type": "SensorFolder"
+      },
+      {
+        "name": "设计活页夹",
+        "type": "DocsFolder"
+      },
+      {
+        "name": "注解",
+        "type": "DetailCabinet"
+      },
+      {
+        "name": "标注",
+        "type": "InkMarkupFolder"
+      },
+      {
+        "name": "光源与相机",
+        "type": "EnvFolder"
+      },
+      {
+        "name": "备注",
+        "type": "CommentsFolder"
+      },
+      {
+        "name": "方程式",
+        "type": "EqnFolder"
+      },
+      {
+        "name": "前视基准面",
+        "type": "RefPlane"
+      },
+      {
+        "name": "上视基准面",
+        "type": "RefPlane"
+      },
+      {
+        "name": "右视基准面",
+        "type": "RefPlane"
+      },
+      {
+        "name": "原点",
+        "type": "OriginProfileFeature"
+      },
+      {
+        "name": "acceptance_mounting_plate-1",
+        "type": "Reference"
+      },
+      {
+        "name": "acceptance_cylinder_shaft-1",
+        "type": "Reference"
+      },
+      {
+        "name": "配合",
+        "type": "MateGroup"
+      }
+    ]
+  },
+  "previews": [
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\assembly_review\\acceptance_two_part_assembly_isometric.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\assembly_review\\acceptance_two_part_assembly_front.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\assembly_review\\acceptance_two_part_assembly_top.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\assembly_review\\acceptance_two_part_assembly_right.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    }
+  ],
+  "expected_outputs": [],
+  "checks": {
+    "model_available": true,
+    "previews_created": true,
+    "previews_not_blank": true,
+    "expected_outputs_exist": null,
+    "feature_summary_available": true
+  },
+  "review_notes": [
+    "人工或视觉模型仍需检查预览图中的主体、比例、方向、关键部件、重叠/悬空问题。",
+    "若 previews_not_blank 为 false，优先检查视图缩放、模型是否为空、SaveBMP 是否成功。",
+    "若 expected_outputs_exist 为 false，优先检查保存/导出路径和 COM 错误码。"
+  ],
+  "evaluation": {
+    "status": "warn",
+    "score": 92,
+    "issues": [
+      {
+        "code": "expected_outputs_not_declared",
+        "severity": "warn",
+        "message": "未声明期望输出文件，无法验证交付物是否完整。"
+      }
+    ],
+    "recommendations": [
+      "调用 run_review() 时传入 expected_outputs。"
+    ],
+    "manual_review_required": true,
+    "manual_review_reason": "规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。"
+  },
+  "summary_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031548\\assembly_review\\acceptance_two_part_assembly_review_summary.md"
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "9a6defa0986b4ccfa27637f6bb9a8595",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-22T18:08:05.910475Z",
+  "finished_at": "2026-06-22T18:08:06.000684Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\v5\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\v5\\\\\\\\LB26001-A-04-006_v5.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\9a6defa0986b4ccfa27637f6bb9a8595.json",
+  "parameters": {
+    "visible": true
+  }
+}

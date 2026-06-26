@@ -1,0 +1,18 @@
+{
+  "run_id": "9a327d26074245b8b2c448bcd4d1a38b",
+  "capability_id": "mcp.solidworks_close_documents",
+  "started_at": "2026-06-23T04:08:03.789514Z",
+  "finished_at": "2026-06-23T04:08:11.599763Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"closed\\\": \\\"installed_validation_shaft.SLDPRT\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"closed\\\": \\\"installed_validation_shaft.SLDPRT\\\"\\n}\",\n    \"tool\": \"solidworks_close_documents\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体23 (类型: 装配体)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_shaft.SLDPRT (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\9a327d26074245b8b2c448bcd4d1a38b.json",
+  "parameters": {
+    "close_all": false,
+    "save_changes": false
+  }
+}

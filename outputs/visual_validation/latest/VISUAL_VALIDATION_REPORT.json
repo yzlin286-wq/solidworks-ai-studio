@@ -1,0 +1,708 @@
+{
+  "visual_ok": true,
+  "degraded": false,
+  "generated_at": "2026-06-23T04:58:58.281285",
+  "app_screenshot_count": 14,
+  "cad_screenshot_count": 28,
+  "local_cv_check_count": 42,
+  "vision_analysis_count": 12,
+  "vision_error_count": 0,
+  "local_cv_report": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\local_cv_report.json",
+  "vision_results": [
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\01-onboarding-welcome.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "Valid non-empty SolidWorks AI Studio onboarding welcome desktop UI, fully populated with real status text, branding, and interactive controls.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Main branding title 'SolidWorks AI Studio' and descriptive subtitle text are clearly rendered",
+        "Five status cards contain real populated status data: Local API (pass, Backend 0.1.0), LLM profile (active profile ccagent), Preflight (pass, SolidWorks mode SW 33.5.0), Skills (23 docs, 133 functions), Real validation (30 core passed, 0 failed)",
+        "Interactive action buttons 'Enter Workspace' and 'Refresh checks' are present on the UI"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\02-main-workspace.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "Fully rendered, non-empty SolidWorks AI Studio Automation Workspace desktop UI. All core UI sections are present: left navigation sidebar, main prompt composer panel with automation request input and control buttons, right sidebar with session status and SolidWorks tooling, and bottom run timeline panel. Legitimate real status text appears across all sections of the interface.",
+      "pass": true,
+      "confidence": 1.0,
+      "issues": [],
+      "evidence": [
+        "UI header explicitly labels the interface as *SOLIDWORKS AI STUDIO Automation workspace*",
+        "Valid connection status indicators are present: API online, SolidWorks ready, MCP stopped",
+        "Real descriptive status text exists: 'No active document loaded', 'No run events yet. Generate a script, review it, then approve execution.'",
+        "All 16 registry-backed SolidWorks tools display valid 'passed' status text",
+        "All UI panels are rendered and populated, no missing or broken interface elements"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\03-direct-tools-capabilities.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "Fully rendered valid SolidWorks AI Studio Automation Workspace desktop UI. The interface has complete functional sections: left navigation sidebar, main Prompt Composer automation request panel, right sidebar containing session status, Direct Tools action buttons, registry-backed SolidWorks tool status entries, and bottom Run Timeline footer. All status labels and text content are populated and valid.",
+      "pass": true,
+      "confidence": 1.0,
+      "issues": [],
+      "evidence": [
+        "UI is properly branded as SolidWorks AI Studio Automation Workspace, matching the expected packaged desktop application layout",
+        "Real status text exists: top status bar displays 'API online', 'SolidWorks ready', 'MCP stopped'",
+        "Right sidebar shows valid session state, all registry-backed SolidWorks tools are marked 'passed', and descriptive status text is fully populated",
+        "All UI panels contain content, the screenshot is non-empty with valid live application state"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\04-skill-browser.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "This is a fully rendered, non-empty SolidWorks AI Studio desktop Skill Browser UI, fully populated with valid real status text and functional content. The interface includes top connection status indicators, left application navigation sidebar, Skill Context description block, capability validation matrix, indexed skill documents panel, and Functions/MCP tools listing panel.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "UI is officially branded SolidWorks AI Studio, with page title 'Skill browser'",
+        "Top status bar displays real runtime status text: 'API online', 'SolidWorks ready', 'MCP stopped'",
+        "All UI panels contain populated real text content, all listed capabilities in the capability matrix show 'passed' validation status",
+        "No empty/blank rendered regions, the full packaged desktop application UI renders completely"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\05-execution-monitor.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "This is a valid non-empty SolidWorks AI Studio Execution Monitor packaged dark-theme desktop UI. It contains real status content: stdout execution logs showing active SolidWorks connection, part generation/export/review status, a fully populated Generated files panel listing all output artifact paths, bottom execution timeline showing Queued/Running/Done run statuses with timestamps, and top header showing live service statuses.",
+      "pass": true,
+      "confidence": 100,
+      "issues": [],
+      "evidence": [
+        "Interface is officially branded SolidWorks AI Studio Execution Monitor packaged desktop dark theme UI",
+        "stdout panel contains real execution logs: confirmed SolidWorks instance connection, part generation, SLDPRT/STEP export, and review status output",
+        "Generated files panel is populated with 3 complete sets of output file paths including CAD files, preview bitmaps, and JSON review reports",
+        "Bottom execution monitor section displays valid run ID, timestamps, and Queued / Running / Done status entries",
+        "Top status bar shows live service status: API online, SolidWorks ready, MCP stopped"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\06-review-center.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "This is a fully populated valid SolidWorks AI Studio Review Center desktop UI. It displays real active status text ('API online', 'SolidWorks ready', 'MCP stopped') in the top header, a left panel with structured populated review_report.json run status data, a right panel listing full valid generated preview output image file paths, and a bottom review section with 5 review items all marked 'Ready for review'. All UI elements contain real non-dummy content.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [
+        "Preview image entries only display file paths, no rendered thumbnail previews are rendered in the preview panel"
+      ],
+      "evidence": [
+        "Header status indicators are present and populated with real valid status text, left JSON review report panel contains populated run data, right preview image list contains real valid file paths, bottom review section elements are populated with valid review status text"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_front.bmp",
+      "expected": "A long cylindrical shaft preview.",
+      "observed": "This is the axial front view of a cylindrical shaft, rendered as a solid smooth circular end face, with the SolidWorks view axis triad marker centered on the face.",
+      "pass": true,
+      "confidence": 0.98,
+      "issues": [],
+      "evidence": "A perfectly uniform circular solid face (the end face of a cylinder viewed directly along its central length axis) is displayed in the SolidWorks viewport, exactly matching the expected front view of a cylindrical shaft oriented along the view direction."
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_isometric.bmp",
+      "expected": "A long cylindrical shaft preview.",
+      "observed": "An isometric SolidWorks preview of a long uniform right circular cylindrical shaft, with matte green appearance, standard isometric drop shadow, and coordinate triad indicator on the lower left end face of the shaft.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": "The rendered part is an elongated constant-diameter cylinder (shaft) presented in isometric projection, fully matching the expected description."
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_right.bmp",
+      "expected": "A long cylindrical shaft preview.",
+      "observed": "A valid right orthographic side preview of a long cylindrical shaft is present, appearing as a long solid filled rectangular profile which is the correct standard side view representation of a cylinder.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": "The centered long solid rectangular feature in the SolidWorks viewport correctly matches the expected right-side preview of a long cylindrical shaft. No extraneous elements or rendering errors are present."
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_top.bmp",
+      "expected": "A long cylindrical shaft preview.",
+      "observed": "A tall vertically oriented shaded rectangular solid part preview, matching the orthographic top/side view of a long cylindrical shaft, with dark green part shading on the default SolidWorks gradient viewport background, and an origin marker at the bottom edge of the part.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": "The displayed elongated rectangular shaded preview matches the expected orthographic appearance of a long cylindrical shaft viewed perpendicular to its central axis, consistent with a SolidWorks part preview."
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_front.bmp",
+      "expected": "A SolidWorks assembly preview with at least two components.",
+      "observed": "This is a SolidWorks shaded front view assembly preview, containing at least two distinct components: a large rectangular base plate, and a separate circular component mounted to the lower left section of the base plate.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Render styling matches standard SolidWorks shaded assembly preview appearance",
+        "Two distinct assembly components are clearly visible: 1) the primary light green rectangular base plate, 2) the darker green circular component attached to the lower left of the base plate"
+      ]
+    },
+    {
+      "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_isometric.bmp",
+      "expected": "A SolidWorks assembly preview with at least two components.",
+      "observed": "SolidWorks isometric assembly preview containing two distinct assembled components: a flat rectangular plate with four through holes, and a long cylindrical rod mated to one hole on the plate.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Rendering matches standard SolidWorks assembly preview styling",
+        "Two separate physical components are clearly visible and joined together",
+        "View matches the expected isometric assembly orientation"
+      ]
+    }
+  ],
+  "vision_errors": [],
+  "images": [
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\01-onboarding-welcome.png",
+      "created_at": "2026-06-23T04:53:35.749996",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "file_size": 257974,
+      "pixel_variance": 548.0647154623113,
+      "edge_mean": 4.495484473835537,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\02-main-workspace.png",
+      "created_at": "2026-06-23T04:53:36.229753",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2173
+      },
+      "file_size": 275865,
+      "pixel_variance": 612.4861636545172,
+      "edge_mean": 6.108462687434525,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\03-direct-tools-capabilities.png",
+      "created_at": "2026-06-23T04:53:36.411450",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2173
+      },
+      "file_size": 275851,
+      "pixel_variance": 612.4860189898767,
+      "edge_mean": 6.108463315684737,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\04-skill-browser.png",
+      "created_at": "2026-06-23T04:54:41.864447",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2229
+      },
+      "file_size": 452059,
+      "pixel_variance": 899.7686615179085,
+      "edge_mean": 12.898204095256906,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\05-execution-monitor.png",
+      "created_at": "2026-06-23T04:54:43.097434",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 3570
+      },
+      "file_size": 744095,
+      "pixel_variance": 1292.413023963381,
+      "edge_mean": 10.175408074492596,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\06-review-center.png",
+      "created_at": "2026-06-23T04:54:44.258104",
+      "screenshot_size": {
+        "width": 2164,
+        "height": 1770
+      },
+      "file_size": 483750,
+      "pixel_variance": 1249.0694891292403,
+      "edge_mean": 10.141071932078072,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\07-files-exports.png",
+      "created_at": "2026-06-23T04:54:45.464706",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 3262
+      },
+      "file_size": 617319,
+      "pixel_variance": 1271.0538351499724,
+      "edge_mean": 9.88481636718611,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\08-settings-llm-providers.png",
+      "created_at": "2026-06-23T04:54:46.581187",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1833
+      },
+      "file_size": 225195,
+      "pixel_variance": 601.2097445346461,
+      "edge_mean": 6.001958407578915,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\09-theme-light.png",
+      "created_at": "2026-06-23T04:54:47.271460",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1833
+      },
+      "file_size": 225264,
+      "pixel_variance": 601.256170354856,
+      "edge_mean": 5.998544321120749,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\10-theme-dark.png",
+      "created_at": "2026-06-23T04:54:47.969380",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1833
+      },
+      "file_size": 225272,
+      "pixel_variance": 601.4326940844576,
+      "edge_mean": 5.998141765769389,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\11-mcp-config.png",
+      "created_at": "2026-06-23T04:54:48.127243",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1833
+      },
+      "file_size": 225272,
+      "pixel_variance": 601.4326940844576,
+      "edge_mean": 5.998141765769389,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\12-error-skipped-disabled-state.png",
+      "created_at": "2026-06-23T04:54:49.816574",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2166
+      },
+      "file_size": 490852,
+      "pixel_variance": 1040.1094063428502,
+      "edge_mean": 14.43260252301312,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\13-approve-run-generated-state.png",
+      "created_at": "2026-06-23T04:54:31.036129",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2173
+      },
+      "file_size": 410611,
+      "pixel_variance": 986.7837471407669,
+      "edge_mean": 9.822264559306035,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\14-loading-running-state.png",
+      "created_at": "2026-06-23T04:54:31.392063",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2173
+      },
+      "file_size": 479651,
+      "pixel_variance": 135.22837678460522,
+      "edge_mean": 4.584265787535202,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_front.bmp",
+      "created_at": "2026-06-23T04:32:45.585350",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1782.6425255993747,
+      "edge_mean": 2.103670625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_isometric.bmp",
+      "created_at": "2026-06-23T04:32:45.436552",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2715.5432375186633,
+      "edge_mean": 2.43755375,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_right.bmp",
+      "created_at": "2026-06-23T04:32:45.651326",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1255.9277477621936,
+      "edge_mean": 1.96469,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_top.bmp",
+      "created_at": "2026-06-23T04:32:45.619779",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1937.3967933658887,
+      "edge_mean": 1.83938875,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_front.bmp",
+      "created_at": "2026-06-23T04:33:05.052792",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 4108.424356128492,
+      "edge_mean": 2.600716875,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_isometric.bmp",
+      "created_at": "2026-06-23T04:33:04.907940",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2434.5284938684367,
+      "edge_mean": 2.97412625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_right.bmp",
+      "created_at": "2026-06-23T04:33:05.129076",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1477.3977564905833,
+      "edge_mean": 2.46977375,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_top.bmp",
+      "created_at": "2026-06-23T04:33:05.092524",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2348.009281468592,
+      "edge_mean": 2.441661875,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_mounting_plate_front.bmp",
+      "created_at": "2026-06-23T04:32:40.010257",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 4034.8624122432425,
+      "edge_mean": 2.484165625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_mounting_plate_isometric.bmp",
+      "created_at": "2026-06-23T04:32:39.755723",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 3027.14212209054,
+      "edge_mean": 3.1044725,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_mounting_plate_right.bmp",
+      "created_at": "2026-06-23T04:32:40.074288",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1160.7246436847497,
+      "edge_mean": 1.782685625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_mounting_plate_top.bmp",
+      "created_at": "2026-06-23T04:32:40.043226",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1768.6649094640636,
+      "edge_mean": 1.99954125,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_threaded_hole_front.bmp",
+      "created_at": "2026-06-23T04:35:19.499662",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1895.749541251049,
+      "edge_mean": 2.898610625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_threaded_hole_isometric.bmp",
+      "created_at": "2026-06-23T04:35:19.411043",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 3649.648002997503,
+      "edge_mean": 4.237569375,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_threaded_hole_right.bmp",
+      "created_at": "2026-06-23T04:35:19.613928",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2303.3009945771887,
+      "edge_mean": 3.184341875,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_threaded_hole_top.bmp",
+      "created_at": "2026-06-23T04:35:19.536649",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 6070.30589699851,
+      "edge_mean": 3.782765625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_two_part_assembly_front.bmp",
+      "created_at": "2026-06-23T04:32:56.383032",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 4124.871382593741,
+      "edge_mean": 2.630880625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_two_part_assembly_isometric.bmp",
+      "created_at": "2026-06-23T04:32:56.226187",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2433.208552065048,
+      "edge_mean": 3.08074625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_two_part_assembly_right.bmp",
+      "created_at": "2026-06-23T04:32:56.462597",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1944.199560534563,
+      "edge_mean": 2.509615625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_two_part_assembly_top.bmp",
+      "created_at": "2026-06-23T04:32:56.425088",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2854.291637510481,
+      "edge_mean": 2.5668725,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\CNC_Mount_Template_front.bmp",
+      "created_at": "2026-06-23T04:34:51.249368",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2133.445580941496,
+      "edge_mean": 7.743916875,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\CNC_Mount_Template_isometric.bmp",
+      "created_at": "2026-06-23T04:34:51.201976",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 2134.9870927913475,
+      "edge_mean": 6.963438125,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\CNC_Mount_Template_right.bmp",
+      "created_at": "2026-06-23T04:34:51.363714",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 1476.4215877916909,
+      "edge_mean": 3.482540625,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\CNC_Mount_Template_top.bmp",
+      "created_at": "2026-06-23T04:34:51.334661",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 3187.6515902059746,
+      "edge_mean": 3.723803125,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\nl_acceptance_mounting_plate_front.bmp",
+      "created_at": "2026-06-23T04:36:23.829956",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 522.0912409301282,
+      "edge_mean": 2.74253,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\nl_acceptance_mounting_plate_isometric.bmp",
+      "created_at": "2026-06-23T04:36:23.797488",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 312.80690660232545,
+      "edge_mean": 2.641545,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\nl_acceptance_mounting_plate_right.bmp",
+      "created_at": "2026-06-23T04:36:23.892231",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 258.79169097575186,
+      "edge_mean": 1.739469375,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\nl_acceptance_mounting_plate_top.bmp",
+      "created_at": "2026-06-23T04:36:23.860279",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 318.28645352032663,
+      "edge_mean": 1.9003475,
+      "non_blank": true,
+      "local_cv_pass": true
+    }
+  ],
+  "conclusion": "Visual validation passed."
+}

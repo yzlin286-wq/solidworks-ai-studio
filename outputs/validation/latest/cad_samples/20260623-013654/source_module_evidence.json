@@ -1,0 +1,41 @@
+{
+  "script.sw_appearance": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.SLDPRT"
+  ],
+  "script.sw_assembly": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_two_part_assembly.SLDASM"
+  ],
+  "script.sw_connect": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.SLDPRT",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_cylinder_shaft.SLDPRT",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_two_part_assembly.SLDASM"
+  ],
+  "script.sw_drawing": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_export.SLDDRW",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_export.DWG"
+  ],
+  "script.sw_export": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.STEP",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_cylinder_shaft.STL",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_export.DWG"
+  ],
+  "script.sw_part": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.SLDPRT",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_cylinder_shaft.SLDPRT"
+  ],
+  "script.sw_preflight": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\sw2025_preflight.json"
+  ],
+  "script.sw_review": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\assembly_review\\acceptance_two_part_assembly_review_report.json",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\assembly_review\\acceptance_two_part_assembly_review_summary.md",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\review\\acceptance_mounting_plate_review_report.json",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\review\\acceptance_mounting_plate_review_summary.md",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\shaft_review\\acceptance_cylinder_shaft_review_report.json",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\shaft_review\\acceptance_cylinder_shaft_review_summary.md"
+  ],
+  "script.sw_session": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.SLDPRT",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\acceptance_mounting_plate.STEP"
+  ]
+}

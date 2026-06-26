@@ -1,0 +1,20 @@
+{
+  "run_id": "884315957caa4d9fbaf8ecc52afc8abd",
+  "capability_id": "mcp.solidworks_set_component_fixed",
+  "started_at": "2026-06-26T02:05:31.073953Z",
+  "finished_at": "2026-06-26T02:05:41.444675Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"fixed\\\": false,\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_assembly_626c012c_rotor-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_626c012c_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体2\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_assembly_626c012c_rotor.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"fixed\\\": false,\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_assembly_626c012c_rotor-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_626c012c_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体2\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_set_component_fixed\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体1 (类型: 装配体)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_626c012c_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_626c012c_shaft.SLDPRT (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_626c012c_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_626c012c_rotor.SLDPRT (类型: 零件)\n已创建新装配体文档\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体2 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_626c012c_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体2 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_626c012c_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体2 (类型: 装配体)\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_626c012c_rotor.SLDPRT"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\884315957caa4d9fbaf8ecc52afc8abd.json",
+  "parameters": {
+    "component_keyword": "rotor",
+    "fixed": false
+  }
+}

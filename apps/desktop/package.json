@@ -1,0 +1,48 @@
+{
+  "name": "@solidworks-ai-studio/desktop",
+  "private": true,
+  "version": "0.1.0",
+  "productName": "SolidWorks AI Studio",
+  "description": "Desktop workstation for AI-assisted SolidWorks automation.",
+  "author": "SolidWorks AI Studio contributors",
+  "main": "dist/main/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"vite --host 127.0.0.1\" \"npm run dev:electron\"",
+    "dev:electron": "wait-on http://127.0.0.1:5173 && npm run build:main && electron dist/main/main.js",
+    "build": "npm run typecheck && npm run build:renderer && npm run build:main",
+    "build:renderer": "vite build",
+    "build:main": "tsc -p tsconfig.main.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.main.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dist": "npm run build && electron-builder --config electron-builder.yml",
+    "smoke": "playwright test"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "motion": "^12.23.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "@tailwindcss/vite": "^4.1.11",
+    "concurrently": "^9.2.0",
+    "electron": "37.1.0",
+    "electron-builder": "26.15.3",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4",
+    "wait-on": "^8.0.3"
+  }
+}

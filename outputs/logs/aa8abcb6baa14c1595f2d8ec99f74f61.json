@@ -1,0 +1,18 @@
+{
+  "run_id": "aa8abcb6baa14c1595f2d8ec99f74f61",
+  "capability_id": "mcp.solidworks_set_appearance",
+  "started_at": "2026-06-23T16:28:22.264836Z",
+  "finished_at": "2026-06-23T16:28:25.670528Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"target\\\": \\\"document\\\",\\n  \\\"color\\\": \\\"#8FA3AD\\\",\\n  \\\"component\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_box.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_box.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"target\\\": \\\"document\\\",\\n  \\\"color\\\": \\\"#8FA3AD\\\",\\n  \\\"component\\\": null,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_box.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_box.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_set_appearance\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_box.SLDPRT (类型: 零件)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_box.SLDPRT (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\aa8abcb6baa14c1595f2d8ec99f74f61.json",
+  "parameters": {
+    "target": "document",
+    "color": "#8FA3AD"
+  }
+}

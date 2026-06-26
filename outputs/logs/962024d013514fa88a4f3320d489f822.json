@@ -1,0 +1,18 @@
+{
+  "run_id": "962024d013514fa88a4f3320d489f822",
+  "capability_id": "mcp.solidworks_set_component_fixed",
+  "started_at": "2026-06-23T16:35:42.935901Z",
+  "finished_at": "2026-06-23T16:38:43.142310Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_context_3f1e9661.SLDPRT (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "Timed out after 180 seconds.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\962024d013514fa88a4f3320d489f822.json",
+  "parameters": {
+    "component_keyword": "rotor",
+    "fixed": false
+  }
+}

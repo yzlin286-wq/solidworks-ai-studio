@@ -1,0 +1,13 @@
+SolidWorks AI Studio vendors upstream automation and design-guidance repositories:
+
+- solidworks-automation-skill
+  Source: https://github.com/wzyn20051216/solidworks-automation-skill.git
+  Location: vendor/skills/solidworks-automation
+  License: see vendor/skills/solidworks-automation/LICENSE
+
+- taste-skill
+  Source: https://github.com/Leonxlnx/taste-skill
+  Location: vendor/skills/taste-skill
+  License: see vendor/skills/taste-skill/LICENSE when present, or the upstream repository license metadata.
+
+SolidWorks is a trademark of Dassault Systemes SolidWorks Corporation. This project is an independent wrapper around local automation scripts and does not include SolidWorks binaries or licenses.

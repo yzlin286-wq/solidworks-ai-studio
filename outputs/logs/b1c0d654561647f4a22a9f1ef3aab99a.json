@@ -1,0 +1,17 @@
+{
+  "run_id": "b1c0d654561647f4a22a9f1ef3aab99a",
+  "capability_id": "mcp.solidworks_new_document",
+  "started_at": "2026-06-26T02:54:19.676013Z",
+  "finished_at": "2026-06-26T02:54:21.318447Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"零件20\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"零件20\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_new_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件19 (类型: 零件)\n已创建新零件文档\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\b1c0d654561647f4a22a9f1ef3aab99a.json",
+  "parameters": {
+    "doc_type": "part"
+  }
+}

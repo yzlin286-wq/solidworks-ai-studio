@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\scripts\\validate_mcp.py"
+  ],
+  "returncode": 0,
+  "stdout": "MCP 验证通过: 16 个工具可见。\n",
+  "stderr": "Processing request of type ListToolsRequest\n"
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "64874f8b2bb54204aed394e064cbcdca",
+  "capability_id": "mcp.solidworks_health_check",
+  "started_at": "2026-06-22T14:24:18.727812Z",
+  "finished_at": "2026-06-22T14:24:19.211982Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"warning\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": null,\\n    \\\"motion_type_library_ready\\\": false,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"LB26001-A-04-004_v5 - 图纸1\\\",\\n      \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\v5\\\\\\\\LB26001-A-04-004_v5.SLDDRW\\\",\\n      \\\"type\\\": 3\\n    }\\n  },\\n  \\\"issues\\\": [\\n    \\\"Motion Study type library was not found; rotary motor tools may fail.\\\"\\n  ]\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"warning\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": null,\\n    \\\"motion_type_library_ready\\\": false,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"LB26001-A-04-004_v5 - 图纸1\\\",\\n      \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Desktop\\\\\\\\SW 相关\\\\\\\\drw_output\\\\\\\\v5\\\\\\\\LB26001-A-04-004_v5.SLDDRW\\\",\\n      \\\"type\\\": 3\\n    }\\n  },\\n  \\\"issues\\\": [\\n    \\\"Motion Study type library was not found; rotary motor tools may fail.\\\"\\n  ]\\n}\",\n    \"tool\": \"solidworks_health_check\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-004_v5 - 图纸1 (类型: 工程图)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\64874f8b2bb54204aed394e064cbcdca.json",
+  "parameters": {
+    "start_solidworks": true
+  }
+}

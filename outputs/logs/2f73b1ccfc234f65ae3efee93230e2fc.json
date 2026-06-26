@@ -1,0 +1,18 @@
+{
+  "run_id": "2f73b1ccfc234f65ae3efee93230e2fc",
+  "capability_id": "mcp.solidworks_export_active",
+  "started_at": "2026-06-23T16:19:59.440814Z",
+  "finished_at": "2026-06-23T16:22:59.952839Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件38 (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "Timed out after 180 seconds.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\2f73b1ccfc234f65ae3efee93230e2fc.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_export_0d9ef362.STEP",
+    "export_format": "step"
+  }
+}

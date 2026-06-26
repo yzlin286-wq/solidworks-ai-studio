@@ -1,0 +1,18 @@
+{
+  "run_id": "06c61b826ae24aacad13fef414b63105",
+  "capability_id": "optional.export_dxf",
+  "started_at": "2026-06-22T14:39:08.212610Z",
+  "finished_at": "2026-06-22T14:39:08.589178Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.ExportToDWG2\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.ExportToDWG2\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\06c61b826ae24aacad13fef414b63105.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-223840\\acceptance_export.DXF",
+    "export_format": "dxf"
+  }
+}

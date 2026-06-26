@@ -1,0 +1,19 @@
+{
+  "name": "solidworks-ai-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Windows desktop workstation for SolidWorks automation through AI-assisted planning and controlled Python execution.",
+  "workspaces": [
+    "apps/desktop"
+  ],
+  "scripts": {
+    "bootstrap": "powershell -ExecutionPolicy Bypass -File scripts/bootstrap.ps1",
+    "dev": "powershell -ExecutionPolicy Bypass -File scripts/dev.ps1",
+    "build:backend": "powershell -ExecutionPolicy Bypass -File scripts/build_backend.ps1",
+    "build:desktop": "powershell -ExecutionPolicy Bypass -File scripts/build_desktop.ps1"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}

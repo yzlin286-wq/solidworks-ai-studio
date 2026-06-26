@@ -1,0 +1,464 @@
+{
+  "packaged_exe_ok": true,
+  "generated_at": "2026-06-26T17:16:42.832Z",
+  "executable": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\dist\\win-unpacked\\SolidWorks AI Studio.exe",
+  "pid": 23320,
+  "cdp_port": 64640,
+  "backend_health": {
+    "ok": true,
+    "status": 200,
+    "body": {
+      "ok": true,
+      "app": "SolidWorks AI Studio",
+      "version": "0.1.0",
+      "mode": "api",
+      "project_root": "C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002",
+      "user_data_dir": "C:\\Users\\Vision\\AppData\\Roaming\\SolidWorks AI Studio",
+      "time": "2026-06-26T17:16:44.816684Z"
+    }
+  },
+  "screenshots": [
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\01-onboarding-welcome.png",
+      "created_at": "2026-06-26T17:16:47.573Z",
+      "page": "01-onboarding-welcome",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "本地 CAD 自动化工作站\n\nSolidWorks AI Studio\n\n连接 OpenAI-compatible 大模型，规划 SolidWorks 自动化任务，审查生成的 Python Script，再由本地 FastAPI 后端安全执行 COM 操作。\n\n进入工作台\n刷新检查\n本地 API\n通过\n\nBackend 0.1.0\n\nLLM 配置\n信息\n\n当前 Profile: ccagent\n\n运行前自检\n通过\n\nSolidWorks 就绪 · SolidWorks · SW 33.5.0\n\nSkill 索引\n通过\n\n23 份文档，133 个函数\n\n真实验证\n通过\n\n30 项核心通过，0 项核心失败",
+      "expected_ui_assertions": [
+        {
+          "expected": "SolidWorks AI Studio",
+          "pass": true
+        },
+        {
+          "expected": "运行前自检",
+          "pass": true
+        },
+        {
+          "expected": "真实验证",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\02-main-workspace.png",
+      "created_at": "2026-06-26T17:16:48.151Z",
+      "page": "02-main-workspace",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n自动化工作台\n本地后端在线\nLLM 未验证\nSolidWorks 就绪\nMCP 已停止\n\nPrompt Composer\n\n自然语言生成可审查的 SolidWorks Python\nccagent\n自动化需求\n新建一个 120x80x10mm 安装板，四角各打 M6 通孔，倒角 1mm，保存并导出 STEP。\n打开当前装配体，添加一个组件，建立 coincident 与 concentric mates，然后运行模型审查。\n将当前文档导出为 STEP、STL、PDF、DXF，并生成包含预览图的 review_report.json。\n规划\n生成 Script\n审批并执行\n请先在设置页点击“测试连接”，通过真实 Provider 验证后再生成。\n执行计划\n\n尚未生成执行计划。\n\nScript 预览\n生成 Script 后，可在审批前检查完整 Python 内容。\n\n会话\n\n真实 COM 通道\nSolidWorks 就绪\n预检状态\nready\n当前文档\n尚未加载活动文档\n输出路径\n用户数据输出目录\n审批策略\n执行前必须审批\n\n直接工具\n\n串行 SolidWorks 操作\n健康检查\n连接 SolidWorks\n新建零件\n打开文档\n保存文档\n导出 STEP\n导出 STL\n导出 PDF\n导出 DXF\n导出 DWG\n审查当前文档\n创建基础零件\n启动 MCP Server\n停止 MCP Server\nRegistry-backed 工具\n连接 SolidWorks\n通过\n健康检查\n通过\n创建基础零件\n通过\n新建文档\n通过\n打开文档\n通过\n保存文档\n通过\n导出活动文档\n通过\n审查活动文档\n通过\n设置外观\n通过\n添加组件\n通过\n固定组件\n通过\n添加 Coincident Mate\n通过\n添加 Distance Mate\n通过\n添加 Concentric Mate\n通过\n关闭文档\n通过\n添加 Rotary Motor\n通过\n最近一次直接操作\n\n本次会话尚未运行直接工具。\n\n执行时间线\n\n等待审批\n还没有执行事件。请先生成 Script，审查后再审批执行。",
+      "expected_ui_assertions": [
+        {
+          "expected": "自动化工作台",
+          "pass": true
+        },
+        {
+          "expected": "直接工具",
+          "pass": true
+        },
+        {
+          "expected": "执行时间线",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\03-direct-tools-capabilities.png",
+      "created_at": "2026-06-26T17:16:48.352Z",
+      "page": "03-direct-tools-capabilities",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n自动化工作台\n本地后端在线\nLLM 未验证\nSolidWorks 就绪\nMCP 已停止\n\nPrompt Composer\n\n自然语言生成可审查的 SolidWorks Python\nccagent\n自动化需求\n新建一个 120x80x10mm 安装板，四角各打 M6 通孔，倒角 1mm，保存并导出 STEP。\n打开当前装配体，添加一个组件，建立 coincident 与 concentric mates，然后运行模型审查。\n将当前文档导出为 STEP、STL、PDF、DXF，并生成包含预览图的 review_report.json。\n规划\n生成 Script\n审批并执行\n请先在设置页点击“测试连接”，通过真实 Provider 验证后再生成。\n执行计划\n\n尚未生成执行计划。\n\nScript 预览\n生成 Script 后，可在审批前检查完整 Python 内容。\n\n会话\n\n真实 COM 通道\nSolidWorks 就绪\n预检状态\nready\n当前文档\n尚未加载活动文档\n输出路径\n用户数据输出目录\n审批策略\n执行前必须审批\n\n直接工具\n\n串行 SolidWorks 操作\n健康检查\n连接 SolidWorks\n新建零件\n打开文档\n保存文档\n导出 STEP\n导出 STL\n导出 PDF\n导出 DXF\n导出 DWG\n审查当前文档\n创建基础零件\n启动 MCP Server\n停止 MCP Server\nRegistry-backed 工具\n连接 SolidWorks\n通过\n健康检查\n通过\n创建基础零件\n通过\n新建文档\n通过\n打开文档\n通过\n保存文档\n通过\n导出活动文档\n通过\n审查活动文档\n通过\n设置外观\n通过\n添加组件\n通过\n固定组件\n通过\n添加 Coincident Mate\n通过\n添加 Distance Mate\n通过\n添加 Concentric Mate\n通过\n关闭文档\n通过\n添加 Rotary Motor\n通过\n最近一次直接操作\n\n本次会话尚未运行直接工具。\n\n执行时间线\n\n等待审批\n还没有执行事件。请先生成 Script，审查后再审批执行。",
+      "expected_ui_assertions": [
+        {
+          "expected": "Registry-backed 工具",
+          "pass": true
+        },
+        {
+          "expected": "导出 DWG",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\04-llm-verified.png",
+      "created_at": "2026-06-26T17:16:51.467Z",
+      "page": "04-llm-verified",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n设置\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n设置\n\nLLM Provider、路径、MCP 与安全控制\n保存设置\n\nAPI Key 会保存在本地用户配置文件中，并在 API 响应与日志中脱敏显示。\n\nC:\\Users\\Vision\\AppData\\Roaming\\SolidWorks AI Studio\\config.json\nLLM Profile\nProfile\nCCAgent OpenAI-compatible\nOpenAI\nAzure-compatible\nCustom gateway\nLocal model gateway\nAPI Base URL\nAPI Key\nModel\nTimeout\nTemperature\nMax Tokens\n测试连接\n连接成功，已验证 models+chat 真实响应。\n\nchat: 已验证 · models: 已验证 · 1906 ms\n\nminimax-m3 / doubao-seedance-1.5-pro / doubao-seed-2.0-code / kimi-k2.6 / doubao-embedding-vision / doubao-seed-2.0-pro / doubao-seedance-2.0 / doubao-seed-2.0-mini / doubao-seedance-2.0-fast / deepseek-v3.2 / doubao-seedream-5.0-lite / glm-5.1\n路径与安全\nSolidWorks Skill 路径\nTaste Skill 路径\n输出目录\n验证输出目录\n零件模板路径\n装配体模板路径\n工程图模板路径\n运行生成 Script 前必须审批\n深色\n浅色\nMCP 配置\n已停止\n启动\n停止\nCodex\ncodex mcp add solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Code\nclaude mcp add --scope user solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Desktop\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n  ",
+      "expected_ui_assertions": [
+        {
+          "expected": "本地后端在线",
+          "pass": true
+        },
+        {
+          "expected": "LLM 已验证",
+          "pass": true
+        },
+        {
+          "expected": "设置",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\05-approve-run-generated-state.png",
+      "created_at": "2026-06-26T17:17:07.396Z",
+      "page": "05-approve-run-generated-state",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n自动化工作台\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\nPrompt Composer\n\n自然语言生成可审查的 SolidWorks Python\nccagent\n自动化需求\n新建一个 120x80x10mm 安装板，四角各打 M6 通孔，倒角 1mm，保存并导出 STEP。\n打开当前装配体，添加一个组件，建立 coincident 与 concentric mates，然后运行模型审查。\n将当前文档导出为 STEP、STL、PDF、DXF，并生成包含预览图的 review_report.json。\n规划\n生成 Script\n审批并执行\n执行计划\n\n['Create a new SolidWorks part using the vendored SolidWorks automation session helper.', 'Sketch a 120 mm x 80 mm centered rectangle on the Front Plane.', 'Extrude the rectangle as a 10 mm mid-plane plate.', 'Sketch four through holes at the plate corners using M6 clearance diameter circles positioned symmetrically inside the corners.', 'Cut the holes through the plate using the stable extrude_cut helper.', 'Apply a 1 mm chamfer using the stable chamfer helper.', 'Save the part as SLDPRT and export a STEP file only inside the requested output directory.']\n\nSolidWorks must be installed, licensed, and accessible via COM on the Windows desktop before execution.\nIf the vendored helper modules are not present at the expected relative path, imports will fail.\nThe chamfer helper may apply chamfers broadly depending on its implementation; the",
+      "expected_ui_assertions": [
+        {
+          "expected": "Script 预览",
+          "pass": true
+        },
+        {
+          "expected": "审批并执行",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\06-loading-running-state.png",
+      "created_at": "2026-06-26T17:17:08.179Z",
+      "page": "06-loading-running-state",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n执行监控\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n执行监控\n\nRun 66334fbcf1524f9e9704757fb01141a7\n执行中\n已排队\n\nRun 已进入 SolidWorks 串行执行通道。\n\n01:17:07\n执行中\n\n已审批的 Script 开始执行。\n\n01:17:07\nstdout\nstderr\n尚未捕获 stdout。\n生成文件\nRun 完成后，生成文件会显示在这里。\n真实证据\n尚未记录可核验的真实执行证据。",
+      "expected_ui_assertions": [
+        {
+          "expected": "执行时间线",
+          "pass": false
+        },
+        {
+          "expected": "Run",
+          "pass": true
+        }
+      ],
+      "pass": false
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\07-skill-browser.png",
+      "created_at": "2026-06-26T17:17:18.744Z",
+      "page": "07-skill-browser",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\nSkill 浏览器\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\nSkill 上下文\n\nSolidWorks 自动化能力与 Taste Skill 规范\n同步 Skill\nSolidWorks Skill\nTaste Skill\n23 份文档已索引\n133 个 Python 函数\n16 个 MCP 工具\n55 项能力\n\nSolidWorks automation Skill 已加载，可用于 preflight、文档/会话管理、零件建模、装配体、工程图、导出、外观、Motion Study、结果审查与 MCP tools。关键文档：SolidWorks 自动化技能, 高级功能参考, SolidWorks API 查证流程, 外观与材质参考, 装配体与运动配合参考, 工程图 API 参考, 文件导出参考, SolidWorks MCP Server 设计说明, Motion Study 与旋转马达自动化, OpenClaw 控制 SolidWorks, 零件建模 API 参考, 结果自审查参考, 常见问题排查, SolidWorks Fillet Chamfer CNC, CNC 多圆角/倒角建模经验, SolidWorks Threaded Holes。可调用 Python 函数包括：sw_appearance.rgb01, sw_appearance.material_values, sw_appearance.set_document_appearance, sw_appearance.set_feature_appearance, sw_appearance.set_component_appearance, sw_appearance.apply_named_appearance, sw_assembly.add_component, sw_assembly.resolve_component, sw_assembly.get_component_model, sw_assembly.get_component_feature, sw_assembly.get_assembly_entity, sw_assembly.get_component_feature_entity, sw_assembly.find_largest_cylinder_face, sw_assembly.select_entities_for_mate, sw_assembly.add_mate5_checked, sw_assembly.add_concentric_mate_by_cylinders, sw_assembly.ad",
+      "expected_ui_assertions": [
+        {
+          "expected": "能力矩阵",
+          "pass": true
+        },
+        {
+          "expected": "项能力",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\08-execution-monitor.png",
+      "created_at": "2026-06-26T17:17:19.834Z",
+      "page": "08-execution-monitor",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n执行监控\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n执行监控\n\nRun 66334fbcf1524f9e9704757fb01141a7\n已完成\n已排队\n\nRun 已进入 SolidWorks 串行执行通道。\n\n01:17:07\n执行中\n\n已审批的 Script 开始执行。\n\n01:17:07\n已完成\n\nScript 执行完成。\n\n01:17:14\nstdout\nstderr\n已连接到运行中的 SolidWorks 实例\n当前文档: 零件20 (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT\n.STEP 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP\nsaved part: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT\nexported step: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP\n\n生成文件\nC:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT\nC:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP\nC:\\Users\\V",
+      "expected_ui_assertions": [
+        {
+          "expected": "执行监控",
+          "pass": true
+        },
+        {
+          "expected": "stdout",
+          "pass": true
+        },
+        {
+          "expected": "stderr",
+          "pass": true
+        },
+        {
+          "expected": "真实证据",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\09-review-center.png",
+      "created_at": "2026-06-26T17:17:20.883Z",
+      "page": "09-review-center",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n审查中心\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n审查中心\n\n几何检查、报告产物与迭代 Prompt\n复制修复 Prompt\n尺寸\n可审查\n特征\n可审查\n导出文件\n可审查\n错误\n可审查\n建议\n可审查\nreview_report.json\n{\n  \"activeRun\": \"66334fbcf1524f9e9704757fb01141a7\",\n  \"lastAction\": null,\n  \"status\": \"done\",\n  \"real_execution_verified\": true,\n  \"files\": []\n}\n预览图\n运行审查后，这里会显示导出的预览图。",
+      "expected_ui_assertions": [
+        {
+          "expected": "审查中心",
+          "pass": true
+        },
+        {
+          "expected": "review_report.json",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\10-files-exports.png",
+      "created_at": "2026-06-26T17:17:21.927Z",
+      "page": "10-files-exports",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n文件与导出\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n文件 / 导出\n\n最近生成与导出的产物\n打开文件夹\n\n应用不会删除用户文件。请使用明确输出路径，或使用已配置的用户数据输出目录。\n\n按类型\n.SLDPRT\n2\n.SLDASM\n0\n.STEP\n1\n.STP\n0\n.STL\n0\n.PDF\n0\n.DXF\n0\n.DWG\n0\n.JSON\n0\n.BMP\n0\n.PNG\n0\n最近路径\nC:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT\nC:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP\nC:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\~$m6_mounting_plate_120x80x10.SLDPRT\n真实证据\nRun: verified\nAction: unverified\nactive_document_after: 未知:\ncreated_files_exist: true",
+      "expected_ui_assertions": [
+        {
+          "expected": "文件与导出",
+          "pass": true
+        },
+        {
+          "expected": "真实证据",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\11-settings-llm-providers.png",
+      "created_at": "2026-06-26T17:17:23.046Z",
+      "page": "11-settings-llm-providers",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n设置\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n设置\n\nLLM Provider、路径、MCP 与安全控制\n保存设置\n\nAPI Key 会保存在本地用户配置文件中，并在 API 响应与日志中脱敏显示。\n\nC:\\Users\\Vision\\AppData\\Roaming\\SolidWorks AI Studio\\config.json\nLLM Profile\nProfile\nCCAgent OpenAI-compatible\nOpenAI\nAzure-compatible\nCustom gateway\nLocal model gateway\nAPI Base URL\nAPI Key\nModel\nTimeout\nTemperature\nMax Tokens\n测试连接\n路径与安全\nSolidWorks Skill 路径\nTaste Skill 路径\n输出目录\n验证输出目录\n零件模板路径\n装配体模板路径\n工程图模板路径\n运行生成 Script 前必须审批\n深色\n浅色\nMCP 配置\n已停止\n启动\n停止\nCodex\ncodex mcp add solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Code\nclaude mcp add --scope user solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Desktop\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI361002\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"]\n    }\n  }\n}\nCursor\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI3610",
+      "expected_ui_assertions": [
+        {
+          "expected": "LLM Profile",
+          "pass": true
+        },
+        {
+          "expected": "API Key",
+          "pass": true
+        },
+        {
+          "expected": "MCP 配置",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\12-theme-light.png",
+      "created_at": "2026-06-26T17:17:23.726Z",
+      "page": "12-theme-light",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n设置\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n设置\n\nLLM Provider、路径、MCP 与安全控制\n保存设置\n\nAPI Key 会保存在本地用户配置文件中，并在 API 响应与日志中脱敏显示。\n\nC:\\Users\\Vision\\AppData\\Roaming\\SolidWorks AI Studio\\config.json\nLLM Profile\nProfile\nCCAgent OpenAI-compatible\nOpenAI\nAzure-compatible\nCustom gateway\nLocal model gateway\nAPI Base URL\nAPI Key\nModel\nTimeout\nTemperature\nMax Tokens\n测试连接\n路径与安全\nSolidWorks Skill 路径\nTaste Skill 路径\n输出目录\n验证输出目录\n零件模板路径\n装配体模板路径\n工程图模板路径\n运行生成 Script 前必须审批\n深色\n浅色\nMCP 配置\n已停止\n启动\n停止\nCodex\ncodex mcp add solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Code\nclaude mcp add --scope user solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Desktop\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI361002\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"]\n    }\n  }\n}\nCursor\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI3610",
+      "expected_ui_assertions": [
+        {
+          "expected": "设置",
+          "pass": true
+        },
+        {
+          "expected": "浅色",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\13-theme-dark.png",
+      "created_at": "2026-06-26T17:17:24.454Z",
+      "page": "13-theme-dark",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n设置\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n设置\n\nLLM Provider、路径、MCP 与安全控制\n保存设置\n\nAPI Key 会保存在本地用户配置文件中，并在 API 响应与日志中脱敏显示。\n\nC:\\Users\\Vision\\AppData\\Roaming\\SolidWorks AI Studio\\config.json\nLLM Profile\nProfile\nCCAgent OpenAI-compatible\nOpenAI\nAzure-compatible\nCustom gateway\nLocal model gateway\nAPI Base URL\nAPI Key\nModel\nTimeout\nTemperature\nMax Tokens\n测试连接\n路径与安全\nSolidWorks Skill 路径\nTaste Skill 路径\n输出目录\n验证输出目录\n零件模板路径\n装配体模板路径\n工程图模板路径\n运行生成 Script 前必须审批\n深色\n浅色\nMCP 配置\n已停止\n启动\n停止\nCodex\ncodex mcp add solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Code\nclaude mcp add --scope user solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Desktop\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI361002\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"]\n    }\n  }\n}\nCursor\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI3610",
+      "expected_ui_assertions": [
+        {
+          "expected": "设置",
+          "pass": true
+        },
+        {
+          "expected": "深色",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\14-mcp-config.png",
+      "created_at": "2026-06-26T17:17:24.624Z",
+      "page": "14-mcp-config",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\n设置\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\n设置\n\nLLM Provider、路径、MCP 与安全控制\n保存设置\n\nAPI Key 会保存在本地用户配置文件中，并在 API 响应与日志中脱敏显示。\n\nC:\\Users\\Vision\\AppData\\Roaming\\SolidWorks AI Studio\\config.json\nLLM Profile\nProfile\nCCAgent OpenAI-compatible\nOpenAI\nAzure-compatible\nCustom gateway\nLocal model gateway\nAPI Base URL\nAPI Key\nModel\nTimeout\nTemperature\nMax Tokens\n测试连接\n路径与安全\nSolidWorks Skill 路径\nTaste Skill 路径\n输出目录\n验证输出目录\n零件模板路径\n装配体模板路径\n工程图模板路径\n运行生成 Script 前必须审批\n深色\n浅色\nMCP 配置\n已停止\n启动\n停止\nCodex\ncodex mcp add solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Code\nclaude mcp add --scope user solidworks -- python C:\\Users\\Vision\\AppData\\Local\\Temp\\_MEI361002\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py\nClaude Desktop\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI361002\\\\vendor\\\\skills\\\\solidworks-automation\\\\mcp-server\\\\server.py\"]\n    }\n  }\n}\nCursor\n{\n  \"mcpServers\": {\n    \"solidworks\": {\n      \"command\": \"python\",\n      \"args\": [\"C:\\\\Users\\\\Vision\\\\AppData\\\\Local\\\\Temp\\\\_MEI3610",
+      "expected_ui_assertions": [
+        {
+          "expected": "MCP 配置",
+          "pass": true
+        },
+        {
+          "expected": "Codex",
+          "pass": true
+        },
+        {
+          "expected": "Claude",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\15-error-skipped-disabled-state.png",
+      "created_at": "2026-06-26T17:17:26.330Z",
+      "page": "15-error-skipped-disabled-state",
+      "app_mode": "real",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "pixel_variance": null,
+      "non_blank": true,
+      "visible_text_summary": "跳到主内容\n工作台\nSkill\n执行\n审查\n文件\n设置\nCtrl K\n\nSolidWorks AI Studio\n\nSkill 浏览器\n本地后端在线\nLLM 已验证\nSolidWorks 就绪\nMCP 已停止\n\nSkill 上下文\n\nSolidWorks 自动化能力与 Taste Skill 规范\n同步 Skill\nSolidWorks Skill\nTaste Skill\n23 份文档已索引\n133 个 Python 函数\n16 个 MCP 工具\n55 项能力\n\nSolidWorks automation Skill 已加载，可用于 preflight、文档/会话管理、零件建模、装配体、工程图、导出、外观、Motion Study、结果审查与 MCP tools。关键文档：SolidWorks 自动化技能, 高级功能参考, SolidWorks API 查证流程, 外观与材质参考, 装配体与运动配合参考, 工程图 API 参考, 文件导出参考, SolidWorks MCP Server 设计说明, Motion Study 与旋转马达自动化, OpenClaw 控制 SolidWorks, 零件建模 API 参考, 结果自审查参考, 常见问题排查, SolidWorks Fillet Chamfer CNC, CNC 多圆角/倒角建模经验, SolidWorks Threaded Holes。可调用 Python 函数包括：sw_appearance.rgb01, sw_appearance.material_values, sw_appearance.set_document_appearance, sw_appearance.set_feature_appearance, sw_appearance.set_component_appearance, sw_appearance.apply_named_appearance, sw_assembly.add_component, sw_assembly.resolve_component, sw_assembly.get_component_model, sw_assembly.get_component_feature, sw_assembly.get_assembly_entity, sw_assembly.get_component_feature_entity, sw_assembly.find_largest_cylinder_face, sw_assembly.select_entities_for_mate, sw_assembly.add_mate5_checked, sw_assembly.add_concentric_mate_by_cylinders, sw_assembly.ad",
+      "expected_ui_assertions": [
+        {
+          "expected": "motion",
+          "pass": true
+        },
+        {
+          "expected": "Motion",
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "child_process_started": true,
+  "natural_language_ui_run_attempted": true,
+  "natural_language_ui_run_completed": true,
+  "backend_bridge_exposed": true,
+  "validation_llm_configured": true,
+  "api_key_masked_input_count": 1,
+  "llm_connection": {
+    "ok": true,
+    "provider": "CCAgent OpenAI-compatible",
+    "message": "连接成功，已验证 models+chat 真实响应。",
+    "latency_ms": 1906,
+    "models": [
+      "minimax-m3",
+      "doubao-seedance-1.5-pro",
+      "doubao-seed-2.0-code",
+      "kimi-k2.6",
+      "doubao-embedding-vision",
+      "doubao-seed-2.0-pro",
+      "doubao-seedance-2.0",
+      "doubao-seed-2.0-mini",
+      "doubao-seedance-2.0-fast",
+      "deepseek-v3.2",
+      "doubao-seedream-5.0-lite",
+      "glm-5.1"
+    ],
+    "models_verified": true,
+    "chat_verified": true,
+    "provider_verified_at": "2026-06-26T17:16:51.247296Z"
+  },
+  "llm_connection_ok": true,
+  "natural_language_generate_status": 200,
+  "natural_language_approve_status": 200,
+  "natural_language_ui_run_id": "66334fbcf1524f9e9704757fb01141a7",
+  "natural_language_ui_run_stage": "done",
+  "natural_language_ui_run_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\~$m6_mounting_plate_120x80x10.SLDPRT"
+  ],
+  "natural_language_ui_run_real_execution_verified": true,
+  "natural_language_ui_run_evidence": {
+    "active_document_before": "未知:",
+    "active_document_after": "未知:",
+    "created_files": [
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT",
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP",
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\~$m6_mounting_plate_120x80x10.SLDPRT"
+    ],
+    "created_files_exist": true
+  },
+  "natural_language_ui_run_created_files_exist": true,
+  "natural_language_ui_run_stdout_tail": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件20 (类型: 零件)\n已创建新零件文档\n保存成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT\n.STEP 导出成功: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP\nsaved part: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.SLDPRT\nexported step: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\13ed2528af65437cb10a463dd3e9777c\\outputs\\m6_mounting_plate_120x80x10.STEP\n",
+  "natural_language_ui_run_stderr_tail": ""
+}

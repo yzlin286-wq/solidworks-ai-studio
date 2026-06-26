@@ -1,0 +1,21 @@
+{
+  "run_id": "018693524403473b8fa2417d8bc0993e",
+  "capability_id": "mcp.solidworks_set_component_fixed",
+  "started_at": "2026-06-26T03:09:24.897224Z",
+  "finished_at": "2026-06-26T03:09:25.286487Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"fixed\\\": false,\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_assembly_86f46734_rotor-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_assembly_86f46734.SLDASM\",\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_assembly_86f46734_rotor.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"fixed\\\": false,\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"installed_validation_assembly_86f46734_rotor-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734_rotor.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_set_component_fixed\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734.SLDASM (类型: 装配体)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734.SLDASM\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734.SLDASM (类型: 装配体)\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734.SLDASM",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734_rotor.SLDPRT"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\018693524403473b8fa2417d8bc0993e.json",
+  "parameters": {
+    "component_keyword": "rotor",
+    "fixed": false
+  }
+}

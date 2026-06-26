@@ -1,0 +1,23 @@
+{
+  "run_id": "30a6c0d31b9c40bfab41f95b7818e9ac",
+  "capability_id": "mcp.solidworks_add_distance_mate",
+  "started_at": "2026-06-26T03:09:29.292612Z",
+  "finished_at": "2026-06-26T03:09:29.877356Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"mate_created\\\": true,\\n  \\\"mate_name\\\": \\\"距离1\\\",\\n  \\\"distance_mm\\\": 20.0,\\n  \\\"component_a\\\": \\\"installed_validation_assembly_86f46734_shaft-1\\\",\\n  \\\"component_b\\\": \\\"installed_validation_assembly_86f46734_rotor-1\\\",\\n  \\\"mate_features\\\": [\\n    {\\n      \\\"name\\\": \\\"配合\\\",\\n      \\\"type\\\": \\\"MateGroup\\\",\\n      \\\"depth\\\": 0\\n    },\\n    {\\n      \\\"name\\\": \\\"重合1\\\",\\n      \\\"type\\\": \\\"MateCoincident\\\",\\n      \\\"depth\\\": 1\\n    },\\n    {\\n      \\\"name\\\": \\\"距离1\\\",\\n      \\\"type\\\": \\\"MateDistanceDim\\\",\\n      \\\"depth\\\": 1\\n    }\\n  ],\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\validation\\\\latest\\\\installed_button_samples\\\\installed_validation_assembly_86f46734.SLDASM\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"mate_created\\\": true,\\n  \\\"mate_name\\\": \\\"距离1\\\",\\n  \\\"distance_mm\\\": 20.0,\\n  \\\"component_a\\\": \\\"installed_validation_assembly_86f46734_shaft-1\\\",\\n  \\\"component_b\\\": \\\"installed_validation_assembly_86f46734_rotor-1\\\",\\n  \\\"mate_features\\\": [\\n    {\\n      \\\"name\\\": \\\"配合\\\",\\n      \\\"type\\\": \\\"MateGroup\\\",\\n      \\\"depth\\\": 0\\n    },\\n    {\\n      \\\"name\\\": \\\"重合1\\\",\\n      \\\"type\\\": \\\"MateCoincident\\\",\\n      \\\"depth\\\": 1\\n    },\\n    {\\n      \\\"name\\\": \\\"距离1\\\",\\n      \\\"type\\\": \\\"MateDistanceDim\\\",\\n      \\\"depth\\\": 1\\n    }\\n  ],\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\installed_button_samples\\\\\\\\installed_validation_assembly_86f46734.SLDASM\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_distance_mate\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734.SLDASM (类型: 装配体)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734.SLDASM\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_assembly_86f46734.SLDASM (类型: 装配体)\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_assembly_86f46734.SLDASM"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\30a6c0d31b9c40bfab41f95b7818e9ac.json",
+  "parameters": {
+    "component_a_keyword": "shaft",
+    "component_b_keyword": "rotor",
+    "feature_a_name": "Top Plane",
+    "feature_b_name": "Top Plane",
+    "distance_mm": 20
+  }
+}

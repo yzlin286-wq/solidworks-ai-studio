@@ -1,0 +1,21 @@
+{
+  "run_id": "26d6bbb772824874b09879fbfb68f30a",
+  "capability_id": "mcp.solidworks_add_component",
+  "started_at": "2026-06-22T17:54:08.663520Z",
+  "finished_at": "2026-06-22T17:54:09.352358Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_mounting_plate-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-015342\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": true,\\n  \\\"component_count\\\": 1,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体1\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_mounting_plate-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-015342\\\\\\\\acceptance_mounting_plate.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": true,\\n  \\\"component_count\\\": 1,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体1\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_component\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体1 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-015342\\acceptance_mounting_plate.SLDPRT\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\26d6bbb772824874b09879fbfb68f30a.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-015342\\acceptance_mounting_plate.SLDPRT",
+    "x_mm": 0,
+    "y_mm": 0,
+    "z_mm": 0,
+    "fix_component": true
+  }
+}

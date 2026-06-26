@@ -1,0 +1,13 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_motion_assembly_isometric.bmp",
+  "expected": "A SolidWorks assembly preview with at least two components.",
+  "observed": "SolidWorks isometric assembly preview containing two distinct assembled components: a flat rectangular plate with four through holes, and a long cylindrical rod mated to one hole on the plate.",
+  "pass": true,
+  "confidence": 0.99,
+  "issues": [],
+  "evidence": [
+    "Rendering matches standard SolidWorks assembly preview styling",
+    "Two separate physical components are clearly visible and joined together",
+    "View matches the expected isometric assembly orientation"
+  ]
+}

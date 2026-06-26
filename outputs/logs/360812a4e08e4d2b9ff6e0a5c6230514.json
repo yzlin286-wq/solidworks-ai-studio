@@ -1,0 +1,22 @@
+{
+  "run_id": "360812a4e08e4d2b9ff6e0a5c6230514",
+  "capability_id": "mcp.solidworks_add_concentric_mate",
+  "started_at": "2026-06-22T19:07:20.019694Z",
+  "finished_at": "2026-06-22T19:07:21.461494Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\solidworks\\execution_queue.py\", line 65, in _run\n    result = await asyncio.wait_for(invoke(), timeout=timeout_seconds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\tasks.py\", line 479, in wait_for\n    return fut.result()\n           ^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\solidworks\\execution_queue.py\", line 63, in invoke\n    return await asyncio.to_thread(work)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\threads.py\", line 25, in to_thread\n    return await loop.run_in_executor(None, func_call)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\solidworks\\execution_queue.py\", line 61, in work\n    return operation(record.parameters)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\validation\\real_acceptance.py\", line 744, in <lambda>\n    operation=lambda params: self.mcp_runner.run(tool_name, params, raise_on_error_status=True).__dict__,\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\mcp\\tool_runner.py\", line 37, in run\n    self._raise_if_error_status(text, tool_name)\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\backend\\sw_ai_backend\\mcp\\tool_runner.py\", line 50, in _raise_if_error_status\n    raise RuntimeError(f\"{tool_name} returned {data.get('status')}: {message}\")\nRuntimeError: solidworks_add_concentric_mate returned error: AddMate5 失败: type=1, error_status=5\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "solidworks_add_concentric_mate returned error: AddMate5 失败: type=1, error_status=5",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\360812a4e08e4d2b9ff6e0a5c6230514.json",
+  "parameters": {
+    "component_a_keyword": "plate",
+    "component_b_keyword": "shaft",
+    "radius_a_min_mm": 2,
+    "radius_b_min_mm": 9,
+    "radius_b_max_mm": 11,
+    "lock_rotation": false
+  }
+}

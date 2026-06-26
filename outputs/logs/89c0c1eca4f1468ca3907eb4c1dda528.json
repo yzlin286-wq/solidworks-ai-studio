@@ -1,0 +1,25 @@
+{
+  "run_id": "89c0c1eca4f1468ca3907eb4c1dda528",
+  "capability_id": "mcp.solidworks_add_rotary_motor",
+  "started_at": "2026-06-23T03:33:15.071820Z",
+  "finished_at": "2026-06-23T03:33:19.851832Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体4 (类型: 装配体)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_shaft.SLDPRT (类型: 零件)\n已激活已打开文档: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_rotor.SLDPRT (类型: 零件)\n已创建新装配体文档\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体5 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_shaft.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体5 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\installed_validation_rotor.SLDPRT\n已连接到运行中的 SolidWorks 实例\n当前文档: 装配体5 (类型: 装配体)\n保存失败, 错误码: 1, 警告码: 0\n\nTraceback (most recent call last):\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 82, in _run\n  File \"asyncio\\tasks.py\", line 479, in wait_for\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 80, in invoke\n  File \"asyncio\\threads.py\", line 25, in to_thread\n  File \"concurrent\\futures\\thread.py\", line 58, in run\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 72, in work\n  File \"sw_ai_backend\\api\\routes.py\", line 653, in <lambda>\n  File \"sw_ai_backend\\api\\routes.py\", line 613, in _run_mcp_tool_with_context\n  File \"sw_ai_backend\\api\\routes.py\", line 589, in _prepare_mcp_context\n  File \"sw_ai_backend\\api\\routes.py\", line 569, in _ensure_sample_assembly\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 37, in run\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 50, in _raise_if_error_status\nRuntimeError: solidworks_save_document returned failed: MCP tool returned an error status.\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "solidworks_save_document returned failed: MCP tool returned an error status.",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\89c0c1eca4f1468ca3907eb4c1dda528.json",
+  "parameters": {
+    "shaft_component_keyword": "shaft",
+    "rotor_component_keyword": "rotor",
+    "shaft_radius_min_mm": 9,
+    "shaft_radius_max_mm": 11,
+    "rotor_radius_min_mm": 9,
+    "rotor_radius_max_mm": 11,
+    "rpm": 30,
+    "calculate": false,
+    "play": false
+  }
+}

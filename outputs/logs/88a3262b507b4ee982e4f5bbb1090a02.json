@@ -1,0 +1,32 @@
+{
+  "run_id": "88a3262b507b4ee982e4f5bbb1090a02",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-26T17:19:14.596009Z",
+  "finished_at": "2026-06-26T17:19:15.220463Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"m6_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\temp\\\\\\\\generated\\\\\\\\59e00ec72a1145cb86fed88e9bf1900f\\\\\\\\outputs\\\\\\\\m6_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [\n    \"C:\\\\Users\\\\Vision\\\\Documents\\\\sw skill 应用化\\\\outputs\\\\temp\\\\generated\\\\59e00ec72a1145cb86fed88e9bf1900f\\\\outputs\\\\m6_mounting_plate_120x80x10.SLDPRT\"\n  ],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"m6_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\temp\\\\\\\\generated\\\\\\\\59e00ec72a1145cb86fed88e9bf1900f\\\\\\\\outputs\\\\\\\\m6_mounting_plate_120x80x10.SLDPRT\\\",\\n    \\\"type\\\": 1\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: m6_mounting_plate_120x80x10.SLDPRT (类型: 零件)\n",
+  "created_files": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\59e00ec72a1145cb86fed88e9bf1900f\\outputs\\m6_mounting_plate_120x80x10.SLDPRT"
+  ],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\88a3262b507b4ee982e4f5bbb1090a02.json",
+  "parameters": {
+    "visible": true,
+    "wait_seconds": 1
+  },
+  "real_execution_verified": true,
+  "evidence": {
+    "active_document_before": "未知:",
+    "active_document_after": "未知:",
+    "created_files": [
+      "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\temp\\generated\\59e00ec72a1145cb86fed88e9bf1900f\\outputs\\m6_mounting_plate_120x80x10.SLDPRT"
+    ],
+    "created_files_exist": true,
+    "stdout_present": true,
+    "stderr_present": true
+  },
+  "created_files_exist": true
+}

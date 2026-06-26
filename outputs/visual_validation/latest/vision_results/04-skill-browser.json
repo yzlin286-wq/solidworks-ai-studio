@@ -1,0 +1,14 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\04-skill-browser.png",
+  "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+  "observed": "This is a fully rendered, non-empty SolidWorks AI Studio desktop Skill Browser UI, fully populated with valid real status text and functional content. The interface includes top connection status indicators, left application navigation sidebar, Skill Context description block, capability validation matrix, indexed skill documents panel, and Functions/MCP tools listing panel.",
+  "pass": true,
+  "confidence": 0.99,
+  "issues": [],
+  "evidence": [
+    "UI is officially branded SolidWorks AI Studio, with page title 'Skill browser'",
+    "Top status bar displays real runtime status text: 'API online', 'SolidWorks ready', 'MCP stopped'",
+    "All UI panels contain populated real text content, all listed capabilities in the capability matrix show 'passed' validation status",
+    "No empty/blank rendered regions, the full packaged desktop application UI renders completely"
+  ]
+}

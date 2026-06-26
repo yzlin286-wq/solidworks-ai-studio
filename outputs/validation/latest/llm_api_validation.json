@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "generated_at": "2026-06-27T01:26:11.576047",
+  "profile_id": "ccagent",
+  "api_base_url": "https://api.ccagent.cn/v1",
+  "model": "glm-5.1",
+  "api_key_present": true,
+  "api_key_redacted": true,
+  "status_code": 200,
+  "models_returned": [
+    "minimax-m3",
+    "doubao-seedance-1.5-pro",
+    "doubao-seed-2.0-code",
+    "kimi-k2.6",
+    "doubao-embedding-vision",
+    "doubao-seed-2.0-pro",
+    "doubao-seedance-2.0",
+    "doubao-seed-2.0-mini",
+    "doubao-seedance-2.0-fast",
+    "deepseek-v3.2",
+    "doubao-seedream-5.0-lite",
+    "glm-5.1",
+    "deepseek-v4-pro",
+    "minimax-m2.7",
+    "deepseek-v4-flash",
+    "doubao-seed-2.0-lite"
+  ],
+  "models_verified": true,
+  "chat_verified": true,
+  "error": "",
+  "chat_status_code": 200
+}

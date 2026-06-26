@@ -1,0 +1,17 @@
+{
+  "run_id": "e560714cdd5f428e9ed34f7f6c7b924a",
+  "capability_id": "mcp.solidworks_new_document",
+  "started_at": "2026-06-22T17:54:06.888164Z",
+  "finished_at": "2026-06-22T17:54:08.576815Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体1\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体1\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_new_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n已创建新装配体文档\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\e560714cdd5f428e9ed34f7f6c7b924a.json",
+  "parameters": {
+    "doc_type": "assembly"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "0a09e13e27134db2b9bb22b20ddeb5f3",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-22T19:10:53.631777Z",
+  "finished_at": "2026-06-22T19:10:53.667251Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": null\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": null\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前没有打开的文档\n",
+  "created_files": [],
+  "active_document_before": ":",
+  "active_document_after": ":",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\0a09e13e27134db2b9bb22b20ddeb5f3.json",
+  "parameters": {
+    "visible": true
+  }
+}

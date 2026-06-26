@@ -1,0 +1,15 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\app\\02-main-workspace.png",
+  "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+  "observed": "Fully rendered, non-empty SolidWorks AI Studio Automation Workspace desktop UI. All core UI sections are present: left navigation sidebar, main prompt composer panel with automation request input and control buttons, right sidebar with session status and SolidWorks tooling, and bottom run timeline panel. Legitimate real status text appears across all sections of the interface.",
+  "pass": true,
+  "confidence": 1.0,
+  "issues": [],
+  "evidence": [
+    "UI header explicitly labels the interface as *SOLIDWORKS AI STUDIO Automation workspace*",
+    "Valid connection status indicators are present: API online, SolidWorks ready, MCP stopped",
+    "Real descriptive status text exists: 'No active document loaded', 'No run events yet. Generate a script, review it, then approve execution.'",
+    "All 16 registry-backed SolidWorks tools display valid 'passed' status text",
+    "All UI panels are rendered and populated, no missing or broken interface elements"
+  ]
+}

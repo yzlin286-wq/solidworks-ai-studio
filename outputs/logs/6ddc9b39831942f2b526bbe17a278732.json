@@ -1,0 +1,21 @@
+{
+  "run_id": "6ddc9b39831942f2b526bbe17a278732",
+  "capability_id": "mcp.solidworks_add_component",
+  "started_at": "2026-06-22T19:11:13.505327Z",
+  "finished_at": "2026-06-22T19:11:13.911758Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-031049\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 2,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体3\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"component\\\": {\\n    \\\"name\\\": \\\"acceptance_cylinder_shaft-1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\outputs\\\\\\\\validation\\\\\\\\latest\\\\\\\\cad_samples\\\\\\\\20260623-031049\\\\\\\\acceptance_cylinder_shaft.SLDPRT\\\",\\n    \\\"suppressed\\\": false,\\n    \\\"visible\\\": 1\\n  },\\n  \\\"fixed\\\": null,\\n  \\\"component_count\\\": 2,\\n  \\\"document\\\": {\\n    \\\"title\\\": \\\"装配体3\\\",\\n    \\\"path\\\": \\\"\\\",\\n    \\\"type\\\": 2\\n  }\\n}\",\n    \"tool\": \"solidworks_add_component\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 装配体3 (类型: 装配体)\n已添加组件: C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031049\\acceptance_cylinder_shaft.SLDPRT\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\6ddc9b39831942f2b526bbe17a278732.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-031049\\acceptance_cylinder_shaft.SLDPRT",
+    "x_mm": 0,
+    "y_mm": 0,
+    "z_mm": 60,
+    "fix_component": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py",
+    "--output-dir",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-013654\\subskill_threaded_hole",
+    "--basename",
+    "acceptance_threaded_hole"
+  ],
+  "returncode": 1,
+  "stdout": null,
+  "stderr": null,
+  "files": []
+}

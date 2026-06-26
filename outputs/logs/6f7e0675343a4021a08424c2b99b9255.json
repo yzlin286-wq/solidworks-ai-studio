@@ -1,0 +1,18 @@
+{
+  "run_id": "6f7e0675343a4021a08424c2b99b9255",
+  "capability_id": "mcp.solidworks_close_documents",
+  "started_at": "2026-06-22T18:00:34.906319Z",
+  "finished_at": "2026-06-22T18:00:35.827709Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"closed\\\": \\\"acceptance_export - 图纸1\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"closed\\\": \\\"acceptance_export - 图纸1\\\"\\n}\",\n    \"tool\": \"solidworks_close_documents\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_export - 图纸1 (类型: 工程图)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\6f7e0675343a4021a08424c2b99b9255.json",
+  "parameters": {
+    "close_all": false,
+    "save_changes": false
+  }
+}

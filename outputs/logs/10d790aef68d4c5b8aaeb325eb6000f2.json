@@ -1,0 +1,18 @@
+{
+  "run_id": "10d790aef68d4c5b8aaeb325eb6000f2",
+  "capability_id": "mcp.solidworks_review_active",
+  "started_at": "2026-06-26T03:25:04.943639Z",
+  "finished_at": "2026-06-26T03:25:05.716268Z",
+  "status": "failed",
+  "stdout": "",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: installed_validation_box.SLDPRT (类型: 零件)\n\nTraceback (most recent call last):\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 67, in _run\n  File \"asyncio\\tasks.py\", line 479, in wait_for\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 65, in invoke\n  File \"asyncio\\threads.py\", line 25, in to_thread\n  File \"concurrent\\futures\\thread.py\", line 58, in run\n  File \"sw_ai_backend\\solidworks\\execution_queue.py\", line 63, in work\n  File \"sw_ai_backend\\api\\routes.py\", line 730, in <lambda>\n  File \"sw_ai_backend\\api\\routes.py\", line 693, in _run_mcp_tool_with_context\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 39, in run\n  File \"sw_ai_backend\\mcp\\tool_runner.py\", line 52, in _raise_if_error_status\nRuntimeError: solidworks_review_active 返回 error：(-2147352567, '发生意外。', (61704, 'SOLIDWORKS', '内部应用程序出错。', None, 0, 0), None)\n",
+  "created_files": [],
+  "active_document_before": "未知:",
+  "active_document_after": "未知:",
+  "error_summary": "solidworks_review_active 返回 error：(-2147352567, '发生意外。', (61704, 'SOLIDWORKS', '内部应用程序出错。', None, 0, 0), None)",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\10d790aef68d4c5b8aaeb325eb6000f2.json",
+  "parameters": {
+    "output_dir": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\installed_button_samples\\review",
+    "basename": "installed_button_review"
+  }
+}

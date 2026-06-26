@@ -1,0 +1,18 @@
+{
+  "run_id": "ba86a4af155c4ebe95d3df11e81969c8",
+  "capability_id": "mcp.solidworks_export_active",
+  "started_at": "2026-06-22T14:28:22.158254Z",
+  "finished_at": "2026-06-22T14:28:22.429116Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.GetSldWorksObject\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"AttributeError\\\",\\n  \\\"message\\\": \\\"<unknown>.GetSldWorksObject\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_export_active\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_two_part_assembly.SLDASM (类型: 装配体)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\ba86a4af155c4ebe95d3df11e81969c8.json",
+  "parameters": {
+    "output_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260622-222800\\acceptance_export.PDF",
+    "export_format": "pdf"
+  }
+}

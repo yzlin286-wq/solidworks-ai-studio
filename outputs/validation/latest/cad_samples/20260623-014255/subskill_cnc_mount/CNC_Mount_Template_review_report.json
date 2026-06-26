@@ -1,0 +1,241 @@
+{
+  "model": {
+    "title": "CNC_Mount_Template.SLDPRT",
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template.SLDPRT",
+    "type": 1,
+    "feature_count": 40,
+    "features": [
+      {
+        "name": "收藏",
+        "type": "FavoriteFolder"
+      },
+      {
+        "name": "历史记录",
+        "type": "HistoryFolder"
+      },
+      {
+        "name": "选择集",
+        "type": "SelectionSetFolder"
+      },
+      {
+        "name": "传感器",
+        "type": "SensorFolder"
+      },
+      {
+        "name": "设计活页夹",
+        "type": "DocsFolder"
+      },
+      {
+        "name": "注解",
+        "type": "DetailCabinet"
+      },
+      {
+        "name": "标注",
+        "type": "InkMarkupFolder"
+      },
+      {
+        "name": "光源与相机",
+        "type": "EnvFolder"
+      },
+      {
+        "name": "实体",
+        "type": "SolidBodyFolder"
+      },
+      {
+        "name": "曲面实体",
+        "type": "SurfaceBodyFolder"
+      },
+      {
+        "name": "备注",
+        "type": "CommentsFolder"
+      },
+      {
+        "name": "方程式",
+        "type": "EqnFolder"
+      },
+      {
+        "name": "材质 <未指定>",
+        "type": "MaterialFolder"
+      },
+      {
+        "name": "前视基准面",
+        "type": "RefPlane"
+      },
+      {
+        "name": "上视基准面",
+        "type": "RefPlane"
+      },
+      {
+        "name": "右视基准面",
+        "type": "RefPlane"
+      },
+      {
+        "name": "原点",
+        "type": "OriginProfileFeature"
+      },
+      {
+        "name": "Tables",
+        "type": "ConfigTableFolder"
+      },
+      {
+        "name": "草图1",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "凸台-拉伸1",
+        "type": "Extrusion"
+      },
+      {
+        "name": "Plane_Base_Top",
+        "type": "RefPlane"
+      },
+      {
+        "name": "草图2",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "凸台-拉伸2",
+        "type": "ICE"
+      },
+      {
+        "name": "Fillet_Base_Corners",
+        "type": "Fillet"
+      },
+      {
+        "name": "Fillet_Boss_Corners",
+        "type": "Fillet"
+      },
+      {
+        "name": "Chamfer_Top_Outer",
+        "type": "Chamfer"
+      },
+      {
+        "name": "Chamfer_Bottom_Outer",
+        "type": "Chamfer"
+      },
+      {
+        "name": "Chamfer_Boss_Top",
+        "type": "Chamfer"
+      },
+      {
+        "name": "草图3",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "切除-拉伸1",
+        "type": "ICE"
+      },
+      {
+        "name": "草图4",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "切除-拉伸2",
+        "type": "ICE"
+      },
+      {
+        "name": "草图5",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "切除-拉伸3",
+        "type": "ICE"
+      },
+      {
+        "name": "草图6",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "切除-拉伸4",
+        "type": "ICE"
+      },
+      {
+        "name": "Plane_Boss_Top",
+        "type": "RefPlane"
+      },
+      {
+        "name": "草图7",
+        "type": "ProfileFeature"
+      },
+      {
+        "name": "切除-拉伸5",
+        "type": "ICE"
+      },
+      {
+        "name": "Chamfer_Hole_Mouths",
+        "type": "Chamfer"
+      }
+    ]
+  },
+  "previews": [
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template_isometric.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template_front.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template_top.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template_right.bmp",
+      "exists": true,
+      "size_bytes": 4800054,
+      "width": 1600,
+      "height": 1000,
+      "unique_sample_values": 11,
+      "likely_blank": false
+    }
+  ],
+  "expected_outputs": [
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template.SLDPRT",
+      "exists": true,
+      "size_bytes": 212673
+    },
+    {
+      "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template.step",
+      "exists": true,
+      "size_bytes": 211605
+    }
+  ],
+  "checks": {
+    "model_available": true,
+    "previews_created": true,
+    "previews_not_blank": true,
+    "expected_outputs_exist": true,
+    "feature_summary_available": true
+  },
+  "review_notes": [
+    "人工或视觉模型仍需检查预览图中的主体、比例、方向、关键部件、重叠/悬空问题。",
+    "若 previews_not_blank 为 false，优先检查视图缩放、模型是否为空、SaveBMP 是否成功。",
+    "若 expected_outputs_exist 为 false，优先检查保存/导出路径和 COM 错误码。"
+  ],
+  "evaluation": {
+    "status": "pass",
+    "score": 100,
+    "issues": [],
+    "recommendations": [],
+    "manual_review_required": true,
+    "manual_review_reason": "规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。"
+  },
+  "summary_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-014255\\subskill_cnc_mount\\CNC_Mount_Template_review_summary.md"
+}

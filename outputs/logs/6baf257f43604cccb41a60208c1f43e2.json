@@ -1,0 +1,15 @@
+{
+  "run_id": "6baf257f43604cccb41a60208c1f43e2",
+  "capability_id": "mcp.solidworks_connect",
+  "started_at": "2026-06-23T03:10:57.992722Z",
+  "finished_at": "2026-06-23T03:10:58.139610Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"active - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\_MEI104522\\\\\\\\outputs\\\\\\\\active.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"revision\\\": \\\"33.5.0\\\",\\n  \\\"active_document\\\": {\\n    \\\"title\\\": \\\"active - 图纸1\\\",\\n    \\\"path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\_MEI104522\\\\\\\\outputs\\\\\\\\active.SLDDRW\\\",\\n    \\\"type\\\": 3\\n  }\\n}\",\n    \"tool\": \"solidworks_connect\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: active - 图纸1 (类型: 工程图)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\6baf257f43604cccb41a60208c1f43e2.json",
+  "parameters": {}
+}

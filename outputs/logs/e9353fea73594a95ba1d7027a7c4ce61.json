@@ -1,0 +1,17 @@
+{
+  "run_id": "e9353fea73594a95ba1d7027a7c4ce61",
+  "capability_id": "mcp.solidworks_health_check",
+  "started_at": "2026-06-22T19:10:53.073952Z",
+  "finished_at": "2026-06-22T19:10:53.577607Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": \\\"C:\\\\\\\\Program Files\\\\\\\\SOLIDWORKS Corp25\\\\\\\\SOLIDWORKS\\\\\\\\swmotionstudy.tlb\\\",\\n    \\\"motion_type_library_ready\\\": true,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": null\\n  },\\n  \\\"issues\\\": []\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": \\\"C:\\\\\\\\Program Files\\\\\\\\SOLIDWORKS Corp25\\\\\\\\SOLIDWORKS\\\\\\\\swmotionstudy.tlb\\\",\\n    \\\"motion_type_library_ready\\\": true,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": null\\n  },\\n  \\\"issues\\\": []\\n}\",\n    \"tool\": \"solidworks_health_check\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前没有打开的文档\n",
+  "created_files": [],
+  "active_document_before": ":",
+  "active_document_after": ":",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\e9353fea73594a95ba1d7027a7c4ce61.json",
+  "parameters": {
+    "start_solidworks": true
+  }
+}

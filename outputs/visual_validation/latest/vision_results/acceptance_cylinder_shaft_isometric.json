@@ -1,0 +1,9 @@
+{
+  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_isometric.bmp",
+  "expected": "A long cylindrical shaft preview.",
+  "observed": "An isometric SolidWorks preview of a long uniform right circular cylindrical shaft, with matte green appearance, standard isometric drop shadow, and coordinate triad indicator on the lower left end face of the shaft.",
+  "pass": true,
+  "confidence": 0.99,
+  "issues": [],
+  "evidence": "The rendered part is an elongated constant-diameter cylinder (shaft) presented in isometric projection, fully matching the expected description."
+}

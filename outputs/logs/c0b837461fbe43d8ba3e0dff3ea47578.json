@@ -1,0 +1,18 @@
+{
+  "run_id": "c0b837461fbe43d8ba3e0dff3ea47578",
+  "capability_id": "mcp.solidworks_close_documents",
+  "started_at": "2026-06-22T17:44:09.213683Z",
+  "finished_at": "2026-06-22T17:44:10.597964Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"closed\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"ok\\\",\\n  \\\"closed\\\": \\\"LB26001-A-04-006_v5 - 图纸1\\\"\\n}\",\n    \"tool\": \"solidworks_close_documents\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: LB26001-A-04-006_v5 - 图纸1 (类型: 工程图)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\c0b837461fbe43d8ba3e0dff3ea47578.json",
+  "parameters": {
+    "close_all": false,
+    "save_changes": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py",
+    "--output-dir",
+    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-015948\\subskill_threaded_hole",
+    "--basename",
+    "acceptance_threaded_hole"
+  ],
+  "returncode": 1,
+  "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: CNC_Mount_Template.SLDPRT (类型: 零件)\n已创建新零件文档\nOK 基体: 凸台-拉伸1\nOK Plane_Hole_Start: 基准面1\nOK M6x1.0 攻丝底孔 5.0mm: 切除-拉伸1\n  Edge=<COMObject GetEdges>\n  StartEntity=<COMObject GetEdges>\n  ThreadMethod=0\n  EndCondition=0\n  BlindDepth=0.012\n  Pitch=0.001\n  Diameter=0.006\n  Size=M6x1.0\n  PitchOverride=True\n  DiameterOverride=True\nWARN LoadReferences(edge) 失败: <unknown>.LoadReferences\nWARN 真实 Thread 特征失败，尝试 Cosmetic Thread: CreateFeature(ThreadFeatureData) 返回 None\nOK M6x1.0 装饰螺纹: CosmeticThread_M6x1.0_Internal_Blind\nOK 可见螺纹螺旋线: 384 段, 12 圈\n",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py\", line 571, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py\", line 565, in main\n    result = create_threaded_hole_block(params, args.output_dir, basename)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py\", line 491, in create_threaded_hole_block\n    add_hole_mouth_chamfer(model, params)\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py\", line 267, in add_hole_mouth_chamfer\n    select_hole_mouth_edge(model, params)\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py\", line 261, in select_hole_mouth_edge\n    edge, _center = locate_hole_mouth_edge(model, params, select=True)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\subskills\\solidworks-threaded-holes\\scripts\\create_threaded_hole_template.py\", line 256, in locate_hole_mouth_edge\n    raise RuntimeError(\"未找到打孔起始面的孔口圆边\")\nRuntimeError: 未找到打孔起始面的孔口圆边\n",
+  "files": []
+}

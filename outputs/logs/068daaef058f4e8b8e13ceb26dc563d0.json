@@ -1,0 +1,17 @@
+{
+  "run_id": "068daaef058f4e8b8e13ceb26dc563d0",
+  "capability_id": "mcp.solidworks_health_check",
+  "started_at": "2026-06-22T18:11:28.846992Z",
+  "finished_at": "2026-06-22T18:11:29.515716Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"warning\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": null,\\n    \\\"motion_type_library_ready\\\": false,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"零件38\\\",\\n      \\\"path\\\": \\\"\\\",\\n      \\\"type\\\": 1\\n    }\\n  },\\n  \\\"issues\\\": [\\n    \\\"Motion Study type library was not found; rotary motor tools may fail.\\\"\\n  ]\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"warning\\\",\\n  \\\"checks\\\": {\\n    \\\"python_executable\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\",\\n    \\\"python_version\\\": \\\"3.11.4\\\",\\n    \\\"platform\\\": \\\"Windows-10-10.0.26200-SP0\\\",\\n    \\\"missing_com_dependencies\\\": [],\\n    \\\"solidworks_detected\\\": true,\\n    \\\"server_path\\\": \\\"C:\\\\\\\\Users\\\\\\\\Vision\\\\\\\\Documents\\\\\\\\sw skill 应用化\\\\\\\\vendor\\\\\\\\skills\\\\\\\\solidworks-automation\\\\\\\\mcp-server\\\\\\\\server.py\\\",\\n    \\\"motion_type_library\\\": null,\\n    \\\"motion_type_library_ready\\\": false,\\n    \\\"solidworks_revision\\\": \\\"33.5.0\\\",\\n    \\\"active_document\\\": {\\n      \\\"title\\\": \\\"零件38\\\",\\n      \\\"path\\\": \\\"\\\",\\n      \\\"type\\\": 1\\n    }\\n  },\\n  \\\"issues\\\": [\\n    \\\"Motion Study type library was not found; rotary motor tools may fail.\\\"\\n  ]\\n}\",\n    \"tool\": \"solidworks_health_check\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: 零件38 (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\068daaef058f4e8b8e13ceb26dc563d0.json",
+  "parameters": {
+    "start_solidworks": true
+  }
+}

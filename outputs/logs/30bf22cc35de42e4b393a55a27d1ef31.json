@@ -1,0 +1,17 @@
+{
+  "run_id": "30bf22cc35de42e4b393a55a27d1ef31",
+  "capability_id": "mcp.solidworks_open_document",
+  "started_at": "2026-06-22T18:11:55.280531Z",
+  "finished_at": "2026-06-22T18:11:55.659684Z",
+  "status": "passed",
+  "stdout": "{\n  \"stdout\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"打开失败, 错误码: 65536, 警告码: 0\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n  \"stderr\": \"\",\n  \"created_files\": [],\n  \"data\": {\n    \"raw\": \"{\\n  \\\"status\\\": \\\"error\\\",\\n  \\\"error_type\\\": \\\"RuntimeError\\\",\\n  \\\"message\\\": \\\"打开失败, 错误码: 65536, 警告码: 0\\\",\\n  \\\"suggestion\\\": \\\"Confirm SolidWorks is installed/running, the active document is correct, components are resolved, and file paths are absolute Windows paths.\\\"\\n}\",\n    \"tool\": \"solidworks_open_document\"\n  }\n}",
+  "stderr": "已连接到运行中的 SolidWorks 实例\n当前文档: acceptance_cylinder_shaft.SLDPRT (类型: 零件)\n",
+  "created_files": [],
+  "active_document_before": "unknown:",
+  "active_document_after": "unknown:",
+  "error_summary": "",
+  "log_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\logs\\30bf22cc35de42e4b393a55a27d1ef31.json",
+  "parameters": {
+    "path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\validation\\latest\\cad_samples\\20260623-021128\\acceptance_mounting_plate.SLDPRT"
+  }
+}
