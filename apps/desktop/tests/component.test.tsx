@@ -1,93 +1,101 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
+import { Shell } from "../src/renderer/components/Shell";
 import { PromptComposer } from "../src/renderer/components/PromptComposer";
-import { Timeline } from "../src/renderer/components/Timeline";
-import { SettingsPage } from "../src/renderer/pages/SettingsPage";
-import { SkillBrowserPage } from "../src/renderer/pages/SkillBrowserPage";
-import { ReviewCenterPage } from "../src/renderer/pages/ReviewCenterPage";
-import type { AppConfig, ConfigResponse, SkillIndexResponse } from "../src/renderer/lib/types";
+import { CapabilityGroupPage } from "../src/renderer/pages/CapabilityGroupPage";
+import { DashboardPage } from "../src/renderer/pages/DashboardPage";
+import { TasksPage } from "../src/renderer/pages/TasksPage";
+import type { AICapability, Recipe, WorkbenchTask } from "../src/renderer/lib/types";
 
-const config: AppConfig = {
-  profiles: [
-    {
-      id: "openai",
-      name: "OpenAI",
-      api_base_url: "https://api.openai.com/v1",
-      api_key: "",
-      model: "gpt-4.1",
-      temperature: 0.2,
-      max_tokens: 2200,
-      timeout_seconds: 60
-    }
-  ],
-  active_profile_id: "openai",
-  theme: "dark",
-  solidworks_skill_path: "vendor/skills/solidworks-automation",
-  taste_skill_path: "vendor/skills/taste-skill",
-  output_dir: "",
-  validation_output_dir: "outputs/validation",
-  part_template_path: "",
-  assembly_template_path: "",
-  drawing_template_path: "",
-  require_approval: true,
-  mock_mode: false
+const capabilities: AICapability[] = Array.from({ length: 27 }, (_, index) => ({
+  id: index === 2 ? "ai.parametric_part_generator" : `ai.capability_${index + 1}`,
+  title: index === 2 ? "参数化零件生成" : `能力 ${index + 1}`,
+  group: index < 4 ? "Part & Manufacturing" : "Integration",
+  status: "Ready Tool",
+  maturity: "stable",
+  ai_goal: "恢复 AI Capability Workbench。",
+  user_intents: [],
+  execution_modes: ["mock", "real"],
+  requires: [],
+  source_files: [],
+  default_outputs: [],
+  approval_required: true,
+  source_missing: false,
+  not_primary_entries: []
+}));
+
+const recipes: Recipe[] = Array.from({ length: 14 }, (_, index) => ({
+  recipe_id: index === 0 ? "mounting_plate" : `recipe_${index + 1}`,
+  capability_id: index === 0 ? "ai.parametric_part_generator" : capabilities[index % capabilities.length].id,
+  title: index === 0 ? "安装板" : `Recipe ${index + 1}`,
+  description: "Recipe 描述",
+  parameters_schema: {},
+  default_prompt: "生成 mounting_plate",
+  mock_artifacts: ["artifact.json"],
+  maturity: "stable",
+  real_execution: "requires_solidworks"
+}));
+
+const task: WorkbenchTask = {
+  task_id: "task-1",
+  capability_id: "ai.parametric_part_generator",
+  recipe_id: "mounting_plate",
+  prompt: "生成 mounting_plate",
+  execution_mode: "mock",
+  status: "validated",
+  plan: { summary: "plan" },
+  script: "print('ok')",
+  validation: { ok: true },
+  approved: false,
+  artifacts: [],
+  evidence: {},
+  error_summary: "",
+  created_at: new Date().toISOString(),
+  updated_at: new Date().toISOString(),
+  real_execution_verified: false,
+  mock_demo: true
 };
 
-const configResponse: ConfigResponse = {
-  config,
-  config_path: "config.json",
-  secure_storage: "config-file",
-  note: "Local config file."
-};
+describe("AI Capability Workbench", () => {
+  it("renders dashboard counts", () => {
+    render(<DashboardPage capabilities={capabilities} recipes={recipes} tasks={[]} onSelectGroup={vi.fn()} onOpenCapability={vi.fn()} onOpenTasks={vi.fn()} />);
 
-const skills: SkillIndexResponse = {
-  solidworks_available: true,
-  taste_available: true,
-  solidworks_path: "vendor/skills/solidworks-automation",
-  taste_path: "vendor/skills/taste-skill",
-  indexed_at: new Date().toISOString(),
-  documents: [
-    {
-      title: "SolidWorks automation",
-      path: "SKILL.md",
-      kind: "skill",
-      modified_at: null,
-      excerpt: "part assembly drawing export review"
-    }
-  ],
-  functions: [
-    {
-      name: "session",
-      signature: "session()",
-      module: "sw_session",
-      doc: "Create a session"
-    }
-  ],
-  mcp_tools: ["solidworks_health_check"],
-  context_summary: "SolidWorks automation skill summary"
-};
+    expect(screen.getByText("AI Capability Workbench")).toBeInTheDocument();
+    expect(screen.getByText("27")).toBeInTheDocument();
+    expect(screen.getByText("14")).toBeInTheDocument();
+  });
 
-describe("renderer components", () => {
-  it("renders prompt composer controls", () => {
+  it("renders grouped capability sidebar", () => {
+    renderWorkbench(task);
+
+    expect(screen.getAllByText("Part & Manufacturing").length).toBeGreaterThan(0);
+    expect(screen.getAllByText("参数化零件生成").length).toBeGreaterThan(0);
+    expect(screen.getByText("mounting_plate")).toBeInTheDocument();
+  });
+
+  it("shows the approval workflow controls", () => {
+    renderWorkbench(task);
+
+    expect(screen.getByRole("button", { name: "Approval" })).toBeEnabled();
+    expect(screen.getByRole("button", { name: "Execute" })).toBeDisabled();
+  });
+
+  it("renders task history", () => {
+    render(<TasksPage tasks={[task]} onSelectTask={vi.fn()} />);
+
+    expect(screen.getByText("任务历史与 artifacts")).toBeInTheDocument();
+    expect(screen.getByText("task-1")).toBeInTheDocument();
+  });
+
+  it("renders shell without low-level direct tool nav", () => {
     render(
-      <PromptComposer
-        activeProfileId="openai"
-        outputDir=""
-        plan={null}
-        generated={null}
-        busy={false}
-        llmVerified={true}
-        llmBlockReason=""
-        canRunRealSolidWorks={true}
-        solidworksBlockReason=""
-        onPlan={vi.fn()}
-        onGenerate={vi.fn()}
-        onApprove={vi.fn()}
-      />
+      <Shell view="dashboard" onNavigate={vi.fn()} health={null} llmConnection={null} preflight={null} mcp={null} onPaletteOpen={vi.fn()}>
+        <div>content</div>
+      </Shell>
     );
 
-    expect(screen.getByText("自然语言生成可审查的 SolidWorks Python")).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /生成 Script/i })).toBeEnabled();
+    expect(screen.getByRole("button", { name: /Dashboard/i })).toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Direct Tools/i })).not.toBeInTheDocument();
   });
 
   it("blocks prompt generation before LLM verification", () => {
@@ -108,52 +116,34 @@ describe("renderer components", () => {
       />
     );
 
-    expect(screen.getByRole("button", { name: /生成 Script/i })).toBeDisabled();
+    expect(screen.getByRole("button", { name: /Script/i })).toBeDisabled();
     expect(screen.getByText("请先测试连接")).toBeInTheDocument();
   });
 
-  it("renders skill browser indexed content", () => {
-    render(<SkillBrowserPage skills={skills} capabilities={[]} busy={false} onSync={vi.fn()} />);
+  it("keeps workflow first screen independent from SolidWorks", () => {
+    render(<DashboardPage capabilities={capabilities} recipes={recipes} tasks={[task]} onSelectGroup={vi.fn()} onOpenCapability={vi.fn()} onOpenTasks={vi.fn()} />);
 
-    expect(screen.getByText("SolidWorks automation")).toBeInTheDocument();
-    expect(screen.getByText("solidworks_health_check")).toBeInTheDocument();
-  });
-
-  it("renders timeline empty and populated states", () => {
-    const { rerender } = render(<Timeline events={[]} />);
-    expect(screen.getByText(/还没有执行事件/i)).toBeInTheDocument();
-
-    rerender(
-      <Timeline
-        events={[
-          {
-            time: new Date().toISOString(),
-            stage: "done",
-            message: "Script 执行完成。",
-            stdout: "",
-            stderr: ""
-          }
-        ]}
-      />
-    );
-    expect(screen.getByText("Script 执行完成。")).toBeInTheDocument();
-  });
-
-  it("renders settings and review center", () => {
-    render(
-      <SettingsPage
-        configResponse={configResponse}
-        mcp={{ running: false, pid: null, command: [], tools: [], message: "stopped" }}
-        busy={false}
-        onSave={vi.fn()}
-        onConnectionTest={vi.fn()}
-        onMcpStart={vi.fn()}
-        onMcpStop={vi.fn()}
-      />
-    );
-    expect(screen.getByText("LLM Profile")).toBeInTheDocument();
-
-    render(<ReviewCenterPage run={null} lastAction={null} onCopyReviewPrompt={vi.fn()} />);
-    expect(screen.getByText("几何检查、报告产物与迭代 Prompt")).toBeInTheDocument();
+    expect(screen.getByText("Completed Tasks")).toBeInTheDocument();
+    expect(screen.getByText("开始 mounting_plate")).toBeInTheDocument();
   });
 });
+
+function renderWorkbench(selectedTask: WorkbenchTask | null) {
+  render(
+    <CapabilityGroupPage
+      capabilities={capabilities}
+      recipes={recipes}
+      selectedGroup="Part & Manufacturing"
+      selectedCapabilityId="ai.parametric_part_generator"
+      selectedTask={selectedTask}
+      busy={false}
+      onSelectGroup={vi.fn()}
+      onSelectCapability={vi.fn()}
+      onPlan={vi.fn()}
+      onGenerate={vi.fn()}
+      onValidate={vi.fn()}
+      onApprove={vi.fn()}
+      onExecute={vi.fn()}
+    />
+  );
+}

@@ -59,6 +59,7 @@ from sw_ai_backend.solidworks.execution_queue import SolidWorksExecutionQueue
 from sw_ai_backend.solidworks.dwg_export import export_part_drawing
 from sw_ai_backend.solidworks.real_session import RealSolidWorksSession
 from sw_ai_backend.solidworks.service import SolidWorksService
+from sw_ai_backend.api.ai_capabilities import router as ai_capability_router
 
 
 router = APIRouter(prefix="/api")
@@ -877,3 +878,4 @@ def _run_script_capability(capability: Capability, parameters: dict) -> dict:
 api_router = APIRouter()
 api_router.include_router(router)
 api_router.include_router(protected)
+api_router.include_router(ai_capability_router)

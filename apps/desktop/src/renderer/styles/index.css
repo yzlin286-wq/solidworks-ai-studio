@@ -1141,6 +1141,222 @@ pre {
   font-size: 0.86rem;
 }
 
+.dashboard-grid,
+.capability-workbench,
+.tasks-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.workbench-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  padding: 1.2rem;
+}
+
+.workbench-hero h2,
+.capability-detail-pane h2,
+.tasks-page h2 {
+  margin: 0;
+  font-size: 1.45rem;
+  letter-spacing: 0;
+}
+
+.workbench-hero p:not(.eyebrow),
+.capability-detail-pane p,
+.recipe-list p {
+  color: var(--text-muted);
+}
+
+.metric-strip,
+.capability-group-grid,
+.dashboard-two-col {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.metric-strip {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.metric-tile,
+.group-tile,
+.workbench-panel,
+.capability-card,
+.recipe-list button,
+.recipe-list article,
+.task-list button,
+.task-list article,
+.group-sidebar button,
+.workflow-step {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.metric-tile {
+  display: grid;
+  gap: 0.28rem;
+  padding: 0.85rem;
+}
+
+.metric-tile svg,
+.workflow-step svg {
+  color: var(--accent-two);
+}
+
+.metric-tile span,
+.group-tile span,
+.recipe-list span,
+.task-list span,
+.task-list small,
+.capability-card span,
+.capability-card small {
+  color: var(--text-muted);
+}
+
+.metric-tile strong,
+.group-tile strong {
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.capability-group-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.group-tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 68px;
+  padding: 0.85rem;
+  text-align: left;
+}
+
+.dashboard-two-col {
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.7fr);
+}
+
+.workbench-panel {
+  padding: 1rem;
+}
+
+.recipe-list,
+.task-list,
+.capability-list-pane,
+.group-sidebar {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.recipe-list button,
+.recipe-list article,
+.task-list button,
+.task-list article,
+.capability-card,
+.group-sidebar button {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.recipe-list.detail article {
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+}
+
+.capability-workbench {
+  grid-template-columns: 230px minmax(260px, 0.42fr) minmax(0, 1fr);
+  align-items: start;
+}
+
+.group-sidebar,
+.capability-list-pane,
+.capability-detail-pane {
+  min-width: 0;
+}
+
+.group-sidebar button {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.group-sidebar button.active,
+.capability-card.active {
+  border-color: var(--accent);
+  background: var(--surface-selected);
+}
+
+.capability-detail-pane {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  padding: 1rem;
+}
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  color: var(--accent-two);
+}
+
+.workflow-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.workflow-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  color: var(--text-muted);
+}
+
+.workflow-step.active {
+  border-color: var(--accent-two);
+  color: var(--text);
+}
+
+.task-json {
+  overflow: auto;
+  max-height: 360px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #071012;
+  color: #d8f7e9;
+  padding: 0.85rem;
+  font-size: 0.78rem;
+}
+
+@media (max-width: 1180px) {
+  .metric-strip,
+  .capability-group-grid,
+  .dashboard-two-col,
+  .capability-workbench {
+    grid-template-columns: 1fr;
+  }
+
+  .workbench-hero,
+  .recipe-list.detail article {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 1180px) {
   .workspace-grid,
   .skill-browser-grid,

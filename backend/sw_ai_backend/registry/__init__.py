@@ -1,0 +1,2 @@
+"""AI Capability Workbench registries."""
+

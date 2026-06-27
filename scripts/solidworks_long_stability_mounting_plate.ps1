@@ -99,7 +99,10 @@ for index in range(1, count + 1):
         run["artifact_count"] = len(body.get("artifacts", []))
         run["artifacts"] = body.get("artifacts", [])
         run["real_execution_verified"] = body.get("real_execution_verified")
-        if body.get("status") == "COMPLETED" and body.get("real_execution_verified"):
+        artifacts = body.get("artifacts", [])
+        artifacts_exist = all(item.get("exists") for item in artifacts)
+        evidence_ok = bool(body.get("real_execution_verified")) and bool(body.get("evidence", {}).get("created_files_exist"))
+        if str(body.get("status", "")).lower() == "completed" and evidence_ok and len(artifacts) >= 4 and artifacts_exist:
             report["pass_count"] += 1
         else:
             report["fail_count"] += 1

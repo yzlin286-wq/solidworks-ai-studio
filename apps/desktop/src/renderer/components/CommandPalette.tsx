@@ -10,7 +10,14 @@ interface CommandPaletteProps {
   onRefresh: () => void;
 }
 
-const commands = zhCN.palette.commands as ReadonlyArray<{ label: string; hint: string; view?: ViewKey; action?: "refresh" }>;
+const commands: ReadonlyArray<{ label: string; hint: string; view?: ViewKey; action?: "refresh" }> = [
+  { label: "打开 Dashboard", hint: "查看能力、Recipe 和任务概览", view: "dashboard" },
+  { label: "打开 Capabilities", hint: "进入 AI workflow grouped sidebar", view: "capabilities" },
+  { label: "打开 Task History", hint: "查看 artifacts 和执行记录", view: "tasks" },
+  { label: "打开 Integration", hint: "Direct Tools / MCP / Developer 区域", view: "integration" },
+  { label: "打开 Settings", hint: "配置 LLM Provider 和本地后端", view: "settings" },
+  { label: "刷新", hint: "重新读取后端状态", action: "refresh" }
+];
 
 export function CommandPalette({ open, onOpenChange, onNavigate, onRefresh }: CommandPaletteProps) {
   const [query, setQuery] = useState("");

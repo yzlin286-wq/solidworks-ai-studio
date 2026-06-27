@@ -9,12 +9,17 @@ import type {
   MCPStatusResponse,
   PreflightResponse,
   CapabilityListResponse,
+  AICapability,
+  AICapabilityListResponse,
+  RecipeListResponse,
   RealTestRunResponse,
   RunRecord,
   SkillIndexResponse,
   SolidWorksActionResponse,
   SolidWorksExecutionRecord,
-  TestConnectionResponse
+  TestConnectionResponse,
+  WorkbenchTask,
+  WorkbenchTaskListResponse
 } from "./types";
 
 interface BackendInfo {
@@ -116,6 +121,31 @@ export const api = {
   syncSkills: () => request<{ ok: boolean; message: string; solidworks: string; taste: string }>("/api/skills/sync", "POST", {}, 120000),
   skills: () => request<SkillIndexResponse>("/api/skills/index", "GET", undefined, 30000),
   capabilities: () => request<CapabilityListResponse>("/api/skills/capabilities", "GET", undefined, 30000),
+  aiCapabilities: () => request<AICapabilityListResponse>("/api/ai-capabilities", "GET", undefined, 30000),
+  aiCapability: (capabilityId: string) => request<AICapability>(`/api/ai-capabilities/${encodeURIComponent(capabilityId)}`, "GET", undefined, 30000),
+  recipes: () => request<RecipeListResponse>("/api/recipes", "GET", undefined, 30000),
+  tasks: () => request<WorkbenchTaskListResponse>("/api/tasks", "GET", undefined, 15000),
+  task: (taskId: string) => request<WorkbenchTask>(`/api/tasks/${encodeURIComponent(taskId)}`, "GET", undefined, 15000),
+  workbenchPlan: (capabilityId: string, recipeId: string, executionMode: "mock" | "real", prompt = "") =>
+    request<WorkbenchTask>(`/api/ai-capabilities/${encodeURIComponent(capabilityId)}/plan`, "POST", {
+      recipe_id: recipeId,
+      execution_mode: executionMode,
+      prompt
+    }, 30000),
+  workbenchGenerate: (capabilityId: string, taskId: string, parameters: Record<string, JsonValue> = {}) =>
+    request<WorkbenchTask>(`/api/ai-capabilities/${encodeURIComponent(capabilityId)}/generate-script`, "POST", {
+      task_id: taskId,
+      parameters
+    }, 30000),
+  workbenchValidate: (capabilityId: string, taskId: string) =>
+    request<WorkbenchTask>(`/api/ai-capabilities/${encodeURIComponent(capabilityId)}/validate`, "POST", { task_id: taskId }, 30000),
+  workbenchApprove: (capabilityId: string, taskId: string) =>
+    request<WorkbenchTask>(`/api/ai-capabilities/${encodeURIComponent(capabilityId)}/approve`, "POST", { task_id: taskId }, 30000),
+  workbenchExecute: (capabilityId: string, taskId: string, parameters: Record<string, JsonValue> = {}) =>
+    request<WorkbenchTask>(`/api/ai-capabilities/${encodeURIComponent(capabilityId)}/execute`, "POST", {
+      task_id: taskId,
+      parameters
+    }, 300000),
   runCapability: (capabilityId: string, parameters: Record<string, JsonValue> = {}, timeoutSeconds = 180) =>
     request<SolidWorksExecutionRecord>(`/api/skills/capabilities/${encodeURIComponent(capabilityId)}/run`, "POST", {
       parameters,

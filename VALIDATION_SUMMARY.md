@@ -29,12 +29,25 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 |---|---:|
 | Fresh clone source | restored from `yzlin286-wq/solidworks-ai-studio` |
 | v0.9.1 hardening docs/scripts | copied into fresh clone |
-| Backend pytest after recovery | 29 passed |
-| Frontend Vitest after recovery | 5 passed |
+| AI Capability Workbench source | restored/rebuilt in current source |
+| Backend pytest after recovery | 35 passed |
+| Frontend TypeScript typecheck | passed |
+| Frontend Vitest after recovery | 7 passed |
 | Playwright smoke after recovery | 1 passed |
+| Registry entries | 27 AI capabilities |
+| Recipe entries | 14 recipes |
+| MCP tools | 16 real tools |
+| Low-level main nav entries | 0 |
+| Mock mounting_plate workflow | completed through plan -> generate script -> static validation -> approval -> execute -> artifacts |
+| Mock mounting_plate task ID | `d6fb36cc9181401193c27daf4efb2261` |
+| Packaged EXE smoke | `packaged_exe_ok=true` |
+| Packaged screenshots | 7 app screenshots |
 | npm audit high | passed, only low esbuild dev-server advisory remains |
 | Electron icon config | custom `apps/desktop/build/icon.ico` configured |
-| Missing current revalidation | AI Workbench source restore, 27 capabilities, 14 recipes, packaged smoke, real SolidWorks mounting plate, 20-run long stability |
+| Real SolidWorks preflight | connected, revision `33.5.0` |
+| Real mounting_plate task ID | `894bc968eb8344858c02580c806edddb` |
+| Real mounting_plate verification | `real_execution_verified=true` |
+| Long stability | `20 passed / 0 failed` |
 
 ## Archived Real SolidWorks Evidence
 
@@ -58,6 +71,28 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 | `mounting_plate_top.bmp` | 4,800,054 bytes |
 | `mounting_plate_right.bmp` | 4,800,054 bytes |
 
+## Current Real SolidWorks Evidence
+
+- SolidWorks revision: `33.5.0`.
+- Real task ID: `894bc968eb8344858c02580c806edddb`.
+- Execution mode: `real`.
+- Real execution verified: `true`.
+- Evidence note: current recovered source creates a real plate body and export/review evidence; the original v0.9.0 four-hole feature source is still missing.
+
+### Current Real Task Artifacts
+
+| Artifact | Evidence |
+|---|---:|
+| `mounting_plate.SLDPRT` | 59,123 bytes |
+| `mounting_plate.STEP` | 37,022 bytes |
+| `mounting_plate_parameters.json` | 72 bytes |
+| `mounting_plate_review_review_report.json` | 4,687 bytes |
+| `mounting_plate_review_review_summary.md` | 1,108 bytes |
+| `mounting_plate_review_front.bmp` | 4,800,054 bytes |
+| `mounting_plate_review_isometric.bmp` | 4,800,054 bytes |
+| `mounting_plate_review_right.bmp` | 4,800,054 bytes |
+| `mounting_plate_review_top.bmp` | 4,800,054 bytes |
+
 ## Archived Recipe Validation Matrix
 
 | recipe_id | capability_id | mock_plan | mock_execute | real_solidworks_execute | artifacts | review_report | maturity | known_limits |
@@ -79,13 +114,9 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 
 ## Current Missing Revalidation Items
 
-- Restore or rebuild `/api/ai-capabilities` and task workflow source.
-- Revalidate 27 AI Capability registry entries and 14 Recipe registry entries from current source.
-- Revalidate Dashboard, grouped sidebar, capability group/detail pages, and task history.
-- Re-run mock mounting_plate plan/script/validate/approve/execute/artifacts.
-- Re-run packaged EXE smoke and visual checks.
-- Re-run real SolidWorks mounting_plate with `real_execution_verified=true`.
-- Re-run `scripts/solidworks_long_stability_mounting_plate.ps1 -Count 20`.
+- The restored real mounting_plate path creates a real plate body, STEP export, parameters JSON, review JSON/Markdown, and BMP previews. The lost v0.9.0 hole-feature source was not recovered; `hole_features_restored=false` is recorded in current real execution evidence.
+- The current packaged visual script validates Dashboard/Workbench smoke and mock execution locally; it does not perform external vision-model analysis.
+- Generated validation outputs remain uncommitted by design and must be regenerated from the commands below.
 
 ## Evidence Commands
 
@@ -97,7 +128,9 @@ npm test --workspace apps/desktop
 npm run smoke --workspace apps/desktop
 powershell -ExecutionPolicy Bypass -File scripts\build_backend.ps1
 powershell -ExecutionPolicy Bypass -File scripts\build_desktop.ps1
-powershell -ExecutionPolicy Bypass -File scripts\run_packaged_exe_visual_validation.ps1
+node scripts\packaged_exe_visual_validation.mjs
+powershell -ExecutionPolicy Bypass -File scripts\sw2025_preflight.ps1
+powershell -ExecutionPolicy Bypass -File scripts\solidworks_long_stability_mounting_plate.ps1 -Count 20
 ```
 
 ## Release Hardening Notes

@@ -1,13 +1,4 @@
-import {
-  Archive,
-  ClipboardText,
-  Command,
-  GearSix,
-  Graph,
-  Pulse,
-  Stack,
-  Wrench
-} from "@phosphor-icons/react";
+import { ClipboardText, Command, GearSix, Graph, House, Network, Stack, Wrench } from "@phosphor-icons/react";
 import type { ReactNode } from "react";
 import type { HealthResponse, MCPStatusResponse, PreflightResponse, TestConnectionResponse, ViewKey } from "../lib/types";
 import { preflightBadgeStatus, preflightStatusLabel, zhCN } from "../lib/copy/zhCN";
@@ -25,12 +16,12 @@ interface ShellProps {
 }
 
 const navItems = [
-  { view: "workspace" as const, label: zhCN.nav.workspace, icon: Wrench },
-  { view: "skills" as const, label: zhCN.nav.skills, icon: Stack },
-  { view: "monitor" as const, label: zhCN.nav.monitor, icon: Pulse },
-  { view: "review" as const, label: zhCN.nav.review, icon: ClipboardText },
-  { view: "files" as const, label: zhCN.nav.files, icon: Archive },
-  { view: "settings" as const, label: zhCN.nav.settings, icon: GearSix }
+  { view: "dashboard" as const, label: "Dashboard", icon: House },
+  { view: "capabilities" as const, label: "Capabilities", icon: Stack },
+  { view: "tasks" as const, label: "Tasks", icon: ClipboardText },
+  { view: "integration" as const, label: "Integration", icon: Network },
+  { view: "developer" as const, label: "Developer", icon: Wrench },
+  { view: "settings" as const, label: "Settings", icon: GearSix }
 ];
 
 export function Shell({ view, onNavigate, health, llmConnection, preflight, mcp, onPaletteOpen, children }: ShellProps) {
@@ -90,12 +81,11 @@ export function Shell({ view, onNavigate, health, llmConnection, preflight, mcp,
 
 function titleForView(view: ViewKey): string {
   const titles: Record<ViewKey, string> = {
-    onboarding: zhCN.viewTitles.onboarding,
-    workspace: zhCN.viewTitles.workspace,
-    skills: zhCN.viewTitles.skills,
-    monitor: zhCN.viewTitles.monitor,
-    review: zhCN.viewTitles.review,
-    files: zhCN.viewTitles.files,
+    dashboard: "Dashboard",
+    capabilities: "AI Capability Workbench",
+    tasks: "Task History",
+    integration: "Integration",
+    developer: "Developer",
     settings: zhCN.viewTitles.settings
   };
   return titles[view];
