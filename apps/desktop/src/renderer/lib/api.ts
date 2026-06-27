@@ -118,6 +118,8 @@ export const api = {
   saveConfig: (config: AppConfig) => request<ConfigResponse>("/api/config", "POST", config as unknown as JsonValue, 30000),
   testConnection: (profile: LLMProfile) =>
     request<TestConnectionResponse>("/api/llm/test", "POST", { profile: profile as unknown as JsonValue }, (profile.timeout_seconds + 15) * 1000),
+  testVisionConnection: (profile: LLMProfile) =>
+    request<TestConnectionResponse>("/api/llm/test-vision", "POST", { profile: profile as unknown as JsonValue }, (profile.timeout_seconds + 15) * 1000),
   syncSkills: () => request<{ ok: boolean; message: string; solidworks: string; taste: string }>("/api/skills/sync", "POST", {}, 120000),
   skills: () => request<SkillIndexResponse>("/api/skills/index", "GET", undefined, 30000),
   capabilities: () => request<CapabilityListResponse>("/api/skills/capabilities", "GET", undefined, 30000),

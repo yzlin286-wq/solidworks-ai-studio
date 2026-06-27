@@ -56,6 +56,18 @@ const task: WorkbenchTask = {
   mock_demo: true
 };
 
+const profile = {
+  id: "ccagent",
+  name: "CCAgent",
+  api_base_url: "https://api.ccagent.cn/v1",
+  api_key: "",
+  model: "glm-5.1",
+  vision_model: "doubao-seed-2.0-pro",
+  temperature: 0.2,
+  max_tokens: 8192,
+  timeout_seconds: 180
+};
+
 describe("AI Capability Workbench", () => {
   it("renders dashboard counts", () => {
     render(<DashboardPage capabilities={capabilities} recipes={recipes} tasks={[]} onSelectGroup={vi.fn()} onOpenCapability={vi.fn()} onOpenTasks={vi.fn()} />);
@@ -125,6 +137,43 @@ describe("AI Capability Workbench", () => {
 
     expect(screen.getByText("Completed Tasks")).toBeInTheDocument();
     expect(screen.getByText("开始 mounting_plate")).toBeInTheDocument();
+  });
+
+  it("renders separate text and vision model settings", async () => {
+    const { SettingsPage } = await import("../src/renderer/pages/SettingsPage");
+    render(
+      <SettingsPage
+        configResponse={{
+          config: {
+            profiles: [profile],
+            active_profile_id: "ccagent",
+            theme: "dark",
+            solidworks_skill_path: "vendor/skills/solidworks-automation",
+            taste_skill_path: "vendor/skills/taste-skill",
+            output_dir: "",
+            validation_output_dir: "outputs/validation",
+            part_template_path: "",
+            assembly_template_path: "",
+            drawing_template_path: "",
+            require_approval: true,
+            mock_mode: false
+          },
+          config_path: "config.json",
+          secure_storage: "config-file",
+          note: "local only"
+        }}
+        mcp={null}
+        busy={false}
+        onSave={vi.fn()}
+        onConnectionTest={vi.fn()}
+        onMcpStart={vi.fn()}
+        onMcpStop={vi.fn()}
+      />
+    );
+
+    expect(screen.getByText("文本 Model")).toBeInTheDocument();
+    expect(screen.getByText("视觉 Model")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "测试视觉" })).toBeEnabled();
   });
 });
 

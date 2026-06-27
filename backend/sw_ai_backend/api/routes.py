@@ -123,6 +123,24 @@ async def test_llm(request: TestConnectionRequest) -> TestConnectionResponse:
     )
 
 
+@protected.post("/llm/test-vision", response_model=TestConnectionResponse)
+async def test_llm_vision(request: TestConnectionRequest) -> TestConnectionResponse:
+    profile = _hydrate_masked_profile_secret(request.profile)
+    ok, message, latency_ms, vision_model, vision_verified = await LLMClient(profile).test_vision_connection()
+    return TestConnectionResponse(
+        ok=ok,
+        provider=profile.name,
+        message=message,
+        latency_ms=latency_ms,
+        models=[],
+        models_verified=False,
+        chat_verified=False,
+        vision_model=vision_model,
+        vision_verified=vision_verified,
+        provider_verified_at=utc_now() if ok and vision_verified else None,
+    )
+
+
 @protected.post("/skills/sync", response_model=SkillSyncResponse)
 async def sync_skills() -> SkillSyncResponse:
     solidworks = _sync_repo("vendor/skills/solidworks-automation", "https://github.com/wzyn20051216/solidworks-automation-skill.git")

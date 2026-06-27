@@ -49,6 +49,46 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 | Real mounting_plate verification | `real_execution_verified=true`, `hole_features_restored=true`, `geometry_parity_verified=true` |
 | Long stability | `20 passed / 0 failed`, every run observed 4 holes |
 
+## v0.9.4 End-to-End Usable App Evidence
+
+This is current evidence from the packaged application, not archived v0.9.0 evidence.
+
+| Area | Result |
+|---|---:|
+| Packaged backend build | passed |
+| Packaged desktop build | passed |
+| Packaged EXE launch | `ok=true` |
+| Packaged artifacts | `dist/SolidWorks AI Studio Setup.exe`, `dist/SolidWorks AI Studio Portable.exe`, `dist/win-unpacked/SolidWorks AI Studio.exe` |
+| Evidence report | `outputs/v094_e2e/latest/V094_E2E_USABLE_APP_REPORT.json` |
+| Text model configured | `glm-5.1` |
+| Text LLM verified | `chat_verified=true` |
+| Vision model configured | `doubao-seed-2.0-pro` |
+| Vision LLM verified | `vision_verified=true` |
+| Visual validation | `visual_ok=true`, `degraded=false`, `vision_analysis_count=8` |
+| SolidWorks preflight | `can_run_real_com=true`, revision `33.5.0` |
+| Natural language run ID | `be5b5647068c4d288b029e9dc1a70c63` |
+| Natural language run | `stage=done`, `real_execution_verified=true` |
+| Workbench task ID | `f1eff04e57d4490f91d0627cae83dcf2` |
+| Workbench execution | `real_execution_verified=true` |
+| Geometry evidence | `hole_features_restored=true`, `geometry_parity_verified=true` |
+| Workbench artifacts | 9 artifacts |
+| Task History API | `task_history_api_visible=true` |
+| Task History UI | `task_history_visible=true` |
+| Packaged screenshots | 7 pages, all assertions passed |
+| Script | `scripts/v094_e2e_usable_app_validation.mjs` |
+
+### v0.9.4 Packaged Page Coverage
+
+| Page | Evidence |
+|---|---:|
+| Dashboard | screenshot assertion passed |
+| Settings model configuration | screenshot assertion passed |
+| Settings verified state | screenshot assertion passed |
+| AI CAD Studio / Capability Workbench | screenshot assertion passed |
+| Task History | screenshot assertion passed |
+| Integration | screenshot assertion passed |
+| Developer | screenshot assertion passed |
+
 ## Archived Real SolidWorks Evidence
 
 - SolidWorks revision: `33.5.0`.
@@ -132,8 +172,9 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 
 ## Current Missing Revalidation Items
 
-- The current packaged visual script validates Dashboard/Workbench smoke and mock execution locally; it does not perform external vision-model analysis.
 - Generated validation outputs remain uncommitted by design and must be regenerated from the commands below.
+- MCP `solidworks_review_active` can still emit manual-preview warnings; v0.9.4 visual acceptance is based on the packaged visual-validation report and Workbench real evidence.
+- The validation API key is required through local config or `SWAI_VALIDATION_API_KEY`; it is not committed.
 
 ## Evidence Commands
 
@@ -145,6 +186,7 @@ npm test --workspace apps/desktop
 npm run smoke --workspace apps/desktop
 powershell -ExecutionPolicy Bypass -File scripts\build_backend.ps1
 powershell -ExecutionPolicy Bypass -File scripts\build_desktop.ps1
+node scripts\v094_e2e_usable_app_validation.mjs
 node scripts\packaged_exe_visual_validation.mjs
 powershell -ExecutionPolicy Bypass -File scripts\sw2025_preflight.ps1
 powershell -ExecutionPolicy Bypass -File scripts\solidworks_long_stability_mounting_plate.ps1 -Count 20

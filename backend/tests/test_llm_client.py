@@ -32,6 +32,12 @@ async def _test_llm_without_key_refuses_generation(tmp_path: Path) -> None:
         await client.generate_plan("Create a bracket", "skill context", str(tmp_path))
     with pytest.raises(LLMConfigurationError):
         await client.generate_script("Create a bracket", "skill context", str(tmp_path), tmp_path / "task.py")
+    vision_ok, vision_message, vision_latency, vision_model, vision_verified = await client.test_vision_connection()
+    assert not vision_ok
+    assert "API Key" in vision_message
+    assert vision_latency is None
+    assert vision_model == "demo"
+    assert not vision_verified
 
 
 def test_empty_provider_script_is_rejected(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
@@ -132,4 +138,5 @@ def _provider_profile() -> LLMProfile:
         api_base_url="http://127.0.0.1:1234/v1",
         api_key="secret",
         model="cad-model",
+        vision_model="vision-model",
     )

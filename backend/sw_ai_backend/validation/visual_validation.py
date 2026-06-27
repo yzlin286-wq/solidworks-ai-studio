@@ -47,6 +47,10 @@ def _copy_cad_previews(root: Path) -> list[Path]:
     nl_review = samples_root / "nl_review"
     if nl_review.exists():
         roots.append(nl_review)
+    tasks_root = project_root() / "outputs" / "tasks"
+    task_review_dirs = [path for path in tasks_root.glob("*/review") if path.is_dir()] if tasks_root.exists() else []
+    if task_review_dirs:
+        roots.append(max(task_review_dirs, key=lambda item: item.stat().st_mtime))
     for source in sorted({bmp for candidate in roots for bmp in candidate.rglob("*.bmp")}):
         target = cad_target / source.name
         if target.exists():
@@ -88,6 +92,7 @@ async def _vision_analyze_one(path: Path, expected: str) -> dict[str, Any]:
     profile = next((p for p in config.profiles if p.id == config.active_profile_id), config.profiles[0])
     if not profile.api_key:
         raise RuntimeError("No API key is configured for the active LLM profile.")
+    vision_model = profile.vision_model or profile.model
     image_bytes = path.read_bytes()
     mime = "image/png" if path.suffix.lower() == ".png" else "image/bmp" if path.suffix.lower() == ".bmp" else "image/jpeg"
     prompt = {
@@ -96,7 +101,7 @@ async def _vision_analyze_one(path: Path, expected: str) -> dict[str, Any]:
         "instructions": "Return strict JSON with image_path, expected, observed, pass, confidence, issues, evidence. Do not include secrets.",
     }
     payload = {
-        "model": profile.model,
+        "model": vision_model,
         "temperature": 0,
         "messages": [
             {
@@ -126,6 +131,7 @@ async def _vision_analyze_one(path: Path, expected: str) -> dict[str, Any]:
     parsed = json.loads(content)
     parsed.setdefault("image_path", str(path))
     parsed.setdefault("expected", expected)
+    parsed.setdefault("vision_model", vision_model)
     return parsed
 
 
@@ -208,6 +214,8 @@ async def run_visual_validation_async() -> dict[str, Any]:
     degraded = bool(vision_errors)
     app_screenshots = [item for item in local_results if "\\app\\" in item.get("file_path", "").lower() or "/app/" in item.get("file_path", "").lower()]
     cad_screenshots = [item for item in local_results if "\\solidworks\\" in item.get("file_path", "").lower() or "/solidworks/" in item.get("file_path", "").lower()]
+    config = ConfigStore().load()
+    active_profile = next((p for p in config.profiles if p.id == config.active_profile_id), config.profiles[0])
     payload = {
         "visual_ok": local_ok and vision_ok,
         "degraded": degraded,
@@ -217,6 +225,7 @@ async def run_visual_validation_async() -> dict[str, Any]:
         "local_cv_check_count": len(local_results),
         "vision_analysis_count": len(vision_results),
         "vision_error_count": len(vision_errors),
+        "vision_model": active_profile.vision_model or active_profile.model,
         "local_cv_report": str(root / "local_cv_report.json"),
         "vision_results": vision_results,
         "vision_errors": vision_errors,
@@ -266,6 +275,7 @@ def _write_visual_md(payload: dict[str, Any], path: Path) -> None:
         f"- 本地 CV 检查：{payload['local_cv_check_count']}",
         f"- Vision 分析：{payload['vision_analysis_count']}",
         f"- Vision 错误：{payload['vision_error_count']}",
+        f"- Vision 模型：{payload.get('vision_model', '')}",
         "",
         "## Vision 错误",
     ]

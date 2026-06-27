@@ -16,6 +16,7 @@ DEFAULT_PROFILES = [
         name="CCAgent OpenAI-compatible",
         api_base_url="https://api.ccagent.cn/v1",
         model="glm-5.1",
+        vision_model="doubao-seed-2.0-pro",
         temperature=0.2,
         max_tokens=8192,
         timeout_seconds=180,
@@ -25,6 +26,7 @@ DEFAULT_PROFILES = [
         name="OpenAI",
         api_base_url="https://api.openai.com/v1",
         model="gpt-4.1",
+        vision_model="gpt-4.1",
         temperature=0.2,
         max_tokens=4096,
         timeout_seconds=120,
@@ -34,6 +36,7 @@ DEFAULT_PROFILES = [
         name="Azure-compatible",
         api_base_url="https://your-resource.openai.azure.com/openai/v1",
         model="deployment-name",
+        vision_model="deployment-name",
         temperature=0.2,
         max_tokens=4096,
         timeout_seconds=120,
@@ -43,6 +46,7 @@ DEFAULT_PROFILES = [
         name="Custom gateway",
         api_base_url="http://127.0.0.1:8000/v1",
         model="custom-model",
+        vision_model="custom-vision-model",
         temperature=0.2,
         max_tokens=4096,
         timeout_seconds=120,
@@ -52,6 +56,7 @@ DEFAULT_PROFILES = [
         name="Local model gateway",
         api_base_url="http://127.0.0.1:1234/v1",
         model="local-model",
+        vision_model="local-vision-model",
         temperature=0.2,
         max_tokens=1800,
         timeout_seconds=90,
@@ -111,7 +116,12 @@ class ConfigStore:
         return config.model_copy(update={"profiles": [*config.profiles, *missing]})
 
     def _strict_config(self, config: AppConfig) -> AppConfig:
-        return config.model_copy(update={"mock_mode": False})
+        recommended_vision = {profile.id: profile.vision_model or profile.model for profile in DEFAULT_PROFILES}
+        profiles = [
+            profile.model_copy(update={"vision_model": profile.vision_model or recommended_vision.get(profile.id, profile.model)})
+            for profile in config.profiles
+        ]
+        return config.model_copy(update={"profiles": profiles, "mock_mode": False})
 
     def _preserve_masked_api_keys(self, config: AppConfig) -> AppConfig:
         if not self.path.exists():

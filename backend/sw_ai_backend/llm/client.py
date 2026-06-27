@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import base64
+import io
 import json
 import re
 import time
@@ -83,6 +85,46 @@ class LLMClient:
             return False, "连接超时。", None, models, models_verified, chat_verified
         except httpx.HTTPError as exc:
             return False, f"连接失败：{exc}", None, models, models_verified, chat_verified
+
+    async def test_vision_connection(self) -> tuple[bool, str, int | None, str, bool]:
+        if not self.profile.api_key:
+            return False, "API Key 为空。请先保存 Profile，再测试真实视觉 Provider。", None, self._vision_model(), False
+        started = time.perf_counter()
+        try:
+            async with httpx.AsyncClient(timeout=self.profile.timeout_seconds) as client:
+                response = await client.post(
+                    f"{self.profile.api_base_url}/chat/completions",
+                    headers=self._headers(),
+                    json=self._chat_payload(
+                        model=self._vision_model(),
+                        messages=[
+                            {
+                                "role": "user",
+                                "content": [
+                                    {"type": "text", "text": "请判断图片是否是一个非空测试图。只回复 SWAI_VISION_OK 或解释失败原因。"},
+                                    {
+                                        "type": "image_url",
+                                        "image_url": {"url": f"data:image/png;base64,{_tiny_png_base64()}"},
+                                    },
+                                ],
+                            }
+                        ],
+                        temperature=0,
+                        max_tokens=128,
+                    ),
+                )
+            latency_ms = int((time.perf_counter() - started) * 1000)
+            if response.status_code >= 400:
+                return False, f"Vision Provider 返回 HTTP {response.status_code}。", latency_ms, self._vision_model(), False
+            data = response.json()
+            content = str(data.get("choices", [{}])[0].get("message", {}).get("content", "")).strip()
+            if not content:
+                return False, "Vision Provider 响应为空，请检查 Vision Model 名称。", latency_ms, self._vision_model(), False
+            return True, "视觉模型连接成功，已验证 image_url chat 真实响应。", latency_ms, self._vision_model(), True
+        except httpx.TimeoutException:
+            return False, "视觉模型连接超时。", None, self._vision_model(), False
+        except httpx.HTTPError as exc:
+            return False, f"视觉模型连接失败：{exc}", None, self._vision_model(), False
 
     async def generate_plan(
         self,
@@ -232,6 +274,9 @@ class LLMClient:
             payload["thinking"] = {"type": "disabled"}
         return payload
 
+    def _vision_model(self) -> str:
+        return self.profile.vision_model or self.profile.model
+
     def _system_prompt(self, skill_context: str) -> str:
         return (
             "You are generating controlled SolidWorks automation for a Windows desktop app. "
@@ -305,3 +350,14 @@ if VENDORED_SW_SCRIPTS.exists() and str(VENDORED_SW_SCRIPTS) not in sys.path:
                 "Provider 生成脚本包含不稳定的底层 SolidWorks COM 长参数调用，已拒绝执行。"
                 f" 请重新生成并复用 vendored helper APIs：{', '.join(found)}"
             )
+
+
+def _tiny_png_base64() -> str:
+    from PIL import Image, ImageDraw
+
+    image = Image.new("RGB", (32, 32), "#1f6feb")
+    draw = ImageDraw.Draw(image)
+    draw.rectangle((8, 8, 24, 24), fill="#ffffff")
+    buffer = io.BytesIO()
+    image.save(buffer, format="PNG")
+    return base64.b64encode(buffer.getvalue()).decode("ascii")

@@ -36,6 +36,7 @@ def test_config_store_creates_default_without_deadlock(tmp_path: Path) -> None:
 
     assert config.active_profile_id == "ccagent"
     assert config.profiles[0].model == "glm-5.1"
+    assert config.profiles[0].vision_model == "doubao-seed-2.0-pro"
     assert store.path.exists()
 
 
@@ -83,3 +84,26 @@ def test_config_store_forces_mock_mode_off(tmp_path: Path) -> None:
 
     assert not saved.mock_mode
     assert not loaded.mock_mode
+
+
+def test_config_store_backfills_vision_model_for_legacy_profile(tmp_path: Path) -> None:
+    store = ConfigStore(tmp_path / "config.json")
+    config = AppConfig(
+        profiles=[
+            LLMProfile(
+                id="ccagent",
+                name="CCAgent",
+                api_base_url="https://api.ccagent.cn/v1",
+                api_key="real-secret",
+                model="glm-5.1",
+                vision_model="",
+            )
+        ],
+        active_profile_id="ccagent",
+    )
+
+    saved = store.save(config)
+    loaded = store.load()
+
+    assert saved.profiles[0].vision_model == "doubao-seed-2.0-pro"
+    assert loaded.profiles[0].vision_model == "doubao-seed-2.0-pro"

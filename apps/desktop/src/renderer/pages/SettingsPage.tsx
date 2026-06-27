@@ -18,7 +18,9 @@ interface SettingsPageProps {
 export function SettingsPage({ configResponse, mcp, busy, onSave, onConnectionTest, onMcpStart, onMcpStop }: SettingsPageProps) {
   const [draft, setDraft] = useState<AppConfig | null>(configResponse?.config ?? null);
   const [connection, setConnection] = useState<TestConnectionResponse | null>(null);
+  const [visionConnection, setVisionConnection] = useState<TestConnectionResponse | null>(null);
   const [testingConnection, setTestingConnection] = useState(false);
+  const [testingVision, setTestingVision] = useState(false);
   const [snippets, setSnippets] = useState<MCPConfigSnippetsResponse | null>(null);
 
   useEffect(() => {
@@ -111,6 +113,15 @@ export function SettingsPage({ configResponse, mcp, busy, onSave, onConnectionTe
             </datalist>
           </label>
           <label className="input-stack">
+            <span>{zhCN.settings.visionModel}</span>
+            <input
+              list="swai-model-options"
+              value={activeProfile.vision_model || activeProfile.model}
+              onChange={(event) => updateActiveProfile({ vision_model: event.target.value })}
+              placeholder={zhCN.settings.visionModelPlaceholder}
+            />
+          </label>
+          <label className="input-stack">
             <span>{zhCN.settings.timeout}</span>
             <input
               type="number"
@@ -168,6 +179,35 @@ export function SettingsPage({ configResponse, mcp, busy, onSave, onConnectionTe
           <TestTube size={18} weight="bold" aria-hidden />
           {testingConnection ? zhCN.settings.testingConnection : zhCN.settings.testConnection}
         </button>
+        <button
+          type="button"
+          className="secondary-button"
+          disabled={busy || testingVision}
+          onClick={async () => {
+            setTestingVision(true);
+            try {
+              const result = await api.testVisionConnection(activeProfile);
+              setVisionConnection(result);
+            } catch (caught) {
+              setVisionConnection({
+                ok: false,
+                provider: activeProfile.name,
+                message: caught instanceof Error ? caught.message : String(caught),
+                latency_ms: null,
+                models: [],
+                models_verified: false,
+                chat_verified: false,
+                vision_model: activeProfile.vision_model || activeProfile.model,
+                vision_verified: false
+              });
+            } finally {
+              setTestingVision(false);
+            }
+          }}
+        >
+          <TestTube size={18} weight="bold" aria-hidden />
+          {testingVision ? zhCN.settings.testingConnection : zhCN.settings.testVisionConnection}
+        </button>
         {connection ? (
           <div className="connection-result">
             <StatusBadge status={connection.ok ? "pass" : "fail"} label={connection.message} />
@@ -176,6 +216,16 @@ export function SettingsPage({ configResponse, mcp, busy, onSave, onConnectionTe
               {connection.latency_ms ? ` · ${connection.latency_ms} ms` : ""}
             </p>
             {connection.models.length > 0 ? <code>{connection.models.join(" / ")}</code> : null}
+          </div>
+        ) : null}
+        {visionConnection ? (
+          <div className="connection-result">
+            <StatusBadge status={visionConnection.ok ? "pass" : "fail"} label={visionConnection.message} />
+            <p>
+              vision: {visionConnection.vision_verified ? "已验证" : "未验证"}
+              {visionConnection.vision_model ? ` · ${visionConnection.vision_model}` : ""}
+              {visionConnection.latency_ms ? ` · ${visionConnection.latency_ms} ms` : ""}
+            </p>
           </div>
         ) : null}
       </section>

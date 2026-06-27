@@ -21,6 +21,7 @@ export interface LLMProfile {
   api_base_url: string;
   api_key: string;
   model: string;
+  vision_model: string;
   temperature: number;
   max_tokens: number;
   timeout_seconds: number;
@@ -243,6 +244,8 @@ export interface TestConnectionResponse {
   models: string[];
   models_verified: boolean;
   chat_verified: boolean;
+  vision_model?: string;
+  vision_verified?: boolean;
   provider_verified_at?: string | null;
 }
 

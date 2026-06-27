@@ -86,6 +86,7 @@ class LLMProfile(BaseModel):
     api_base_url: str = Field(min_length=1)
     api_key: str = ""
     model: str = Field(min_length=1)
+    vision_model: str = ""
     temperature: float = Field(default=0.2, ge=0, le=2)
     max_tokens: int = Field(default=2200, ge=1, le=200000)
     timeout_seconds: int = Field(default=60, ge=5, le=600)
@@ -130,6 +131,8 @@ class TestConnectionResponse(BaseModel):
     models: list[str] = Field(default_factory=list)
     models_verified: bool = False
     chat_verified: bool = False
+    vision_model: str = ""
+    vision_verified: bool = False
     provider_verified_at: datetime | None = None
 
 
