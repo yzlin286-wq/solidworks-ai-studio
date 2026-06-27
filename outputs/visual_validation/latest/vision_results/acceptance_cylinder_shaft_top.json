@@ -1,9 +1,0 @@
-{
-  "image_path": "C:\\Users\\Vision\\Documents\\sw skill 应用化\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\acceptance_cylinder_shaft_top.bmp",
-  "expected": "A long cylindrical shaft preview.",
-  "observed": "A tall vertically oriented shaded rectangular solid part preview, matching the orthographic top/side view of a long cylindrical shaft, with dark green part shading on the default SolidWorks gradient viewport background, and an origin marker at the bottom edge of the part.",
-  "pass": true,
-  "confidence": 0.99,
-  "issues": [],
-  "evidence": "The displayed elongated rectangular shaded preview matches the expected orthographic appearance of a long cylindrical shaft viewed perpendicular to its central axis, consistent with a SolidWorks part preview."
-}

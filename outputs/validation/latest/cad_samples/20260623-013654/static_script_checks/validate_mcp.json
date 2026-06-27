@@ -1,9 +1,0 @@
-{
-  "command": [
-    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\.venv\\Scripts\\python.exe",
-    "C:\\Users\\Vision\\Documents\\sw skill 应用化\\vendor\\skills\\solidworks-automation\\scripts\\validate_mcp.py"
-  ],
-  "returncode": 0,
-  "stdout": null,
-  "stderr": "Processing request of type ListToolsRequest\n"
-}

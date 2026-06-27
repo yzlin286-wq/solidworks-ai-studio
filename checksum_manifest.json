@@ -1,0 +1,6 @@
+{
+  "generated_at": "2026-06-28T00:20:00+08:00",
+  "status": "blocked",
+  "reason": "Required release evidence files are missing from the workspace, so checksums cannot be computed for the requested evidence package.",
+  "files": []
+}

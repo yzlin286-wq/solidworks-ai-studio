@@ -1,11 +1,10 @@
 .venv/
-__pycache__/
+**/__pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
 *.pyc
 *.pyo
-*.pyd
 
 node_modules/
 dist/
@@ -16,18 +15,28 @@ coverage/
 
 apps/desktop/dist/
 apps/desktop/out/
+apps/desktop/test-results/
+apps/desktop/playwright-report/
 apps/desktop/resources/backend/sw-ai-backend.exe
 backend/build/
 backend/dist/
+backend/generated/
 
 *.log
 logs/
 outputs/
+outputs*/
 tmp/
+temp/
+test-results/
+playwright-report/
+blob-report/
 
 .env
 .env.local
+.env.*
 .env.*.local
+!.env.example
 
 SolidWorks AI Studio Setup.exe
 SolidWorks AI Studio Portable.exe
