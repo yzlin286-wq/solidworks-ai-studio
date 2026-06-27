@@ -45,9 +45,9 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 | npm audit high | passed, only low esbuild dev-server advisory remains |
 | Electron icon config | custom `apps/desktop/build/icon.ico` configured |
 | Real SolidWorks preflight | connected, revision `33.5.0` |
-| Real mounting_plate task ID | `894bc968eb8344858c02580c806edddb` |
-| Real mounting_plate verification | `real_execution_verified=true` |
-| Long stability | `20 passed / 0 failed` |
+| Real mounting_plate task ID | `b284ae411c9145f1b0f85b5ed63a61a6` |
+| Real mounting_plate verification | `real_execution_verified=true`, `hole_features_restored=true`, `geometry_parity_verified=true` |
+| Long stability | `20 passed / 0 failed`, every run observed 4 holes |
 
 ## Archived Real SolidWorks Evidence
 
@@ -74,32 +74,50 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 ## Current Real SolidWorks Evidence
 
 - SolidWorks revision: `33.5.0`.
-- Real task ID: `894bc968eb8344858c02580c806edddb`.
+- Real task ID: `b284ae411c9145f1b0f85b5ed63a61a6`.
 - Execution mode: `real`.
 - Real execution verified: `true`.
-- Evidence note: current recovered source creates a real plate body and export/review evidence; the original v0.9.0 four-hole feature source is still missing.
+- Geometry parity verified: `true`.
+- Hole features restored: `true`.
+- Hole count expected/observed: `4 / 4`.
+- Hole diameter: `6.5 mm`.
+- Hole offset from plate corners: `10.0 mm`.
+- Hole centers: `(-50, -30)`, `(50, -30)`, `(50, 30)`, `(-50, 30)` mm for a `120 x 80 x 10 mm` plate.
+- Evidence reports regenerated under `outputs/validation/latest/MOUNTING_PLATE_GEOMETRY_PARITY_TASK.json` and `outputs/validation/latest/LONG_STABILITY_MOUNTING_PLATE_REPORT.json`.
 
 ### Current Real Task Artifacts
 
 | Artifact | Evidence |
 |---|---:|
-| `mounting_plate.SLDPRT` | 59,123 bytes |
-| `mounting_plate.STEP` | 37,022 bytes |
-| `mounting_plate_parameters.json` | 72 bytes |
-| `mounting_plate_review_review_report.json` | 4,687 bytes |
+| `mounting_plate.SLDPRT` | 77,787 bytes |
+| `mounting_plate.STEP` | 37,028 bytes |
+| `mounting_plate_parameters.json` | 149 bytes |
+| `mounting_plate_review_review_report.json` | 4,845 bytes |
 | `mounting_plate_review_review_summary.md` | 1,108 bytes |
 | `mounting_plate_review_front.bmp` | 4,800,054 bytes |
 | `mounting_plate_review_isometric.bmp` | 4,800,054 bytes |
 | `mounting_plate_review_right.bmp` | 4,800,054 bytes |
 | `mounting_plate_review_top.bmp` | 4,800,054 bytes |
 
-## Archived Recipe Validation Matrix
+### v0.9.3 Geometry Parity Long-Stability Evidence
+
+| Area | Result |
+|---|---:|
+| Script | `scripts/solidworks_long_stability_mounting_plate.ps1 -Count 20` |
+| Status | `passed` |
+| Pass / fail | `20 / 0` |
+| First task ID | `4a4f7849752242269d0bad3483637659` |
+| Last task ID | `0a961b8053214079b76550454e9236fb` |
+| Artifact count per run | `9` |
+| Geometry parity per run | `hole_features_restored=true`, `geometry_parity_verified=true`, `hole_count_observed=4` |
+
+## Current Recipe Validation Matrix
 
 | recipe_id | capability_id | mock_plan | mock_execute | real_solidworks_execute | artifacts | review_report | maturity | known_limits |
 |---|---|---:|---:|---:|---|---:|---|---|
 | `basic_box` | `ai.parametric_part_generator` | pass | pass | not_run | `box.SLDPRT`, `box.STEP`, `box_parameters.json` | placeholder | stable | Real execution needs recipe-specific SolidWorks script expansion. |
 | `cylinder` | `ai.parametric_part_generator` | pass | pass | not_run | `cylinder.SLDPRT`, `cylinder.STEP`, `cylinder_parameters.json` | placeholder | stable | Real execution needs recipe-specific SolidWorks script expansion. |
-| `mounting_plate` | `ai.parametric_part_generator` | pass | pass | pass | `mounting_plate.SLDPRT`, `mounting_plate.STEP`, parameters JSON, previews | pass | stable | Primary real MVP path; long-stability script covers repeated execution. |
+| `mounting_plate` | `ai.parametric_part_generator` | pass | pass | pass | `mounting_plate.SLDPRT`, `mounting_plate.STEP`, parameters JSON, review JSON/Markdown, 4 previews | pass | stable | v0.9.3 restored four-corner through-hole geometry; long-stability script now requires parity evidence. |
 | `flange_plate` | `ai.parametric_part_generator` | pass | pass | not_run | `flange_plate.SLDPRT`, `flange_plate.STEP`, `flange_parameters.json` | placeholder | stable | Real execution needs flange-specific feature script. |
 | `l_bracket` | `ai.complex_mechanical_part_generator` | pass | pass | not_run | `l_bracket.SLDPRT`, `l_bracket.STEP`, `review_report.json` | placeholder | beta | Real execution requires additional stable edge/feature selection. |
 | `shaft` | `ai.shaft_revolved_part_generator` | pass | pass | not_run | `shaft.SLDPRT`, `shaft.STEP`, `shaft_parameters.json` | placeholder | beta | Real execution requires revolved-profile script hardening. |
@@ -114,7 +132,6 @@ During v0.9.1 hardening, an early cleanup script revision removed workspace file
 
 ## Current Missing Revalidation Items
 
-- The restored real mounting_plate path creates a real plate body, STEP export, parameters JSON, review JSON/Markdown, and BMP previews. The lost v0.9.0 hole-feature source was not recovered; `hole_features_restored=false` is recorded in current real execution evidence.
 - The current packaged visual script validates Dashboard/Workbench smoke and mock execution locally; it does not perform external vision-model analysis.
 - Generated validation outputs remain uncommitted by design and must be regenerated from the commands below.
 

@@ -1,17 +1,20 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
 from fastapi import APIRouter, Depends, HTTPException
 
+from sw_ai_backend.core.paths import skill_paths
 from sw_ai_backend.core.security import require_api_token
 from sw_ai_backend.execution.task_workflow import WorkbenchTask, WorkbenchWorkflow
 from sw_ai_backend.mcp.tool_registry import MCPToolRegistry
 from sw_ai_backend.mcp.tool_runner import MCPToolRunner
 from sw_ai_backend.registry.ai_capability_registry import AICapabilityRegistry
 from sw_ai_backend.registry.recipe_registry import RecipeRegistry
+from sw_ai_backend.solidworks.com_runtime import solidworks_com_runtime
 from sw_ai_backend.solidworks.service import SolidWorksService
 
 
@@ -189,27 +192,14 @@ async def _execute_real_mounting_plate(task: WorkbenchTask, recipe, parameters: 
     sldprt = task_dir / "mounting_plate.SLDPRT"
     step = task_dir / "mounting_plate.STEP"
     review_dir = task_dir / "review"
-    width = float(parameters.get("width_mm") or 120)
-    height = float(parameters.get("height_mm") or 80)
-    thickness = float(parameters.get("thickness_mm") or 10)
+    geometry = _mounting_plate_geometry(parameters)
 
     created_files: list[str] = []
     stdout_chunks: list[str] = []
     try:
-        create_result = mcp_tool_runner.run(
-            "solidworks_create_basic_part",
-            {
-                "shape": "box",
-                "width_mm": width,
-                "height_mm": height,
-                "depth_mm": thickness,
-                "output_path": str(sldprt),
-                "color": "#9DA7AA",
-            },
-            raise_on_error_status=True,
-        )
-        stdout_chunks.append(create_result.stdout)
-        created_files.extend(create_result.created_files)
+        create_payload = _create_mounting_plate_with_holes(sldprt, geometry)
+        stdout_chunks.append(json.dumps(create_payload, ensure_ascii=False))
+        created_files.extend(create_payload.get("created_files", []))
         export_result = mcp_tool_runner.run(
             "solidworks_export_active",
             {"output_path": str(step), "export_format": "step"},
@@ -231,24 +221,106 @@ async def _execute_real_mounting_plate(task: WorkbenchTask, recipe, parameters: 
             "error": str(exc),
             "solidworks_version": preflight.solidworks_version,
             "task_dir": str(task_dir),
+            "hole_features_restored": False,
+            "geometry_parity_verified": False,
         }
         return workflow.complete_real(task, [], evidence).to_dict()
 
     params_path = task_dir / "mounting_plate_parameters.json"
-    params_path.write_text(json.dumps({"width_mm": width, "height_mm": height, "thickness_mm": thickness}, indent=2), encoding="utf-8")
+    params_path.write_text(json.dumps(geometry, indent=2), encoding="utf-8")
     created_files.append(str(params_path))
-    artifacts = [{"name": Path(path).name, "path": path, "exists": Path(path).exists(), "kind": "real"} for path in sorted(set(created_files))]
+    review_files = [str(path) for path in review_dir.rglob("*") if path.is_file()]
+    artifacts = [{"name": Path(path).name, "path": path, "exists": Path(path).exists(), "kind": "real"} for path in sorted(set([*created_files, *review_files]))]
+    features = create_payload.get("features", {}) if isinstance(create_payload, dict) else {}
+    hole_count = int(features.get("holes") or 0)
+    required_files_exist = sldprt.exists() and step.exists() and params_path.exists()
+    review_report_exists = any(Path(item["path"]).suffix.lower() in {".json", ".md"} for item in artifacts if item["exists"] and "review" in item["name"].lower())
+    previews_exist = sum(1 for item in artifacts if item["exists"] and Path(item["path"]).suffix.lower() in {".bmp", ".png", ".jpg", ".jpeg"}) >= 4
+    geometry_parity_verified = hole_count == 4 and abs(float(features.get("hole_diameter_mm") or 0) - geometry["hole_diameter_mm"]) < 0.001
+    real_verified = bool(required_files_exist and review_report_exists and previews_exist and geometry_parity_verified)
     evidence = {
         "execution_mode": "real",
-        "real_execution_verified": bool(sldprt.exists() and step.exists()),
+        "real_execution_verified": real_verified,
         "solidworks_version": preflight.solidworks_version,
         "task_dir": str(task_dir),
         "stdout_json": [_try_json(chunk) for chunk in stdout_chunks],
         "created_files_exist": all(item["exists"] for item in artifacts),
-        "hole_features_restored": False,
-        "known_limit": "Recovered real mounting_plate path creates a real plate body plus STEP/review evidence; v0.9.0 hole feature source is still missing.",
+        "hole_features_restored": geometry_parity_verified,
+        "geometry_parity_verified": geometry_parity_verified,
+        "hole_count_expected": 4,
+        "hole_count_observed": hole_count,
+        "hole_diameter_mm": geometry["hole_diameter_mm"],
+        "hole_offset_mm": geometry["hole_offset_mm"],
+        "feature_evidence": features,
+        "required_files_exist": required_files_exist,
+        "review_report_exists": review_report_exists,
+        "preview_count": sum(1 for item in artifacts if item["exists"] and Path(item["path"]).suffix.lower() in {".bmp", ".png", ".jpg", ".jpeg"}),
     }
     return workflow.complete_real(task, artifacts, evidence).to_dict()
+
+
+def _mounting_plate_geometry(parameters: dict[str, Any]) -> dict[str, float]:
+    return {
+        "width_mm": float(parameters.get("width_mm") or 120),
+        "height_mm": float(parameters.get("height_mm") or 80),
+        "thickness_mm": float(parameters.get("thickness_mm") or parameters.get("depth_mm") or 10),
+        "hole_diameter_mm": float(parameters.get("hole_diameter_mm") or 6.5),
+        "hole_offset_mm": float(parameters.get("hole_offset_mm") or 10),
+        "chamfer_mm": float(parameters.get("chamfer_mm") or 1),
+    }
+
+
+def _create_mounting_plate_with_holes(output_path: Path, geometry: dict[str, float]) -> dict[str, Any]:
+    scripts = skill_paths().solidworks_scripts
+    if str(scripts) not in sys.path:
+        sys.path.insert(0, str(scripts))
+    from sw_connect import mm
+    from sw_part import chamfer, extrude_boss, extrude_cut, sketch, sketch_circle, sketch_corner_rectangle
+    from sw_session import SolidWorksSession
+
+    output_path = output_path.expanduser().resolve()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    width = geometry["width_mm"]
+    height = geometry["height_mm"]
+    thickness = geometry["thickness_mm"]
+    hole_radius = geometry["hole_diameter_mm"] / 2
+    hole_offset = geometry["hole_offset_mm"]
+    chamfer_size = geometry["chamfer_mm"]
+    hole_centers = [
+        (-width / 2 + hole_offset, -height / 2 + hole_offset),
+        (width / 2 - hole_offset, -height / 2 + hole_offset),
+        (width / 2 - hole_offset, height / 2 - hole_offset),
+        (-width / 2 + hole_offset, height / 2 - hole_offset),
+    ]
+    with solidworks_com_runtime("AI Capability mounting_plate geometry parity"):
+        session = SolidWorksSession()
+        model = session.new_part()
+        with sketch(model, "Front Plane") as base_sketch:
+            sketch_corner_rectangle(model, mm(-width / 2), mm(-height / 2), mm(width / 2), mm(height / 2))
+        extrude_boss(model, base_sketch, mm(thickness))
+        with sketch(model, "Front Plane") as hole_sketch:
+            for x, y in hole_centers:
+                sketch_circle(model, mm(x), mm(y), mm(hole_radius))
+        extrude_cut(model, hole_sketch, mm(thickness * 2))
+        chamfer(model, mm(chamfer_size), 45)
+        saved = bool(session.save(model, str(output_path)))
+    if not saved:
+        raise RuntimeError("SolidWorks did not save mounting_plate.SLDPRT after four-hole geometry creation.")
+    return {
+        "status": "ok",
+        "output_path": str(output_path),
+        "created_files": [str(output_path)],
+        "features": {
+            "width_mm": width,
+            "height_mm": height,
+            "thickness_mm": thickness,
+            "holes": 4,
+            "hole_centers_mm": [{"x": x, "y": y} for x, y in hole_centers],
+            "hole_diameter_mm": geometry["hole_diameter_mm"],
+            "hole_offset_mm": hole_offset,
+            "chamfer_mm": chamfer_size,
+        },
+    }
 
 
 def _try_json(text: str) -> Any:
@@ -256,4 +328,3 @@ def _try_json(text: str) -> Any:
         return json.loads(text)
     except json.JSONDecodeError:
         return text
-

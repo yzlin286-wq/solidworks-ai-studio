@@ -55,11 +55,11 @@ def write_report():
         f"Pass: {report['pass_count']}",
         f"Fail: {report['fail_count']}",
         "",
-        "| iteration | status | task_id | artifacts | error |",
-        "|---:|---|---|---:|---|",
+        "| iteration | status | task_id | artifacts | holes | parity | error |",
+        "|---:|---|---|---:|---:|---|---|",
     ]
     for run in report["runs"]:
-        lines.append(f"| {run['iteration']} | {run['status']} | `{run.get('task_id','')}` | {run.get('artifact_count',0)} | {run.get('error','')} |")
+        lines.append(f"| {run['iteration']} | {run['status']} | `{run.get('task_id','')}` | {run.get('artifact_count',0)} | {run.get('hole_count_observed','')} | {run.get('geometry_parity_verified','')} | {run.get('error','')} |")
     md_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     report["report_json"] = str(json_path)
     report["report_markdown"] = str(md_path)
@@ -98,15 +98,20 @@ for index in range(1, count + 1):
         run["status"] = body.get("status")
         run["artifact_count"] = len(body.get("artifacts", []))
         run["artifacts"] = body.get("artifacts", [])
+        evidence = body.get("evidence", {})
         run["real_execution_verified"] = body.get("real_execution_verified")
+        run["hole_features_restored"] = evidence.get("hole_features_restored")
+        run["geometry_parity_verified"] = evidence.get("geometry_parity_verified")
+        run["hole_count_observed"] = evidence.get("hole_count_observed")
         artifacts = body.get("artifacts", [])
         artifacts_exist = all(item.get("exists") for item in artifacts)
-        evidence_ok = bool(body.get("real_execution_verified")) and bool(body.get("evidence", {}).get("created_files_exist"))
-        if str(body.get("status", "")).lower() == "completed" and evidence_ok and len(artifacts) >= 4 and artifacts_exist:
+        evidence_ok = bool(body.get("real_execution_verified")) and bool(evidence.get("created_files_exist"))
+        parity_ok = bool(evidence.get("hole_features_restored")) and bool(evidence.get("geometry_parity_verified")) and evidence.get("hole_count_observed") == 4
+        if str(body.get("status", "")).lower() == "completed" and evidence_ok and parity_ok and len(artifacts) >= 8 and artifacts_exist:
             report["pass_count"] += 1
         else:
             report["fail_count"] += 1
-            run["error"] = body.get("stderr") or body.get("skipped_with_reason") or "missing real execution evidence"
+            run["error"] = body.get("stderr") or body.get("skipped_with_reason") or "missing real execution or four-hole geometry evidence"
     except Exception as exc:
         report["fail_count"] += 1
         run["status"] = "FAILED"
