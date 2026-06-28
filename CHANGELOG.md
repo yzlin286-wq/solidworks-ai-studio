@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.9.5-rc.2 - Local Installation Acceptance
+
+- Advanced the RC version line to `0.9.5-rc.2`.
+- Added installed-app local acceptance covering install, first start, real model checks, SolidWorks checks, real workflows, stability, error scenarios, diagnostics, uninstall, reinstall, and final EXE delivery package generation.
+- Added redacted rc.2 evidence packaging for local installation acceptance.
+- No AI Capability, Recipe, SolidWorks module, low-level API navigation, Workbench architecture, or verified geometry path was added or expanded.
+
 ## v0.9.5-rc.1 - Release Candidate Freeze
 
 - Unified release version metadata across root package, desktop package, and backend API.

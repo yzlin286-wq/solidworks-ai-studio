@@ -1,0 +1,5 @@
+c5cb3034029a98f62c9a56cd2ea881be85942e857d56f184965944896c6b3ee7  dist/SolidWorks AI Studio Setup.exe
+4ffa7ea39459bc9f6c9f030e78d4a3cf7c2bd45e663e19efcd135741ae394ef4  dist/SolidWorks AI Studio Portable.exe
+36733061ef5ff0abdf86f3a7b91184995ffb4f46889dfd9ffd2a5830c65cb6c5  dist/SolidWorks AI Studio Setup.exe.blockmap
+ec4f312a168b97518148651931cded131d1fe55d8ad15c7e24faa764541d24ab  outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-windows-x64.zip
+f236ff57d5552121ef2a38e31a8f881cad9600c39e4fa301f473e9a8134410cc  outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-diagnostics.zip

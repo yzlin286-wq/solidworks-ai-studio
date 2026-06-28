@@ -89,9 +89,9 @@ This is current evidence from the packaged application, not archived v0.9.0 evid
 | Integration | screenshot assertion passed |
 | Developer | screenshot assertion passed |
 
-## v0.9.5 RC Freeze Evidence
+## Archived v0.9.5-rc.1 RC Freeze Evidence
 
-This is current RC freeze evidence generated after rebuilding the packaged artifacts at version `0.9.5-rc.1`.
+This is archived rc.1 freeze evidence. Current local-installation acceptance is recorded in the v0.9.5-rc.2 section below.
 
 | Area | Result |
 |---|---:|
@@ -126,6 +126,43 @@ This is current RC freeze evidence generated after rebuilding the packaged artif
 | `dist/SolidWorks AI Studio Portable.exe` | `9edc074eaa5db01df399ba0a0451ddda18f4aca8cb23898a6bf849738c3ac704` |
 | `dist/SolidWorks AI Studio Setup.exe.blockmap` | `b17bafd5abe26134f8b83120667a2437063269a96990b28a32846408b778c7ca` |
 | `dist/win-unpacked/SolidWorks AI Studio.exe` | `e28e34ab6bec280d41dcf02910c4f3aea2d8c1fa9382f5c288aa0601d4c3fe01` |
+
+## v0.9.5-rc.2 Local Installation Acceptance Evidence
+
+This is current evidence from the locally installed Windows EXE package, not archived evidence.
+
+| Area | Result |
+|---|---:|
+| RC verdict | `RC2 LOCAL INSTALL PASS` |
+| Root package version | `0.9.5-rc.2` |
+| Desktop package version | `0.9.5-rc.2` |
+| Backend API version | `0.9.5-rc.2` |
+| Redacted evidence package | `release_evidence/v0.9.5-rc.2/` |
+| Full generated evidence | `outputs/v095_rc2/latest/` |
+| Final EXE package | `outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-windows-x64.zip` |
+| Diagnostics package | `outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-diagnostics.zip` |
+| Installer first start | `first_start_ok=true` |
+| Text model | `glm-5.1`, `chat_verified=true` |
+| Vision model | `doubao-seed-2.0-pro`, `vision_verified=true` |
+| SolidWorks preflight | `solidworks_ready=true`, revision `33.5.0` |
+| Natural-language run ID | `7c15264f0de84b7a8b691c2d1bc5c941` |
+| Natural-language run | `real_execution_verified=true` |
+| Workbench task ID | `676c9ecc96a142188c7435a3f4b1de26` |
+| Workbench execution | `real_execution_verified=true` |
+| Geometry evidence | `hole_features_restored=true`, `geometry_parity_verified=true` |
+| Installed-app stability | `20 passed / 0 failed` |
+| Error scenarios | `passed` |
+| Uninstall / reinstall | `uninstall_ok=true`, `reinstall_ok=true` |
+
+### v0.9.5-rc.2 Deliverable Hashes
+
+| Artifact | SHA256 |
+|---|---|
+| `dist/SolidWorks AI Studio Setup.exe` | `c5cb3034029a98f62c9a56cd2ea881be85942e857d56f184965944896c6b3ee7` |
+| `dist/SolidWorks AI Studio Portable.exe` | `4ffa7ea39459bc9f6c9f030e78d4a3cf7c2bd45e663e19efcd135741ae394ef4` |
+| `dist/SolidWorks AI Studio Setup.exe.blockmap` | `36733061ef5ff0abdf86f3a7b91184995ffb4f46889dfd9ffd2a5830c65cb6c5` |
+| `outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-windows-x64.zip` | `ec4f312a168b97518148651931cded131d1fe55d8ad15c7e24faa764541d24ab` |
+| `outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-diagnostics.zip` | `f236ff57d5552121ef2a38e31a8f881cad9600c39e4fa301f473e9a8134410cc` |
 
 ## Archived Real SolidWorks Evidence
 
@@ -227,6 +264,8 @@ powershell -ExecutionPolicy Bypass -File scripts\build_desktop.ps1
 node scripts\v095_install_first_start_validation.mjs
 node scripts\v094_e2e_usable_app_validation.mjs
 node scripts\create_v095_rc_evidence_package.mjs
+node scripts\v095_rc2_local_installation_acceptance.mjs
+node scripts\create_v095_rc2_delivery_evidence_package.mjs
 node scripts\packaged_exe_visual_validation.mjs
 powershell -ExecutionPolicy Bypass -File scripts\sw2025_preflight.ps1
 powershell -ExecutionPolicy Bypass -File scripts\solidworks_long_stability_mounting_plate.ps1 -Count 20

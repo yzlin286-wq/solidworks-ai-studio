@@ -1,0 +1,87 @@
+{
+  "rc_version": "v0.9.5-rc.2",
+  "generated_at": "2026-06-28T09:26:23.472Z",
+  "source": {
+    "branch": "codex/v0.9.5-release-candidate-freeze",
+    "base_commit": "905aa0197a919a8f89efb630b79c999049ceae43"
+  },
+  "versions": {
+    "root_package": "0.9.5-rc.2",
+    "desktop_package": "0.9.5-rc.2",
+    "backend": "0.9.5-rc.2"
+  },
+  "release_artifacts": [
+    {
+      "relative_path": "dist/SolidWorks AI Studio Setup.exe",
+      "exists": true,
+      "bytes": 132941810,
+      "sha256": "c5cb3034029a98f62c9a56cd2ea881be85942e857d56f184965944896c6b3ee7"
+    },
+    {
+      "relative_path": "dist/SolidWorks AI Studio Portable.exe",
+      "exists": true,
+      "bytes": 132719884,
+      "sha256": "4ffa7ea39459bc9f6c9f030e78d4a3cf7c2bd45e663e19efcd135741ae394ef4"
+    },
+    {
+      "relative_path": "dist/SolidWorks AI Studio Setup.exe.blockmap",
+      "exists": true,
+      "bytes": 139906,
+      "sha256": "36733061ef5ff0abdf86f3a7b91184995ffb4f46889dfd9ffd2a5830c65cb6c5"
+    },
+    {
+      "relative_path": "outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-windows-x64.zip",
+      "exists": true,
+      "bytes": 265818537,
+      "sha256": "ec4f312a168b97518148651931cded131d1fe55d8ad15c7e24faa764541d24ab"
+    },
+    {
+      "relative_path": "outputs/v095_rc2/latest/SolidWorks-AI-Studio-v0.9.5-rc.2-diagnostics.zip",
+      "exists": true,
+      "bytes": 17185,
+      "sha256": "f236ff57d5552121ef2a38e31a8f881cad9600c39e4fa301f473e9a8134410cc"
+    }
+  ],
+  "acceptance": {
+    "report": "outputs/v095_rc2/latest/V095_RC2_LOCAL_INSTALLATION_ACCEPTANCE_REPORT.json",
+    "ok": true,
+    "install_ok": true,
+    "first_start_ok": true,
+    "reinstall_ok": true,
+    "uninstall_ok": true,
+    "reinstall_first_start_ok": true,
+    "text_model": "glm-5.1",
+    "text_chat_verified": true,
+    "vision_model": "doubao-seed-2.0-pro",
+    "vision_verified": true,
+    "solidworks_revision": "33.5.0",
+    "solidworks_ready": true,
+    "natural_language_run_id": "7c15264f0de84b7a8b691c2d1bc5c941",
+    "natural_language_verified": true,
+    "workbench_task_id": "676c9ecc96a142188c7435a3f4b1de26",
+    "workbench_verified": true,
+    "hole_features_restored": true,
+    "geometry_parity_verified": true,
+    "task_history_api_visible": true,
+    "task_history_ui_visible": true,
+    "stability_status": "passed",
+    "stability_pass_count": 20,
+    "stability_fail_count": 0,
+    "error_scenarios_status": "passed",
+    "diagnostics_ok": true,
+    "delivery_package_ok": true,
+    "screenshot_count": 7,
+    "screenshots_all_pass": true,
+    "errors": []
+  },
+  "gates": {
+    "no_new_ai_capability": true,
+    "no_new_recipe": true,
+    "no_new_solidworks_module": true,
+    "no_low_level_api_main_nav": true,
+    "no_mock_counted_as_real": true,
+    "archived_evidence_not_counted_as_current": true,
+    "secrets_redacted": true
+  },
+  "ok": true
+}
