@@ -1,0 +1,355 @@
+{
+  "visual_ok": true,
+  "degraded": false,
+  "generated_at": "2026-06-28T16:39:33.340686",
+  "app_screenshot_count": 13,
+  "cad_screenshot_count": 4,
+  "local_cv_check_count": 17,
+  "vision_analysis_count": 8,
+  "vision_error_count": 0,
+  "vision_model": "doubao-seed-2.0-pro",
+  "local_cv_report": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\local_cv_report.json",
+  "vision_results": [
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\01-dashboard.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "Fully rendered, populated SolidWorks AI Studio Dashboard desktop UI, containing sidebar navigation, top system status bar, capability count metrics, core Recipe list, and Task History panel, all with legible real status and content text.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Header correctly displays the 'SolidWorks AI Studio Dashboard' title",
+        "Top status bar shows valid system status labels: 本地后端在线, LLM 未验证, SolidWorks 就绪, MCP 已停止",
+        "Left sidebar navigation contains 6 functional navigation entries",
+        "Capability count tiles, capability category counts, core Recipe list, and Task History panel all contain valid legible text content",
+        "The UI is complete, rendered, and non-empty as expected"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-capabilities.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "This is a valid non-empty SolidWorks AI Studio AI Capability Workbench desktop UI screenshot, containing real runtime status text, complete left navigation sidebar, categorized capability listing, and populated AI CAD task workbench content for parameterized part generation.",
+      "pass": true,
+      "confidence": 1,
+      "issues": [],
+      "evidence": [
+        "Page header explicitly displays 'SolidWorks AI Studio' and 'AI Capability Workbench' title text",
+        "Top status bar contains real runtime status labels: 本地后端在线, LLM未验证, SolidWorks就绪, MCP已停止",
+        "Left navigation sidebar renders all main navigation entries: Dashboard, Capabilities, Tasks, Integration, Developer, Settings",
+        "Capability category list with item counts is fully rendered, Part & Manufacturing parameterized part generation content includes task recipes and functional action buttons"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-settings-models.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "This is a fully rendered non-empty SolidWorks AI Studio desktop Settings page UI. It displays real header status indicators, populated LLM profile/model configuration, path/security settings, MCP configuration content, and functional UI buttons. All displayed text is valid real status and configuration content.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Left navigation sidebar confirms this is the SolidWorks AI Studio application Settings page",
+        "Header status bar contains real active status text: 本地后端在线, LLM未验证, SolidWorks就绪, MCP已停止",
+        "LLM configuration section is populated with valid values (text model glm-5.1, visual model doubao-seed-2.0-pro, API endpoint and parameters etc.)",
+        "Path settings, MCP configuration sections are fully populated with real configuration text, the complete UI is non-empty"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\03-mock-task-completed.png",
+      "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+      "observed": "Fully rendered valid non-empty SolidWorks AI Studio desktop UI, displaying the AI Capability Workbench > AI CAD Studio parameterized part generation view. All UI elements are populated, and real status text and completed mock task output are present.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Complete dark-themed SolidWorks AI Studio desktop application UI is fully rendered",
+        "Top header status bar displays real service status text: 本地后端在线, LLM 未验证, SolidWorks 就绪, MCP 已停止",
+        "The current task section displays a completed mock mounting plate generation task, with structured JSON task output explicitly marked with status: 'completed'",
+        "Left navigation sidebar, capability category list, workflow tab buttons, and recipe Mock/Real Plan action buttons are all visible and properly populated"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_front.bmp",
+      "expected": "A SolidWorks mounting plate preview with rectangular body and four visible holes.",
+      "observed": "SolidWorks front view preview of a rectangular mounting plate, with four circular holes located at each of the four plate corners, and the SolidWorks coordinate origin triad visible at the center of the plate.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "The image shows a solid horizontal rectangular plate body",
+        "Four distinct circular mounting holes are clearly visible at all four corners of the plate",
+        "The view matches standard SolidWorks part preview presentation"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_isometric.bmp",
+      "expected": "A SolidWorks mounting plate preview with rectangular body and four visible holes.",
+      "observed": "This is a SolidWorks isometric part preview of a flat rectangular mounting plate, with four circular through holes visible at each corner of the plate face, and the standard SolidWorks origin triad marker present on the plate surface.",
+      "pass": true,
+      "confidence": 1,
+      "issues": [],
+      "evidence": [
+        "The part is a solid rectangular prismatic plate body",
+        "Four circular through holes are clearly visible, positioned at each corner of the plate front face",
+        "The native SolidWorks origin/view triad is present, confirming this is a SolidWorks part preview"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_right.bmp",
+      "expected": "A SolidWorks side or edge projection of the mounting plate; holes may be hidden by the viewing direction, but the plate body must be visible.",
+      "observed": "This is a SolidWorks right side (edge) orthographic projection of the mounting plate. The thin rectangular plate body is fully clearly visible, and mounting holes are hidden from this viewing direction, consistent with expectation for this side view.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "The solid black-outlined grey rectangular plate body matching the edge view of a flat mounting plate is fully visible in the viewport",
+        "No holes are visible, which is acceptable and expected for this side projection viewing direction"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    },
+    {
+      "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_top.bmp",
+      "expected": "A SolidWorks side or edge projection of the mounting plate; holes may be hidden by the viewing direction, but the plate body must be visible.",
+      "observed": "This is a SolidWorks edge/side projection view of the mounting plate. The long thin rectangular plate body is fully visible. No holes appear in this view, which is consistent with an edge viewing direction that obscures through-holes.",
+      "pass": true,
+      "confidence": 0.99,
+      "issues": [],
+      "evidence": [
+        "Horizontal rectangular mounting plate body is clearly rendered in the SolidWorks viewport",
+        "View orientation matches the required side/edge projection",
+        "Absence of visible holes is explicitly allowed by the expected requirement"
+      ],
+      "vision_model": "doubao-seed-2.0-pro"
+    }
+  ],
+  "vision_errors": [],
+  "images": [
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\01-dashboard.png",
+      "created_at": "2026-06-28T16:35:47.276692",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1218
+      },
+      "file_size": 100787,
+      "pixel_variance": 579.849604553389,
+      "edge_mean": 6.049285181884923,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-capabilities.png",
+      "created_at": "2026-06-28T01:28:29.892523",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "file_size": 104340,
+      "pixel_variance": 759.9579744085223,
+      "edge_mean": 7.701855232892467,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-settings-models.png",
+      "created_at": "2026-06-28T16:35:47.959255",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1771
+      },
+      "file_size": 148777,
+      "pixel_variance": 591.022925908705,
+      "edge_mean": 6.039591599971478,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\03-mock-task-completed.png",
+      "created_at": "2026-06-28T01:28:30.209439",
+      "screenshot_size": {
+        "width": 2489,
+        "height": 1084
+      },
+      "file_size": 153854,
+      "pixel_variance": 681.4284729746582,
+      "edge_mean": 6.133054813874776,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\03-settings-verified.png",
+      "created_at": "2026-06-28T16:36:01.630340",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1997
+      },
+      "file_size": 188053,
+      "pixel_variance": 616.3274041174354,
+      "edge_mean": 6.5435340724397175,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\04-capabilities.png",
+      "created_at": "2026-06-28T16:36:02.256763",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "file_size": 103101,
+      "pixel_variance": 755.2485780448249,
+      "edge_mean": 7.1236932144910865,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\04-task-history.png",
+      "created_at": "2026-06-28T01:28:30.919420",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "file_size": 43614,
+      "pixel_variance": 245.31590593456536,
+      "edge_mean": 2.449790109258194,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\05-integration.png",
+      "created_at": "2026-06-28T01:28:31.694715",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2141
+      },
+      "file_size": 192029,
+      "pixel_variance": 562.3286742262342,
+      "edge_mean": 6.531966976612951,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\05-task-history.png",
+      "created_at": "2026-06-28T16:36:43.275973",
+      "screenshot_size": {
+        "width": 1480,
+        "height": 940
+      },
+      "file_size": 41484,
+      "pixel_variance": 244.52248808620547,
+      "edge_mean": 2.2411623059229444,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\06-developer.png",
+      "created_at": "2026-06-28T01:28:32.579650",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2204
+      },
+      "file_size": 384053,
+      "pixel_variance": 1141.432745974749,
+      "edge_mean": 14.57787423424986,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\06-integration.png",
+      "created_at": "2026-06-28T16:36:43.935213",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2141
+      },
+      "file_size": 197492,
+      "pixel_variance": 562.3607457385449,
+      "edge_mean": 6.071606040365814,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\07-developer.png",
+      "created_at": "2026-06-28T16:36:44.696296",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 2204
+      },
+      "file_size": 377565,
+      "pixel_variance": 1145.6932733054634,
+      "edge_mean": 14.158848324176335,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\07-settings.png",
+      "created_at": "2026-06-28T01:28:33.357072",
+      "screenshot_size": {
+        "width": 1465,
+        "height": 1771
+      },
+      "file_size": 141538,
+      "pixel_variance": 570.2982699399846,
+      "edge_mean": 6.339162039918829,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_front.bmp",
+      "created_at": "2026-06-28T16:36:38.704004",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 522.0912409301282,
+      "edge_mean": 2.74253,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_isometric.bmp",
+      "created_at": "2026-06-28T16:36:38.628004",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 312.80690660232545,
+      "edge_mean": 2.641545,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_right.bmp",
+      "created_at": "2026-06-28T16:36:38.797561",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 258.79169097575186,
+      "edge_mean": 1.739469375,
+      "non_blank": true,
+      "local_cv_pass": true
+    },
+    {
+      "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_top.bmp",
+      "created_at": "2026-06-28T16:36:38.752283",
+      "screenshot_size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "file_size": 4800054,
+      "pixel_variance": 318.28645352032663,
+      "edge_mean": 1.9003475,
+      "non_blank": true,
+      "local_cv_pass": true
+    }
+  ],
+  "conclusion": "视觉验证通过。"
+}

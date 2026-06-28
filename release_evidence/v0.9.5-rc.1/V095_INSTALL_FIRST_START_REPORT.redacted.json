@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "generated_at": "2026-06-28T08:35:09.885Z",
+  "setup": {
+    "path": "<PROJECT_ROOT>\\dist\\SolidWorks AI Studio Setup.exe",
+    "sha256": "d36f9a4d9118615db99ec4719a3e93124c98a2788a2f1f704e465facde44c08f",
+    "ok": true,
+    "exit_code": 0,
+    "timed_out": false
+  },
+  "install_dir": "<PROJECT_ROOT>\\outputs\\v095_rc\\latest\\installed-app",
+  "installed_exe": "<PROJECT_ROOT>\\outputs\\v095_rc\\latest\\installed-app\\SolidWorks AI Studio.exe",
+  "installed_exe_exists": true,
+  "first_start": {
+    "rendered": true,
+    "backend_health": {
+      "ok": true,
+      "app": "SolidWorks AI Studio",
+      "version": "0.9.5-rc.1",
+      "mode": "api",
+      "project_root": "<USER_HOME>\\AppData\\Local\\Temp\\_MEI353322",
+      "user_data_dir": "<PROJECT_ROOT>\\outputs\\v095_rc\\latest\\first-start-user-data",
+      "time": "2026-06-28T08:35:27.281825Z"
+    },
+    "config_loaded": true,
+    "fresh_config": true,
+    "active_profile_id": "ccagent",
+    "screenshot": "<PROJECT_ROOT>\\outputs\\v095_rc\\latest\\first-start-screenshots\\first-start-dashboard.png",
+    "screenshot_non_blank": true
+  },
+  "errors": [],
+  "installed_exe_sha256": "e28e34ab6bec280d41dcf02910c4f3aea2d8c1fa9382f5c288aa0601d4c3fe01"
+}

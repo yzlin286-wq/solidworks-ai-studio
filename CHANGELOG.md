@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.9.5-rc.1 - Release Candidate Freeze
+
+- Unified release version metadata across root package, desktop package, and backend API.
+- Rebuilt backend and desktop packaged artifacts for the RC line.
+- Added installer first-start validation from a fresh user-data directory.
+- Added redacted RC evidence package generation with SHA256 hashes for release artifacts.
+- Updated release documentation to distinguish real validation evidence from mock-only development tests.
+- No AI Capability, Recipe, SolidWorks module, Workbench architecture, or geometry path was added or expanded.
+
 ## v0.9.4 - End-to-End Usable App
 
 - Rebuilt packaged EXE artifacts and validated the installed application from startup through real model configuration, SolidWorks preflight, approval-gated execution, visual review, and task history.

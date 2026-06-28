@@ -1,7 +1,7 @@
 {
   "name": "@solidworks-ai-studio/desktop",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.9.5-rc.1",
   "productName": "SolidWorks AI Studio",
   "description": "Desktop workstation for AI-assisted SolidWorks automation.",
   "author": "SolidWorks AI Studio contributors",

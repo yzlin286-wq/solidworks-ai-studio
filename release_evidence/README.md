@@ -1,7 +1,23 @@
-# Release Evidence Package
+# Release Evidence
 
-Status: BLOCKED
+This directory stores small, redacted release evidence summaries that are safe to commit.
 
-The requested evidence package could not be completed because the workspace no longer contains the required validation outputs, build artifacts, source package files, or previous log files.
+Current RC package:
 
-See `../release_candidate_report.md` for the observed acceptance results and blocking findings.
+```text
+release_evidence/v0.9.5-rc.1/
+```
+
+Large generated artifacts are intentionally not committed:
+
+- `dist/`
+- `outputs/`
+- CAD files and screenshots
+- Electron user-data directories
+- local API keys or provider configuration
+
+Regenerate the current RC evidence package with:
+
+```powershell
+node scripts/create_v095_rc_evidence_package.mjs
+```

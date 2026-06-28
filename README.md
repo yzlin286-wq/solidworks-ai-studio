@@ -1,8 +1,10 @@
 # SolidWorks AI Studio
 
+当前候选版本：`v0.9.5-rc.1`。
+
 SolidWorks AI Studio 是面向中国制造业与 CAD 自动化团队的 Windows EXE 桌面工作站。它把 `solidworks-automation-skill` 的 SolidWorks COM / MCP 能力封装为 Electron + React + TypeScript 前端，并通过本地 FastAPI 后端串行执行真实 SolidWorks 操作。
 
-应用支持 LLM 配置、Skill 索引、SolidWorks preflight、自然语言生成 Python Script、执行前审批、直接工具、审查报告、文件导出与 MCP 配置 snippets。没有 SolidWorks 的开发环境会进入 Mock/Demo 模式，便于完整测试 UI 与安全流程。
+应用支持 LLM 配置、Skill 索引、SolidWorks preflight、自然语言生成 Python Script、执行前审批、直接工具、审查报告、文件导出与 MCP 配置 snippets。Mock 工作流仅用于显式开发/测试，不能作为真实 SolidWorks 执行或发布验收证据；生产验收必须以真实 Provider、真实 COM preflight、真实执行产物和可复核证据为准。
 
 ## 环境要求
 
@@ -173,6 +175,32 @@ powershell -ExecutionPolicy Bypass -File scripts/build_desktop.ps1
 ```text
 dist/SolidWorks AI Studio Setup.exe
 dist/SolidWorks AI Studio Portable.exe
+```
+
+## v0.9.5 RC Freeze
+
+RC 交付检查：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\build_backend.ps1
+powershell -ExecutionPolicy Bypass -File scripts\build_desktop.ps1
+node scripts\v095_install_first_start_validation.mjs
+node scripts\v094_e2e_usable_app_validation.mjs
+node scripts\create_v095_rc_evidence_package.mjs
+```
+
+真实模型验证需要从本地环境或本地用户配置提供：
+
+```powershell
+$env:SWAI_VALIDATION_API_KEY="..."
+$env:SWAI_VALIDATION_MODEL="glm-5.1"
+$env:SWAI_VALIDATION_VISION_MODEL="doubao-seed-2.0-pro"
+```
+
+不要把 API Key 写入源码、文档、测试脚本、提交记录或 release evidence。RC 脱敏证据包：
+
+```text
+release_evidence/v0.9.5-rc.1/
 ```
 
 真实验证通过后再构建：

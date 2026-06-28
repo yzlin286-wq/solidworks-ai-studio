@@ -1,0 +1,98 @@
+{
+  "rc_version": "v0.9.5-rc.1",
+  "generated_at": "2026-06-28T08:44:34.123Z",
+  "source": {
+    "branch": "codex/v0.9.5-release-candidate-freeze",
+    "base_commit": "393b89a20c083c15c616317fa9486ac3f32de671"
+  },
+  "versions": {
+    "root_package": "0.9.5-rc.1",
+    "desktop_package": "0.9.5-rc.1",
+    "backend": "0.9.5-rc.1"
+  },
+  "release_artifacts": [
+    {
+      "relative_path": "dist/SolidWorks AI Studio Setup.exe",
+      "exists": true,
+      "bytes": 132941740,
+      "sha256": "d36f9a4d9118615db99ec4719a3e93124c98a2788a2f1f704e465facde44c08f"
+    },
+    {
+      "relative_path": "dist/SolidWorks AI Studio Portable.exe",
+      "exists": true,
+      "bytes": 132719937,
+      "sha256": "9edc074eaa5db01df399ba0a0451ddda18f4aca8cb23898a6bf849738c3ac704"
+    },
+    {
+      "relative_path": "dist/SolidWorks AI Studio Setup.exe.blockmap",
+      "exists": true,
+      "bytes": 139878,
+      "sha256": "b17bafd5abe26134f8b83120667a2437063269a96990b28a32846408b778c7ca"
+    },
+    {
+      "relative_path": "dist/win-unpacked/SolidWorks AI Studio.exe",
+      "exists": true,
+      "bytes": 232351232,
+      "sha256": "e28e34ab6bec280d41dcf02910c4f3aea2d8c1fa9382f5c288aa0601d4c3fe01"
+    }
+  ],
+  "e2e": {
+    "ok": true,
+    "evidence_report": "outputs/v094_e2e/latest/V094_E2E_USABLE_APP_REPORT.json",
+    "text_model": "glm-5.1",
+    "text_chat_verified": true,
+    "vision_model": "doubao-seed-2.0-pro",
+    "vision_verified": true,
+    "solidworks_revision": "33.5.0",
+    "solidworks_ready": true,
+    "natural_language_run_id": "744ada29452d41c89f147efd9376edb5",
+    "natural_language_stage": "done",
+    "natural_language_verified": true,
+    "workbench_task_id": "a101d773c84141cbbcbc7521a81faabb",
+    "workbench_verified": true,
+    "hole_features_restored": true,
+    "geometry_parity_verified": true,
+    "task_history_api_visible": true,
+    "task_history_visible": true,
+    "screenshot_pages": [
+      "01-dashboard",
+      "02-settings-models",
+      "03-settings-verified",
+      "04-capabilities",
+      "05-task-history",
+      "06-integration",
+      "07-developer"
+    ],
+    "screenshots_all_pass": true,
+    "errors": []
+  },
+  "visual_validation": {
+    "evidence_report": "outputs/visual_validation/latest/VISUAL_VALIDATION_REPORT.json",
+    "visual_ok": true,
+    "degraded": false,
+    "not_degraded": true,
+    "vision_model": "doubao-seed-2.0-pro",
+    "vision_analysis_count": 8,
+    "vision_error_count": 0
+  },
+  "install_first_start": {
+    "evidence_report": "outputs/v095_rc/latest/V095_INSTALL_FIRST_START_REPORT.json",
+    "ok": true,
+    "setup_ok": true,
+    "installed_exe_exists": true,
+    "first_start_rendered": true,
+    "backend_health_ok": true,
+    "fresh_config": true,
+    "screenshot_non_blank": true
+  },
+  "gates": {
+    "no_new_ai_capability": true,
+    "no_new_recipe": true,
+    "no_new_solidworks_module": true,
+    "no_low_level_api_main_nav": true,
+    "no_mock_counted_as_real": true,
+    "no_large_artifacts_committed": true,
+    "secrets_redacted": true
+  },
+  "ok": true
+}

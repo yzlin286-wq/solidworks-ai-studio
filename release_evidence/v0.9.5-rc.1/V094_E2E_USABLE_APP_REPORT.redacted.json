@@ -1,0 +1,1372 @@
+{
+  "ok": true,
+  "generated_at": "2026-06-28T08:35:40.985Z",
+  "exe": "<PROJECT_ROOT>\\dist\\win-unpacked\\SolidWorks AI Studio.exe",
+  "configured_models": {
+    "api_base_url": "https://api.ccagent.cn/v1",
+    "text_model": "glm-5.1",
+    "vision_model": "doubao-seed-2.0-pro"
+  },
+  "backend_health": {
+    "ok": true,
+    "app": "SolidWorks AI Studio",
+    "version": "0.9.5-rc.1",
+    "mode": "api",
+    "project_root": "<USER_HOME>\\AppData\\Local\\Temp\\_MEI26722",
+    "user_data_dir": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\electron-user-data",
+    "time": "2026-06-28T08:35:42.430111Z"
+  },
+  "text_llm": {
+    "ok": true,
+    "provider": "CCAgent OpenAI-compatible",
+    "message": "连接成功，已验证 models+chat 真实响应。",
+    "latency_ms": 1126,
+    "models": [
+      "minimax-m3",
+      "doubao-seedance-1.5-pro",
+      "doubao-seed-2.0-code",
+      "kimi-k2.6",
+      "doubao-embedding-vision",
+      "doubao-seed-2.0-pro",
+      "doubao-seedance-2.0",
+      "doubao-seed-2.0-mini",
+      "doubao-seedance-2.0-fast",
+      "deepseek-v3.2",
+      "doubao-seedream-5.0-lite",
+      "glm-5.1"
+    ],
+    "models_verified": true,
+    "chat_verified": true,
+    "vision_model": "",
+    "vision_verified": false,
+    "provider_verified_at": "2026-06-28T08:35:43.613556Z"
+  },
+  "vision_llm": {
+    "ok": true,
+    "provider": "CCAgent OpenAI-compatible",
+    "message": "视觉模型连接成功，已验证 image_url chat 真实响应。",
+    "latency_ms": 2912,
+    "models": [],
+    "models_verified": false,
+    "chat_verified": false,
+    "vision_model": "doubao-seed-2.0-pro",
+    "vision_verified": true,
+    "provider_verified_at": "2026-06-28T08:35:46.531220Z"
+  },
+  "solidworks_preflight": {
+    "ok": true,
+    "status": 200,
+    "body": {
+      "mode": "solidworks",
+      "checks": [
+        {
+          "key": "windows",
+          "label": "Windows 系统",
+          "status": "pass",
+          "message": "检测到 Windows。",
+          "suggestion": ""
+        },
+        {
+          "key": "skill-path",
+          "label": "SolidWorks automation Skill 路径",
+          "status": "pass",
+          "message": "<USER_HOME>\\AppData\\Local\\Temp\\_MEI26722\\vendor\\skills\\solidworks-automation",
+          "suggestion": ""
+        },
+        {
+          "key": "python-com",
+          "label": "Python COM 依赖",
+          "status": "pass",
+          "message": "pywin32 和 comtypes 可用。",
+          "suggestion": ""
+        },
+        {
+          "key": "solidworks-2025-install",
+          "label": "SolidWorks 2025 安装",
+          "status": "pass",
+          "message": "已连接 SolidWorks COM revision 33.5.0；33.x 对应 SolidWorks 2025。",
+          "suggestion": ""
+        },
+        {
+          "key": "solidworks",
+          "label": "SolidWorks COM",
+          "status": "pass",
+          "message": "SolidWorks COM 会话已连接。",
+          "suggestion": ""
+        },
+        {
+          "key": "template-part",
+          "label": "零件模板",
+          "status": "pass",
+          "message": "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\templates\\gb_part.prtdot",
+          "suggestion": ""
+        },
+        {
+          "key": "template-assembly",
+          "label": "装配体模板",
+          "status": "pass",
+          "message": "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\templates\\gb_assembly.asmdot",
+          "suggestion": ""
+        },
+        {
+          "key": "template-drawing",
+          "label": "工程图模板",
+          "status": "pass",
+          "message": "C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2025\\templates\\gb_a0.drwdot",
+          "suggestion": ""
+        },
+        {
+          "key": "output-dir",
+          "label": "验证输出目录",
+          "status": "pass",
+          "message": "<PROJECT_ROOT>\\outputs",
+          "suggestion": ""
+        },
+        {
+          "key": "addin-motion",
+          "label": "Motion Add-in",
+          "status": "pass",
+          "message": "C:\\Program Files\\SOLIDWORKS Corp25\\SOLIDWORKS\\swmotionstudy.tlb",
+          "suggestion": ""
+        },
+        {
+          "key": "addin-simulation",
+          "label": "Simulation Add-in",
+          "status": "pass",
+          "message": "Simulation Add-in 对象可用。",
+          "suggestion": ""
+        },
+        {
+          "key": "addin-sheet_metal",
+          "label": "Sheet Metal Add-in",
+          "status": "pass",
+          "message": "Sheet Metal 作为 SolidWorks 特征环境处理，并通过特征可用性验证。",
+          "suggestion": ""
+        },
+        {
+          "key": "addin-weldments",
+          "label": "Weldments Add-in",
+          "status": "pass",
+          "message": "Weldments 作为 SolidWorks 特征环境处理，并通过特征可用性验证。",
+          "suggestion": ""
+        },
+        {
+          "key": "mcp-server",
+          "label": "MCP server",
+          "status": "pass",
+          "message": "从 <USER_HOME>\\AppData\\Local\\Temp\\_MEI26722\\vendor\\skills\\solidworks-automation\\mcp-server\\server.py 发现 16 个工具",
+          "suggestion": ""
+        }
+      ],
+      "can_run_real_com": true,
+      "solidworks_version": "33.5.0",
+      "report_json": "<PROJECT_ROOT>\\outputs\\validation\\sw2025_preflight.json",
+      "report_markdown": "<PROJECT_ROOT>\\outputs\\validation\\sw2025_preflight.md",
+      "state": "ready",
+      "stale": false,
+      "started_at": "2026-06-28T08:35:46.534219Z",
+      "finished_at": "2026-06-28T08:35:47.154291Z",
+      "elapsed_seconds": 0.62
+    }
+  },
+  "natural_language": {
+    "plan": {
+      "plan": "[{'step': 1, 'action': 'Preflight SolidWorks session', 'details': 'Connect to SolidWorks via vendored SolidWorksSession helpers, verify the application is available, and create a new part document using the default part template.'}, {'step': 2, 'action': 'Create base mounting plate', 'details': 'Use stable part helper APIs to sketch a centered 120 mm x 80 mm rectangle on the Top Plane and extrude it to 10 mm thickness. Units will be interpreted in meters internally: 0.120 x 0.080 x 0.010.'}, {'step': 3, 'action': 'Add four M6 through holes', 'details': 'Place four through holes near the rectangular plate corners using Hole Wizard or equivalent vendored helper workflow for M6 clearance/through holes. Hole locations will be symmetrically offset from the plate edges; if not otherwise specified, use a standard practical margin such as 10 mm from each adjacent edge, producing centers at ±50 mm x ±30 mm from the plate center.'}, {'step': 4, 'action': 'Apply 1 mm chamfers', 'details': 'Apply 1 mm chamfers to the outer plate edges and hole rim edges where supported by the helper APIs. Verify chamfer feature creation succeeds and rebuild the model.'}, {'step': 5, 'action': 'Review model', 'details': 'Run vendored review helpers to confirm the part contains the expected solid body, overall bounding box approximately 120 x 80 x 10 mm, four through holes, and chamfer features.'}, {'step': 6, 'action': 'Save native part', 'details': 'Save the SolidWorks part as an SLDPRT file in the requested output directory with a descriptive filename, for example mounting_plate_120x80x10_m6.SLDPRT.'}, {'step': 7, 'action': 'Export STEP', 'details': 'Export the active part to STEP in the same output directory, for example mounting_plate_120x80x10_m6.STEP, using vendored export helpers.'}]",
+      "risks": [
+        "{'risk': 'Hole edge offset not specified', 'mitigation': 'Use a conservative default of 10 mm from each adjacent edge unless the user/app approval stage overrides the hole-center offsets.'}",
+        "{'risk': 'Exact M6 clearance diameter depends on standard/fit', 'mitigation': 'Use Hole Wizard M6 clearance through hole if available; otherwise use a standard M6 clearance diameter such as 6.6 mm and document the generated feature parameters.'}",
+        "{'risk': 'Chamfer scope ambiguity', 'mitigation': 'Apply 1 mm chamfer to main external edges and hole openings when feasible; if helper selection is limited, prioritize all external perimeter edges and review the result.'}",
+        "{'risk': 'SolidWorks template availability', 'mitigation': 'Use SolidWorks default part template from session preferences; if unavailable, the app should prompt for template configuration before execution.'}",
+        "{'risk': 'Output directory may not exist or may be inaccessible', 'mitigation': 'The approved execution script should create/use the requested directory only through normal Python file APIs and fail clearly if permissions are insufficient.'}"
+      ],
+      "required_files": [
+        "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\mounting_plate_120x80x10_m6.SLDPRT",
+        "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\mounting_plate_120x80x10_m6.STEP"
+      ],
+      "prompt": "新建一个 120x80x10 mm 安装板，四角各打 M6 通孔，倒角 1 mm，保存为 SLDPRT 并导出 STEP。",
+      "demo_mode": false,
+      "provider_verified_at": "2026-06-28T08:36:12.131110Z"
+    },
+    "generated": {
+      "plan": "['Create a new SolidWorks part document using the vendored SolidWorksSession helper.', 'Sketch a centered 120 mm x 80 mm rectangle on the Front Plane.', 'Extrude the plate as a 10 mm midplane solid.', 'Sketch four through holes near the corners sized as M6 clearance through holes using stable sketch_circle and extrude_cut helpers.', 'Apply a 1 mm chamfer using the vendored chamfer helper.', 'Save the part as SLDPRT and export it as STEP into the requested output directory only.']",
+      "risks": [
+        "SolidWorks must be installed, licensed, and available through the local desktop automation environment.",
+        "The requested output directory must exist or be creatable by the Python process.",
+        "M6 through holes are modeled as 6.6 mm diameter clearance holes, which is a common normal-clearance interpretation of M6 通孔; if exact tap-drill or close-clearance sizing is required, adjust the diameter.",
+        "Chamfer helper behavior may apply chamfers to eligible model edges globally depending on the vendored implementation; warnings are printed if chamfering cannot be completed."
+      ],
+      "required_files": [],
+      "script": "from __future__ import annotations\n\nimport sys\nimport os\nfrom pathlib import Path\n\nPROJECT_ROOT = Path(os.environ.get(\"SWAI_PROJECT_ROOT\") or getattr(sys, \"_MEIPASS\", \"\") or Path.cwd())\nVENDORED_SW_SCRIPTS = PROJECT_ROOT / \"vendor\" / \"skills\" / \"solidworks-automation\" / \"scripts\"\nif VENDORED_SW_SCRIPTS.exists() and str(VENDORED_SW_SCRIPTS) not in sys.path:\n    sys.path.insert(0, str(VENDORED_SW_SCRIPTS))\n\nimport os\nimport sys\n\n# Import vendored SolidWorks automation helpers.\n# The desktop application reviews and approves this script before execution.\nSCRIPT_DIR = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globals() else os.getcwd()\nVENDOR_SCRIPTS = os.path.abspath(os.path.join(SCRIPT_DIR, 'vendor', 'skills', 'solidworks-automation', 'scripts'))\nif VENDOR_SCRIPTS not in sys.path:\n    sys.path.insert(0, VENDOR_SCRIPTS)\n\nfrom sw_session import SolidWorksSession\nfrom sw_connect import mm\nfrom sw_part import sketch, sketch_rectangle, sketch_circle, extrude_midplane, extrude_cut, chamfer\n\nOUTPUT_DIR = r\"<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\"\nPART_PATH = os.path.join(OUTPUT_DIR, \"m6_mounting_plate_120x80x10.SLDPRT\")\nSTEP_PATH = os.path.join(OUTPUT_DIR, \"m6_mounting_plate_120x80x10.STEP\")\n\n# Dimensions\nPLATE_LENGTH = mm(120)\nPLATE_WIDTH = mm(80)\nPLATE_THICKNESS = mm(10)\nCHAMFER_SIZE = mm(1)\n\n# M6 clearance through hole. Normal clearance is commonly 6.6 mm.\nHOLE_DIAMETER = mm(6.6)\nHOLE_RADIUS = HOLE_DIAMETER / 2.0\n\n# Corner hole offsets from plate edges.\nHOLE_EDGE_OFFSET_X = mm(12)\nHOLE_EDGE_OFFSET_Y = mm(12)\n\n\ndef main():\n    os.makedirs(OUTPUT_DIR, exist_ok=True)\n\n    session = SolidWorksSession()\n    model = session.new_part()\n\n    # Base plate: centered 120 x 80 rectangle on Front Plane, midplane extruded to 10 mm.\n    with sketch(model, 'Front Plane') as base_sketch:\n        sketch_rectangle(model, 0, 0, PLATE_LENGTH, PLATE_WIDTH)\n    extrude_midplane(model, base_sketch, PLATE_THICKNESS)\n\n    # Four M6 clearance through holes at the plate corners.\n    x = (PLATE_LENGTH / 2.0) - HOLE_EDGE_OFFSET_X\n    y = (PLATE_WIDTH / 2.0) - HOLE_EDGE_OFFSET_Y\n    hole_centers = [\n        (-x, -y),\n        (x, -y),\n        (-x, y),\n        (x, y),\n    ]\n\n    with sketch(model, 'Front Plane') as hole_sketch:\n        for cx, cy in hole_centers:\n            sketch_circle(model, cx, cy, HOLE_RADIUS)\n    extrude_cut(model, hole_sketch, 0)\n\n    # Apply 1 mm chamfer. Continue to save/export if chamfer helper reports a warning.\n    try:\n        chamfer(model, CHAMFER_SIZE)\n    except Exception as exc:\n        print('chamfer warning:', exc)\n\n    session.save(model, PART_PATH)\n    session.export(model, STEP_PATH)\n\n    print('saved part:', PART_PATH)\n    print('exported step:', STEP_PATH)\n\n\nif __name__ == '__main__':\n    main()",
+      "script_path": "<PROJECT_ROOT>\\outputs\\temp\\generated\\592e0cbc64f945e4bc3624784ca6141f\\solidworks_task.py",
+      "demo_mode": false,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "capability_ids": [],
+      "provider_verified_at": "2026-06-28T08:36:22.132687Z"
+    },
+    "approved": {
+      "run_id": "744ada29452d41c89f147efd9376edb5",
+      "stage": "queued",
+      "message": "Run 已接受并进入队列。"
+    },
+    "terminal": {
+      "run_id": "744ada29452d41c89f147efd9376edb5",
+      "stage": "done",
+      "prompt": "新建一个 120x80x10 mm 安装板，四角各打 M6 通孔，倒角 1 mm，保存为 SLDPRT 并导出 STEP。",
+      "script_path": "<PROJECT_ROOT>\\outputs\\temp\\generated\\592e0cbc64f945e4bc3624784ca6141f\\solidworks_task.py",
+      "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: mounting_plate.SLDPRT (类型: 零件)\n已创建新零件文档\n保存失败, 错误码: 1, 警告码: 0\n.STEP 导出成功: <PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.STEP\nsaved part: <PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.SLDPRT\nexported step: <PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.STEP\n",
+      "stderr": "",
+      "files": [
+        "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.STEP"
+      ],
+      "events": [
+        {
+          "time": "2026-06-28T08:36:22.754185Z",
+          "stage": "queued",
+          "message": "Run 已进入 SolidWorks 串行执行通道。",
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "time": "2026-06-28T08:36:22.755184Z",
+          "stage": "running",
+          "message": "已审批的 Script 开始执行。",
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "time": "2026-06-28T08:36:29.926185Z",
+          "stage": "done",
+          "message": "Script 执行完成。",
+          "stdout": "已连接到运行中的 SolidWorks 实例\n当前文档: mounting_plate.SLDPRT (类型: 零件)\n已创建新零件文档\n保存失败, 错误码: 1, 警告码: 0\n.STEP 导出成功: <PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.STEP\nsaved part: <PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.SLDPRT\nexported step: <PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.STEP\n",
+          "stderr": ""
+        }
+      ],
+      "created_at": "2026-06-28T08:36:22.754185Z",
+      "updated_at": "2026-06-28T08:36:22.754185Z",
+      "real_execution_verified": true,
+      "evidence": {
+        "active_document_before": "未知:",
+        "active_document_after": "未知:",
+        "created_files": [
+          "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\natural_language_outputs\\m6_mounting_plate_120x80x10.STEP"
+        ],
+        "created_files_exist": true
+      }
+    }
+  },
+  "workbench": {
+    "task_id": "a101d773c84141cbbcbc7521a81faabb",
+    "calls": [
+      [
+        "plan",
+        200,
+        {
+          "task_id": "a101d773c84141cbbcbc7521a81faabb",
+          "capability_id": "ai.parametric_part_generator",
+          "recipe_id": "mounting_plate",
+          "prompt": "Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+          "execution_mode": "real",
+          "status": "planned",
+          "plan": {
+            "summary": "参数化零件生成: Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+            "capability_id": "ai.parametric_part_generator",
+            "recipe_id": "mounting_plate",
+            "execution_mode": "real",
+            "steps": [
+              "解析用户目标和参数",
+              "生成可审计 SolidWorks Python 脚本",
+              "运行静态校验",
+              "等待人工审批",
+              "执行并收集 artifacts 与 evidence"
+            ],
+            "requires_approval": true,
+            "mock_demo": false,
+            "real_execution_verified": false
+          },
+          "script": "",
+          "validation": {},
+          "approved": false,
+          "artifacts": [],
+          "evidence": {},
+          "error_summary": "",
+          "created_at": "2026-06-28T08:36:30.802401+00:00",
+          "updated_at": "2026-06-28T08:36:30.802401+00:00",
+          "real_execution_verified": false,
+          "mock_demo": false
+        }
+      ],
+      [
+        "generate-script",
+        200,
+        {
+          "task_id": "a101d773c84141cbbcbc7521a81faabb",
+          "capability_id": "ai.parametric_part_generator",
+          "recipe_id": "mounting_plate",
+          "prompt": "Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+          "execution_mode": "real",
+          "status": "script_generated",
+          "plan": {
+            "summary": "参数化零件生成: Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+            "capability_id": "ai.parametric_part_generator",
+            "recipe_id": "mounting_plate",
+            "execution_mode": "real",
+            "steps": [
+              "解析用户目标和参数",
+              "生成可审计 SolidWorks Python 脚本",
+              "运行静态校验",
+              "等待人工审批",
+              "执行并收集 artifacts 与 evidence"
+            ],
+            "requires_approval": true,
+            "mock_demo": false,
+            "real_execution_verified": false
+          },
+          "script": "# AI Capability Workbench real SolidWorks script\nfrom pathlib import Path\nRECIPE_ID = 'mounting_plate'\nCAPABILITY_ID = 'ai.parametric_part_generator'\nPARAMETERS = {}\nprint('real execution requires approved SolidWorks COM tool calls')\n",
+          "validation": {},
+          "approved": false,
+          "artifacts": [],
+          "evidence": {},
+          "error_summary": "",
+          "created_at": "2026-06-28T08:36:30.802401+00:00",
+          "updated_at": "2026-06-28T08:36:30.803401+00:00",
+          "real_execution_verified": false,
+          "mock_demo": false
+        }
+      ],
+      [
+        "validate",
+        200,
+        {
+          "task_id": "a101d773c84141cbbcbc7521a81faabb",
+          "capability_id": "ai.parametric_part_generator",
+          "recipe_id": "mounting_plate",
+          "prompt": "Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+          "execution_mode": "real",
+          "status": "validated",
+          "plan": {
+            "summary": "参数化零件生成: Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+            "capability_id": "ai.parametric_part_generator",
+            "recipe_id": "mounting_plate",
+            "execution_mode": "real",
+            "steps": [
+              "解析用户目标和参数",
+              "生成可审计 SolidWorks Python 脚本",
+              "运行静态校验",
+              "等待人工审批",
+              "执行并收集 artifacts 与 evidence"
+            ],
+            "requires_approval": true,
+            "mock_demo": false,
+            "real_execution_verified": false
+          },
+          "script": "# AI Capability Workbench real SolidWorks script\nfrom pathlib import Path\nRECIPE_ID = 'mounting_plate'\nCAPABILITY_ID = 'ai.parametric_part_generator'\nPARAMETERS = {}\nprint('real execution requires approved SolidWorks COM tool calls')\n",
+          "validation": {
+            "ok": true,
+            "issues": [],
+            "warnings": []
+          },
+          "approved": false,
+          "artifacts": [],
+          "evidence": {},
+          "error_summary": "",
+          "created_at": "2026-06-28T08:36:30.802401+00:00",
+          "updated_at": "2026-06-28T08:36:30.805401+00:00",
+          "real_execution_verified": false,
+          "mock_demo": false
+        }
+      ],
+      [
+        "approve",
+        200,
+        {
+          "task_id": "a101d773c84141cbbcbc7521a81faabb",
+          "capability_id": "ai.parametric_part_generator",
+          "recipe_id": "mounting_plate",
+          "prompt": "Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+          "execution_mode": "real",
+          "status": "approved",
+          "plan": {
+            "summary": "参数化零件生成: Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+            "capability_id": "ai.parametric_part_generator",
+            "recipe_id": "mounting_plate",
+            "execution_mode": "real",
+            "steps": [
+              "解析用户目标和参数",
+              "生成可审计 SolidWorks Python 脚本",
+              "运行静态校验",
+              "等待人工审批",
+              "执行并收集 artifacts 与 evidence"
+            ],
+            "requires_approval": true,
+            "mock_demo": false,
+            "real_execution_verified": false
+          },
+          "script": "# AI Capability Workbench real SolidWorks script\nfrom pathlib import Path\nRECIPE_ID = 'mounting_plate'\nCAPABILITY_ID = 'ai.parametric_part_generator'\nPARAMETERS = {}\nprint('real execution requires approved SolidWorks COM tool calls')\n",
+          "validation": {
+            "ok": true,
+            "issues": [],
+            "warnings": []
+          },
+          "approved": true,
+          "artifacts": [],
+          "evidence": {
+            "approved_by": "v0.9.4-e2e",
+            "approved_at": "2026-06-28T08:36:30.807401+00:00"
+          },
+          "error_summary": "",
+          "created_at": "2026-06-28T08:36:30.802401+00:00",
+          "updated_at": "2026-06-28T08:36:30.807401+00:00",
+          "real_execution_verified": false,
+          "mock_demo": false
+        }
+      ],
+      [
+        "execute",
+        200,
+        {
+          "task_id": "a101d773c84141cbbcbc7521a81faabb",
+          "capability_id": "ai.parametric_part_generator",
+          "recipe_id": "mounting_plate",
+          "prompt": "Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+          "execution_mode": "real",
+          "status": "completed",
+          "plan": {
+            "summary": "参数化零件生成: Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+            "capability_id": "ai.parametric_part_generator",
+            "recipe_id": "mounting_plate",
+            "execution_mode": "real",
+            "steps": [
+              "解析用户目标和参数",
+              "生成可审计 SolidWorks Python 脚本",
+              "运行静态校验",
+              "等待人工审批",
+              "执行并收集 artifacts 与 evidence"
+            ],
+            "requires_approval": true,
+            "mock_demo": false,
+            "real_execution_verified": false
+          },
+          "script": "# AI Capability Workbench real SolidWorks script\nfrom pathlib import Path\nRECIPE_ID = 'mounting_plate'\nCAPABILITY_ID = 'ai.parametric_part_generator'\nPARAMETERS = {}\nprint('real execution requires approved SolidWorks COM tool calls')\n",
+          "validation": {
+            "ok": true,
+            "issues": [],
+            "warnings": []
+          },
+          "approved": true,
+          "artifacts": [
+            {
+              "name": "mounting_plate.SLDPRT",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate.STEP",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.STEP",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_parameters.json",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate_parameters.json",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_review_front.bmp",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_front.bmp",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_review_isometric.bmp",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_isometric.bmp",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_review_review_report.json",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_review_report.json",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_review_review_summary.md",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_review_summary.md",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_review_right.bmp",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_right.bmp",
+              "exists": true,
+              "kind": "real"
+            },
+            {
+              "name": "mounting_plate_review_top.bmp",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_top.bmp",
+              "exists": true,
+              "kind": "real"
+            }
+          ],
+          "evidence": {
+            "execution_mode": "real",
+            "real_execution_verified": true,
+            "solidworks_version": "33.5.0",
+            "task_dir": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb",
+            "stdout_json": [
+              {
+                "status": "ok",
+                "output_path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+                "created_files": [
+                  "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT"
+                ],
+                "features": {
+                  "width_mm": 120,
+                  "height_mm": 80,
+                  "thickness_mm": 10,
+                  "holes": 4,
+                  "hole_centers_mm": [
+                    {
+                      "x": -50,
+                      "y": -30
+                    },
+                    {
+                      "x": 50,
+                      "y": -30
+                    },
+                    {
+                      "x": 50,
+                      "y": 30
+                    },
+                    {
+                      "x": -50,
+                      "y": 30
+                    }
+                  ],
+                  "hole_diameter_mm": 6.5,
+                  "hole_offset_mm": 10,
+                  "chamfer_mm": 1
+                }
+              },
+              {
+                "status": "ok",
+                "success": true,
+                "output_path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.STEP",
+                "format": "step",
+                "document": {
+                  "title": "mounting_plate.SLDPRT",
+                  "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+                  "type": 1
+                }
+              },
+              {
+                "status": "ok",
+                "report_path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_review_report.json",
+                "evaluation": {
+                  "status": "warn",
+                  "score": 92,
+                  "issues": [
+                    {
+                      "code": "expected_outputs_not_declared",
+                      "severity": "warn",
+                      "message": "未声明期望输出文件，无法验证交付物是否完整。"
+                    }
+                  ],
+                  "recommendations": [
+                    "调用 run_review() 时传入 expected_outputs。"
+                  ],
+                  "manual_review_required": true,
+                  "manual_review_reason": "规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。"
+                },
+                "checks": {
+                  "model_available": true,
+                  "previews_created": true,
+                  "previews_not_blank": true,
+                  "expected_outputs_exist": null,
+                  "feature_summary_available": true
+                },
+                "document": {
+                  "title": "mounting_plate.SLDPRT",
+                  "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+                  "type": 1
+                }
+              }
+            ],
+            "created_files_exist": true,
+            "hole_features_restored": true,
+            "geometry_parity_verified": true,
+            "hole_count_expected": 4,
+            "hole_count_observed": 4,
+            "hole_diameter_mm": 6.5,
+            "hole_offset_mm": 10,
+            "feature_evidence": {
+              "width_mm": 120,
+              "height_mm": 80,
+              "thickness_mm": 10,
+              "holes": 4,
+              "hole_centers_mm": [
+                {
+                  "x": -50,
+                  "y": -30
+                },
+                {
+                  "x": 50,
+                  "y": -30
+                },
+                {
+                  "x": 50,
+                  "y": 30
+                },
+                {
+                  "x": -50,
+                  "y": 30
+                }
+              ],
+              "hole_diameter_mm": 6.5,
+              "hole_offset_mm": 10,
+              "chamfer_mm": 1
+            },
+            "required_files_exist": true,
+            "review_report_exists": true,
+            "preview_count": 4
+          },
+          "error_summary": "",
+          "created_at": "2026-06-28T08:36:30.802401+00:00",
+          "updated_at": "2026-06-28T08:36:42.303543+00:00",
+          "real_execution_verified": true,
+          "mock_demo": false
+        }
+      ]
+    ],
+    "final": {
+      "task_id": "a101d773c84141cbbcbc7521a81faabb",
+      "capability_id": "ai.parametric_part_generator",
+      "recipe_id": "mounting_plate",
+      "prompt": "Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+      "execution_mode": "real",
+      "status": "completed",
+      "plan": {
+        "summary": "参数化零件生成: Create a 120x80x10mm mounting plate with four M6 through holes and 1mm chamfer.",
+        "capability_id": "ai.parametric_part_generator",
+        "recipe_id": "mounting_plate",
+        "execution_mode": "real",
+        "steps": [
+          "解析用户目标和参数",
+          "生成可审计 SolidWorks Python 脚本",
+          "运行静态校验",
+          "等待人工审批",
+          "执行并收集 artifacts 与 evidence"
+        ],
+        "requires_approval": true,
+        "mock_demo": false,
+        "real_execution_verified": false
+      },
+      "script": "# AI Capability Workbench real SolidWorks script\nfrom pathlib import Path\nRECIPE_ID = 'mounting_plate'\nCAPABILITY_ID = 'ai.parametric_part_generator'\nPARAMETERS = {}\nprint('real execution requires approved SolidWorks COM tool calls')\n",
+      "validation": {
+        "ok": true,
+        "issues": [],
+        "warnings": []
+      },
+      "approved": true,
+      "artifacts": [
+        {
+          "name": "mounting_plate.SLDPRT",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate.STEP",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.STEP",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_parameters.json",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate_parameters.json",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_review_front.bmp",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_front.bmp",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_review_isometric.bmp",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_isometric.bmp",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_review_review_report.json",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_review_report.json",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_review_review_summary.md",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_review_summary.md",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_review_right.bmp",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_right.bmp",
+          "exists": true,
+          "kind": "real"
+        },
+        {
+          "name": "mounting_plate_review_top.bmp",
+          "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_top.bmp",
+          "exists": true,
+          "kind": "real"
+        }
+      ],
+      "evidence": {
+        "execution_mode": "real",
+        "real_execution_verified": true,
+        "solidworks_version": "33.5.0",
+        "task_dir": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb",
+        "stdout_json": [
+          {
+            "status": "ok",
+            "output_path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+            "created_files": [
+              "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT"
+            ],
+            "features": {
+              "width_mm": 120,
+              "height_mm": 80,
+              "thickness_mm": 10,
+              "holes": 4,
+              "hole_centers_mm": [
+                {
+                  "x": -50,
+                  "y": -30
+                },
+                {
+                  "x": 50,
+                  "y": -30
+                },
+                {
+                  "x": 50,
+                  "y": 30
+                },
+                {
+                  "x": -50,
+                  "y": 30
+                }
+              ],
+              "hole_diameter_mm": 6.5,
+              "hole_offset_mm": 10,
+              "chamfer_mm": 1
+            }
+          },
+          {
+            "status": "ok",
+            "success": true,
+            "output_path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.STEP",
+            "format": "step",
+            "document": {
+              "title": "mounting_plate.SLDPRT",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+              "type": 1
+            }
+          },
+          {
+            "status": "ok",
+            "report_path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\review\\mounting_plate_review_review_report.json",
+            "evaluation": {
+              "status": "warn",
+              "score": 92,
+              "issues": [
+                {
+                  "code": "expected_outputs_not_declared",
+                  "severity": "warn",
+                  "message": "未声明期望输出文件，无法验证交付物是否完整。"
+                }
+              ],
+              "recommendations": [
+                "调用 run_review() 时传入 expected_outputs。"
+              ],
+              "manual_review_required": true,
+              "manual_review_reason": "规则评分只能发现明显失败，最终几何是否符合用户意图仍需查看预览图或截图。"
+            },
+            "checks": {
+              "model_available": true,
+              "previews_created": true,
+              "previews_not_blank": true,
+              "expected_outputs_exist": null,
+              "feature_summary_available": true
+            },
+            "document": {
+              "title": "mounting_plate.SLDPRT",
+              "path": "<PROJECT_ROOT>\\outputs\\tasks\\a101d773c84141cbbcbc7521a81faabb\\mounting_plate.SLDPRT",
+              "type": 1
+            }
+          }
+        ],
+        "created_files_exist": true,
+        "hole_features_restored": true,
+        "geometry_parity_verified": true,
+        "hole_count_expected": 4,
+        "hole_count_observed": 4,
+        "hole_diameter_mm": 6.5,
+        "hole_offset_mm": 10,
+        "feature_evidence": {
+          "width_mm": 120,
+          "height_mm": 80,
+          "thickness_mm": 10,
+          "holes": 4,
+          "hole_centers_mm": [
+            {
+              "x": -50,
+              "y": -30
+            },
+            {
+              "x": 50,
+              "y": -30
+            },
+            {
+              "x": 50,
+              "y": 30
+            },
+            {
+              "x": -50,
+              "y": 30
+            }
+          ],
+          "hole_diameter_mm": 6.5,
+          "hole_offset_mm": 10,
+          "chamfer_mm": 1
+        },
+        "required_files_exist": true,
+        "review_report_exists": true,
+        "preview_count": 4
+      },
+      "error_summary": "",
+      "created_at": "2026-06-28T08:36:30.802401+00:00",
+      "updated_at": "2026-06-28T08:36:42.303543+00:00",
+      "real_execution_verified": true,
+      "mock_demo": false
+    }
+  },
+  "visual_validation": {
+    "exit_code": 0,
+    "stdout": "{\"visual_ok\": true, \"degraded\": false}\r\n",
+    "stderr": "",
+    "report_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\VISUAL_VALIDATION_REPORT.json",
+    "report": {
+      "visual_ok": true,
+      "degraded": false,
+      "generated_at": "2026-06-28T16:39:33.340686",
+      "app_screenshot_count": 13,
+      "cad_screenshot_count": 4,
+      "local_cv_check_count": 17,
+      "vision_analysis_count": 8,
+      "vision_error_count": 0,
+      "vision_model": "doubao-seed-2.0-pro",
+      "local_cv_report": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\local_cv_report.json",
+      "vision_results": [
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\01-dashboard.png",
+          "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+          "observed": "Fully rendered, populated SolidWorks AI Studio Dashboard desktop UI, containing sidebar navigation, top system status bar, capability count metrics, core Recipe list, and Task History panel, all with legible real status and content text.",
+          "pass": true,
+          "confidence": 0.99,
+          "issues": [],
+          "evidence": [
+            "Header correctly displays the 'SolidWorks AI Studio Dashboard' title",
+            "Top status bar shows valid system status labels: 本地后端在线, LLM 未验证, SolidWorks 就绪, MCP 已停止",
+            "Left sidebar navigation contains 6 functional navigation entries",
+            "Capability count tiles, capability category counts, core Recipe list, and Task History panel all contain valid legible text content",
+            "The UI is complete, rendered, and non-empty as expected"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-capabilities.png",
+          "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+          "observed": "This is a valid non-empty SolidWorks AI Studio AI Capability Workbench desktop UI screenshot, containing real runtime status text, complete left navigation sidebar, categorized capability listing, and populated AI CAD task workbench content for parameterized part generation.",
+          "pass": true,
+          "confidence": 1,
+          "issues": [],
+          "evidence": [
+            "Page header explicitly displays 'SolidWorks AI Studio' and 'AI Capability Workbench' title text",
+            "Top status bar contains real runtime status labels: 本地后端在线, LLM未验证, SolidWorks就绪, MCP已停止",
+            "Left navigation sidebar renders all main navigation entries: Dashboard, Capabilities, Tasks, Integration, Developer, Settings",
+            "Capability category list with item counts is fully rendered, Part & Manufacturing parameterized part generation content includes task recipes and functional action buttons"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-settings-models.png",
+          "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+          "observed": "This is a fully rendered non-empty SolidWorks AI Studio desktop Settings page UI. It displays real header status indicators, populated LLM profile/model configuration, path/security settings, MCP configuration content, and functional UI buttons. All displayed text is valid real status and configuration content.",
+          "pass": true,
+          "confidence": 0.99,
+          "issues": [],
+          "evidence": [
+            "Left navigation sidebar confirms this is the SolidWorks AI Studio application Settings page",
+            "Header status bar contains real active status text: 本地后端在线, LLM未验证, SolidWorks就绪, MCP已停止",
+            "LLM configuration section is populated with valid values (text model glm-5.1, visual model doubao-seed-2.0-pro, API endpoint and parameters etc.)",
+            "Path settings, MCP configuration sections are fully populated with real configuration text, the complete UI is non-empty"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\03-mock-task-completed.png",
+          "expected": "A non-empty SolidWorks AI Studio packaged desktop UI screenshot with real status text.",
+          "observed": "Fully rendered valid non-empty SolidWorks AI Studio desktop UI, displaying the AI Capability Workbench > AI CAD Studio parameterized part generation view. All UI elements are populated, and real status text and completed mock task output are present.",
+          "pass": true,
+          "confidence": 0.99,
+          "issues": [],
+          "evidence": [
+            "Complete dark-themed SolidWorks AI Studio desktop application UI is fully rendered",
+            "Top header status bar displays real service status text: 本地后端在线, LLM 未验证, SolidWorks 就绪, MCP 已停止",
+            "The current task section displays a completed mock mounting plate generation task, with structured JSON task output explicitly marked with status: 'completed'",
+            "Left navigation sidebar, capability category list, workflow tab buttons, and recipe Mock/Real Plan action buttons are all visible and properly populated"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_front.bmp",
+          "expected": "A SolidWorks mounting plate preview with rectangular body and four visible holes.",
+          "observed": "SolidWorks front view preview of a rectangular mounting plate, with four circular holes located at each of the four plate corners, and the SolidWorks coordinate origin triad visible at the center of the plate.",
+          "pass": true,
+          "confidence": 0.99,
+          "issues": [],
+          "evidence": [
+            "The image shows a solid horizontal rectangular plate body",
+            "Four distinct circular mounting holes are clearly visible at all four corners of the plate",
+            "The view matches standard SolidWorks part preview presentation"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_isometric.bmp",
+          "expected": "A SolidWorks mounting plate preview with rectangular body and four visible holes.",
+          "observed": "This is a SolidWorks isometric part preview of a flat rectangular mounting plate, with four circular through holes visible at each corner of the plate face, and the standard SolidWorks origin triad marker present on the plate surface.",
+          "pass": true,
+          "confidence": 1,
+          "issues": [],
+          "evidence": [
+            "The part is a solid rectangular prismatic plate body",
+            "Four circular through holes are clearly visible, positioned at each corner of the plate front face",
+            "The native SolidWorks origin/view triad is present, confirming this is a SolidWorks part preview"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_right.bmp",
+          "expected": "A SolidWorks side or edge projection of the mounting plate; holes may be hidden by the viewing direction, but the plate body must be visible.",
+          "observed": "This is a SolidWorks right side (edge) orthographic projection of the mounting plate. The thin rectangular plate body is fully clearly visible, and mounting holes are hidden from this viewing direction, consistent with expectation for this side view.",
+          "pass": true,
+          "confidence": 0.99,
+          "issues": [],
+          "evidence": [
+            "The solid black-outlined grey rectangular plate body matching the edge view of a flat mounting plate is fully visible in the viewport",
+            "No holes are visible, which is acceptable and expected for this side projection viewing direction"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        },
+        {
+          "image_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_top.bmp",
+          "expected": "A SolidWorks side or edge projection of the mounting plate; holes may be hidden by the viewing direction, but the plate body must be visible.",
+          "observed": "This is a SolidWorks edge/side projection view of the mounting plate. The long thin rectangular plate body is fully visible. No holes appear in this view, which is consistent with an edge viewing direction that obscures through-holes.",
+          "pass": true,
+          "confidence": 0.99,
+          "issues": [],
+          "evidence": [
+            "Horizontal rectangular mounting plate body is clearly rendered in the SolidWorks viewport",
+            "View orientation matches the required side/edge projection",
+            "Absence of visible holes is explicitly allowed by the expected requirement"
+          ],
+          "vision_model": "doubao-seed-2.0-pro"
+        }
+      ],
+      "vision_errors": [],
+      "images": [
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\01-dashboard.png",
+          "created_at": "2026-06-28T16:35:47.276692",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 1218
+          },
+          "file_size": 100787,
+          "pixel_variance": 579.849604553389,
+          "edge_mean": 6.049285181884923,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-capabilities.png",
+          "created_at": "2026-06-28T01:28:29.892523",
+          "screenshot_size": {
+            "width": 1480,
+            "height": 940
+          },
+          "file_size": 104340,
+          "pixel_variance": 759.9579744085223,
+          "edge_mean": 7.701855232892467,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\02-settings-models.png",
+          "created_at": "2026-06-28T16:35:47.959255",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 1771
+          },
+          "file_size": 148777,
+          "pixel_variance": 591.022925908705,
+          "edge_mean": 6.039591599971478,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\03-mock-task-completed.png",
+          "created_at": "2026-06-28T01:28:30.209439",
+          "screenshot_size": {
+            "width": 2489,
+            "height": 1084
+          },
+          "file_size": 153854,
+          "pixel_variance": 681.4284729746582,
+          "edge_mean": 6.133054813874776,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\03-settings-verified.png",
+          "created_at": "2026-06-28T16:36:01.630340",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 1997
+          },
+          "file_size": 188053,
+          "pixel_variance": 616.3274041174354,
+          "edge_mean": 6.5435340724397175,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\04-capabilities.png",
+          "created_at": "2026-06-28T16:36:02.256763",
+          "screenshot_size": {
+            "width": 1480,
+            "height": 940
+          },
+          "file_size": 103101,
+          "pixel_variance": 755.2485780448249,
+          "edge_mean": 7.1236932144910865,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\04-task-history.png",
+          "created_at": "2026-06-28T01:28:30.919420",
+          "screenshot_size": {
+            "width": 1480,
+            "height": 940
+          },
+          "file_size": 43614,
+          "pixel_variance": 245.31590593456536,
+          "edge_mean": 2.449790109258194,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\05-integration.png",
+          "created_at": "2026-06-28T01:28:31.694715",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 2141
+          },
+          "file_size": 192029,
+          "pixel_variance": 562.3286742262342,
+          "edge_mean": 6.531966976612951,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\05-task-history.png",
+          "created_at": "2026-06-28T16:36:43.275973",
+          "screenshot_size": {
+            "width": 1480,
+            "height": 940
+          },
+          "file_size": 41484,
+          "pixel_variance": 244.52248808620547,
+          "edge_mean": 2.2411623059229444,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\06-developer.png",
+          "created_at": "2026-06-28T01:28:32.579650",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 2204
+          },
+          "file_size": 384053,
+          "pixel_variance": 1141.432745974749,
+          "edge_mean": 14.57787423424986,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\06-integration.png",
+          "created_at": "2026-06-28T16:36:43.935213",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 2141
+          },
+          "file_size": 197492,
+          "pixel_variance": 562.3607457385449,
+          "edge_mean": 6.071606040365814,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\07-developer.png",
+          "created_at": "2026-06-28T16:36:44.696296",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 2204
+          },
+          "file_size": 377565,
+          "pixel_variance": 1145.6932733054634,
+          "edge_mean": 14.158848324176335,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\app\\07-settings.png",
+          "created_at": "2026-06-28T01:28:33.357072",
+          "screenshot_size": {
+            "width": 1465,
+            "height": 1771
+          },
+          "file_size": 141538,
+          "pixel_variance": 570.2982699399846,
+          "edge_mean": 6.339162039918829,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_front.bmp",
+          "created_at": "2026-06-28T16:36:38.704004",
+          "screenshot_size": {
+            "width": 1600,
+            "height": 1000
+          },
+          "file_size": 4800054,
+          "pixel_variance": 522.0912409301282,
+          "edge_mean": 2.74253,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_isometric.bmp",
+          "created_at": "2026-06-28T16:36:38.628004",
+          "screenshot_size": {
+            "width": 1600,
+            "height": 1000
+          },
+          "file_size": 4800054,
+          "pixel_variance": 312.80690660232545,
+          "edge_mean": 2.641545,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_right.bmp",
+          "created_at": "2026-06-28T16:36:38.797561",
+          "screenshot_size": {
+            "width": 1600,
+            "height": 1000
+          },
+          "file_size": 4800054,
+          "pixel_variance": 258.79169097575186,
+          "edge_mean": 1.739469375,
+          "non_blank": true,
+          "local_cv_pass": true
+        },
+        {
+          "file_path": "<PROJECT_ROOT>\\outputs\\visual_validation\\latest\\screenshots\\solidworks\\mounting_plate_review_top.bmp",
+          "created_at": "2026-06-28T16:36:38.752283",
+          "screenshot_size": {
+            "width": 1600,
+            "height": 1000
+          },
+          "file_size": 4800054,
+          "pixel_variance": 318.28645352032663,
+          "edge_mean": 1.9003475,
+          "non_blank": true,
+          "local_cv_pass": true
+        }
+      ],
+      "conclusion": "视觉验证通过。"
+    }
+  },
+  "task_history_visible": true,
+  "task_history_api_visible": true,
+  "screenshots": [
+    {
+      "page": "01-dashboard",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\01-dashboard.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "Dashboard",
+          "pass": true
+        },
+        {
+          "expected": "AI Capability Workbench",
+          "pass": true
+        },
+        {
+          "expected": "Capabilities",
+          "pass": true
+        },
+        {
+          "expected": "Recipes",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "02-settings-models",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\02-settings-models.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "文本 Model",
+          "pass": true
+        },
+        {
+          "expected": "视觉 Model",
+          "pass": true
+        },
+        {
+          "expected": "测试连接",
+          "pass": true
+        },
+        {
+          "expected": "测试视觉",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "03-settings-verified",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\03-settings-verified.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "已验证",
+          "pass": true
+        },
+        {
+          "expected": "glm-5.1",
+          "pass": true
+        },
+        {
+          "expected": "doubao-seed-2.0-pro",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "04-capabilities",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\04-capabilities.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "AI CAD Studio",
+          "pass": true
+        },
+        {
+          "expected": "mounting_plate",
+          "pass": true
+        },
+        {
+          "expected": "Real Plan",
+          "pass": true
+        },
+        {
+          "expected": "Plan",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "05-task-history",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\05-task-history.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "a101d773c84141cbbcbc7521a81faabb",
+          "pass": true
+        },
+        {
+          "expected": "mounting_plate",
+          "pass": true
+        },
+        {
+          "expected": "artifacts",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "06-integration",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\06-integration.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "Prompt Composer",
+          "pass": true
+        },
+        {
+          "expected": "直接工具",
+          "pass": true
+        },
+        {
+          "expected": "Registry-backed 工具",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "page": "07-developer",
+      "file_path": "<PROJECT_ROOT>\\outputs\\v094_e2e\\latest\\screenshots\\07-developer.png",
+      "non_blank": true,
+      "expected_ui_assertions": [
+        {
+          "expected": "Skill 上下文",
+          "pass": true
+        },
+        {
+          "expected": "能力矩阵",
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "errors": []
+}

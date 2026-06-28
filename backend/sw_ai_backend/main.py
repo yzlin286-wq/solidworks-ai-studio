@@ -6,13 +6,14 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from sw_ai_backend import __version__
 from sw_ai_backend.api.routes import api_router
 
 
 def create_app() -> FastAPI:
     app = FastAPI(
         title="SolidWorks AI Studio API",
-        version="0.1.0",
+        version=__version__,
         description="Localhost-only API for SolidWorks automation, AI planning, skill indexing, execution, and MCP management.",
     )
     app.add_middleware(

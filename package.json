@@ -1,7 +1,7 @@
 {
   "name": "solidworks-ai-studio",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.9.5-rc.1",
   "description": "Windows desktop workstation for SolidWorks automation through AI-assisted planning and controlled Python execution.",
   "workspaces": [
     "apps/desktop"

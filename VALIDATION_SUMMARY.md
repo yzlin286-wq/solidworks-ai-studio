@@ -89,6 +89,44 @@ This is current evidence from the packaged application, not archived v0.9.0 evid
 | Integration | screenshot assertion passed |
 | Developer | screenshot assertion passed |
 
+## v0.9.5 RC Freeze Evidence
+
+This is current RC freeze evidence generated after rebuilding the packaged artifacts at version `0.9.5-rc.1`.
+
+| Area | Result |
+|---|---:|
+| RC verdict | `RC PASS` |
+| Root package version | `0.9.5-rc.1` |
+| Desktop package version | `0.9.5-rc.1` |
+| Backend API version | `0.9.5-rc.1` |
+| Branch | `codex/v0.9.5-release-candidate-freeze` |
+| Release artifact hashes | `release_evidence/v0.9.5-rc.1/SHA256SUMS.txt` |
+| Redacted evidence package | `release_evidence/v0.9.5-rc.1/` |
+| Full generated evidence package | `outputs/v095_rc/latest/evidence_package/` |
+| Installer first start | `ok=true` |
+| Fresh user config | no API key preloaded |
+| First-start backend health | `ok=true`, version `0.9.5-rc.1` |
+| Packaged E2E | `ok=true` |
+| Text model | `glm-5.1`, `chat_verified=true` |
+| Vision model | `doubao-seed-2.0-pro`, `vision_verified=true` |
+| Visual validation | `visual_ok=true`, `degraded=false`, `vision_analysis_count=8`, `vision_error_count=0` |
+| SolidWorks preflight | `can_run_real_com=true`, revision `33.5.0` |
+| Natural-language run ID | `744ada29452d41c89f147efd9376edb5` |
+| Natural-language run | `stage=done`, `real_execution_verified=true` |
+| Workbench task ID | `a101d773c84141cbbcbc7521a81faabb` |
+| Workbench execution | `real_execution_verified=true` |
+| Geometry evidence | `hole_features_restored=true`, `geometry_parity_verified=true` |
+| Task History API/UI | visible |
+
+### v0.9.5 RC Release Artifacts
+
+| Artifact | SHA256 |
+|---|---|
+| `dist/SolidWorks AI Studio Setup.exe` | `d36f9a4d9118615db99ec4719a3e93124c98a2788a2f1f704e465facde44c08f` |
+| `dist/SolidWorks AI Studio Portable.exe` | `9edc074eaa5db01df399ba0a0451ddda18f4aca8cb23898a6bf849738c3ac704` |
+| `dist/SolidWorks AI Studio Setup.exe.blockmap` | `b17bafd5abe26134f8b83120667a2437063269a96990b28a32846408b778c7ca` |
+| `dist/win-unpacked/SolidWorks AI Studio.exe` | `e28e34ab6bec280d41dcf02910c4f3aea2d8c1fa9382f5c288aa0601d4c3fe01` |
+
 ## Archived Real SolidWorks Evidence
 
 - SolidWorks revision: `33.5.0`.
@@ -186,7 +224,9 @@ npm test --workspace apps/desktop
 npm run smoke --workspace apps/desktop
 powershell -ExecutionPolicy Bypass -File scripts\build_backend.ps1
 powershell -ExecutionPolicy Bypass -File scripts\build_desktop.ps1
+node scripts\v095_install_first_start_validation.mjs
 node scripts\v094_e2e_usable_app_validation.mjs
+node scripts\create_v095_rc_evidence_package.mjs
 node scripts\packaged_exe_visual_validation.mjs
 powershell -ExecutionPolicy Bypass -File scripts\sw2025_preflight.ps1
 powershell -ExecutionPolicy Bypass -File scripts\solidworks_long_stability_mounting_plate.ps1 -Count 20
